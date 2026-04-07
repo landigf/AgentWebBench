@@ -1,0 +1,325 @@
+{
+  "task_id": "fact-checking-1",
+  "task_name": "Verify EU AI Act provisions",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 809,
+  "avg_requests_per_run": 80.9,
+  "avg_bytes_per_run": 2622614.1,
+  "sessions": [
+    {
+      "session_id": "fact-checking-1_scraping_0",
+      "total_requests": 81,
+      "total_bytes": 2623817,
+      "unique_urls": 74,
+      "duration_ms": 19128.652,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_1",
+      "total_requests": 81,
+      "total_bytes": 2623331,
+      "unique_urls": 74,
+      "duration_ms": 4104.819,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_2",
+      "total_requests": 81,
+      "total_bytes": 2623319,
+      "unique_urls": 74,
+      "duration_ms": 3997.031,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_3",
+      "total_requests": 80,
+      "total_bytes": 2615406,
+      "unique_urls": 74,
+      "duration_ms": 3756.937,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_4",
+      "total_requests": 81,
+      "total_bytes": 2623379,
+      "unique_urls": 74,
+      "duration_ms": 3910.058,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_5",
+      "total_requests": 81,
+      "total_bytes": 2623735,
+      "unique_urls": 74,
+      "duration_ms": 19141.367,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_6",
+      "total_requests": 81,
+      "total_bytes": 2623399,
+      "unique_urls": 74,
+      "duration_ms": 3816.876,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_7",
+      "total_requests": 81,
+      "total_bytes": 2623082,
+      "unique_urls": 74,
+      "duration_ms": 3882.511,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_8",
+      "total_requests": 81,
+      "total_bytes": 2623330,
+      "unique_urls": 74,
+      "duration_ms": 4077.454,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_9",
+      "total_requests": 81,
+      "total_bytes": 2623343,
+      "unique_urls": 74,
+      "duration_ms": 19105.06,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    }
+  ]
+}

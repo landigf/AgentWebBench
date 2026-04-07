@@ -1,0 +1,295 @@
+{
+  "task_id": "regulatory-lookup-1",
+  "task_name": "GDPR compliance for AI data collection",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 390,
+  "avg_requests_per_run": 39.0,
+  "avg_bytes_per_run": 1099433.0,
+  "sessions": [
+    {
+      "session_id": "regulatory-lookup-1_scraping_0",
+      "total_requests": 39,
+      "total_bytes": 1099433,
+      "unique_urls": 39,
+      "duration_ms": 2240.553,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_1",
+      "total_requests": 39,
+      "total_bytes": 1099433,
+      "unique_urls": 39,
+      "duration_ms": 9909.992,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_2",
+      "total_requests": 39,
+      "total_bytes": 1099433,
+      "unique_urls": 39,
+      "duration_ms": 2224.526,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_3",
+      "total_requests": 39,
+      "total_bytes": 1099433,
+      "unique_urls": 39,
+      "duration_ms": 2178.026,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_4",
+      "total_requests": 39,
+      "total_bytes": 1099433,
+      "unique_urls": 39,
+      "duration_ms": 2256.608,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_5",
+      "total_requests": 39,
+      "total_bytes": 1099433,
+      "unique_urls": 39,
+      "duration_ms": 9802.021,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_6",
+      "total_requests": 39,
+      "total_bytes": 1099433,
+      "unique_urls": 39,
+      "duration_ms": 2149.641,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_7",
+      "total_requests": 39,
+      "total_bytes": 1099433,
+      "unique_urls": 39,
+      "duration_ms": 2259.5,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_8",
+      "total_requests": 39,
+      "total_bytes": 1099433,
+      "unique_urls": 39,
+      "duration_ms": 9824.211,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_9",
+      "total_requests": 39,
+      "total_bytes": 1099433,
+      "unique_urls": 39,
+      "duration_ms": 2138.581,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "local",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    }
+  ]
+}
