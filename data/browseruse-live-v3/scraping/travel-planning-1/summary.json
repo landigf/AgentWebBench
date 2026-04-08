@@ -1,0 +1,355 @@
+{
+  "task_id": "travel-planning-1",
+  "task_name": "Plan a weekend trip to Zurich",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 2540,
+  "avg_requests_per_run": 254.0,
+  "avg_bytes_per_run": 7040604.1,
+  "sessions": [
+    {
+      "session_id": "travel-planning-1_scraping_0",
+      "total_requests": 269,
+      "total_bytes": 7601398,
+      "unique_urls": 229,
+      "duration_ms": 28596.275,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.google.com/travel/flights",
+          "https://www.zuerich.com/en",
+          "https://www.booking.com/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_1",
+      "total_requests": 191,
+      "total_bytes": 6315307,
+      "unique_urls": 185,
+      "duration_ms": 5503.549,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en",
+          "https://www.google.com/travel/flights"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_2",
+      "total_requests": 291,
+      "total_bytes": 7656917,
+      "unique_urls": 234,
+      "duration_ms": 28477.428,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en",
+          "https://www.google.com/travel/flights"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_3",
+      "total_requests": 283,
+      "total_bytes": 7231385,
+      "unique_urls": 232,
+      "duration_ms": 28771.644,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en",
+          "https://www.google.com/travel/flights"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_4",
+      "total_requests": 297,
+      "total_bytes": 7634528,
+      "unique_urls": 238,
+      "duration_ms": 28570.365,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.zuerich.com/en",
+          "https://www.booking.com/",
+          "https://www.google.com/travel/flights"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_5",
+      "total_requests": 289,
+      "total_bytes": 7491103,
+      "unique_urls": 235,
+      "duration_ms": 28564.464,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_6",
+      "total_requests": 216,
+      "total_bytes": 6400896,
+      "unique_urls": 193,
+      "duration_ms": 5443.767,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.booking.com/",
+          "https://www.google.com/travel/flights",
+          "https://www.zuerich.com/en"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_7",
+      "total_requests": 263,
+      "total_bytes": 7013200,
+      "unique_urls": 216,
+      "duration_ms": 28451.318,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.zuerich.com/en",
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_8",
+      "total_requests": 256,
+      "total_bytes": 7031781,
+      "unique_urls": 216,
+      "duration_ms": 5463.74,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.zuerich.com/en",
+          "https://www.booking.com/",
+          "https://www.google.com/travel/flights"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_9",
+      "total_requests": 185,
+      "total_bytes": 6029526,
+      "unique_urls": 180,
+      "duration_ms": 5279.422,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.google.com/travel/flights",
+          "https://www.zuerich.com/en",
+          "https://www.booking.com/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    }
+  ]
+}

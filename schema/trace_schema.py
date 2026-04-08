@@ -33,14 +33,15 @@ class AgentType(str, Enum):
 
 
 class TraceRequest(BaseModel):
+    # --- Core request fields ---
     timestamp_us: int = 0
     url: str = ""
     method: str = "GET"
     status: int = 200
     request_headers: dict[str, str] = Field(default_factory=dict)
+    response_headers: dict[str, str] = Field(default_factory=dict)
     response_size_bytes: int = 0
     content_type: str = ""
-    latency_ms: float = 0.0
     session_id: str = ""
     task_id: str = ""
     access_mode: AccessMode = AccessMode.UNKNOWN
@@ -49,6 +50,30 @@ class TraceRequest(BaseModel):
     purpose: str = ""
     cache_key: str = ""
     object_size_bytes: int = 0
+
+    # --- Timing breakdown (from CDP Network.Response.timing) ---
+    latency_ms: float = 0.0          # Total request-to-response latency
+    latency_dns_ms: float = 0.0      # DNS resolution
+    latency_tls_ms: float = 0.0      # TLS handshake
+    latency_tcp_ms: float = 0.0      # TCP connection setup
+    latency_ttfb_ms: float = 0.0     # Time to first byte (server processing)
+    latency_transfer_ms: float = 0.0 # Data transfer
+
+    # --- Cache-relevant response headers (structured) ---
+    cache_control: str = ""          # Cache-Control header value
+    cache_status: str = ""           # CDN cache status (HIT/MISS/EXPIRED/BYPASS)
+    etag: str = ""                   # ETag for revalidation
+    age_seconds: int = 0             # Age header (seconds in cache)
+
+    # --- Request context ---
+    initiator_type: str = ""         # "script", "parser", "fetch", "xmlhttprequest", "other"
+    resource_type: str = ""          # "document", "stylesheet", "script", "image", "xhr", "font"
+    redirect_count: int = 0          # Number of redirects in chain
+
+    # --- Connection details ---
+    remote_ip: str = ""              # Server IP address
+    protocol: str = ""               # "h2", "h3", "http/1.1"
+    connection_reused: bool = False  # TCP connection reuse
 
 
 class TraceSession(BaseModel):
@@ -82,7 +107,7 @@ class TraceSession(BaseModel):
 
 
 class TraceFile(BaseModel):
-    version: str = "0.1"
+    version: str = "0.2"
     generator: str = ""
     created_at: str = Field(
         default_factory=lambda: datetime.now(timezone.utc).isoformat()
@@ -116,6 +141,48 @@ class TraceFile(BaseModel):
                     writer.writerow(
                         [req.timestamp_us, key, size, session.session_id, session.agent_type.value]
                     )
+
+    def to_enriched_csv(self, path: str | Path) -> None:
+        """Export enriched CSV with timing breakdown and cache headers.
+        Designed for CDN/cache researchers who need more than object ID + size.
+        """
+        fields = [
+            "timestamp_us", "cache_key", "object_size_bytes", "session_id",
+            "agent_type", "content_type", "resource_type", "status",
+            "latency_ms", "latency_dns_ms", "latency_tls_ms", "latency_ttfb_ms",
+            "latency_transfer_ms", "cache_control", "cache_status", "etag",
+            "age_seconds", "initiator_type", "protocol", "remote_ip",
+            "connection_reused", "redirect_count",
+        ]
+        with open(path, "w", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fields)
+            writer.writeheader()
+            for session in self.sessions:
+                for req in session.requests:
+                    writer.writerow({
+                        "timestamp_us": req.timestamp_us,
+                        "cache_key": req.cache_key or req.url,
+                        "object_size_bytes": req.object_size_bytes or req.response_size_bytes,
+                        "session_id": session.session_id,
+                        "agent_type": session.agent_type.value,
+                        "content_type": req.content_type,
+                        "resource_type": req.resource_type,
+                        "status": req.status,
+                        "latency_ms": req.latency_ms,
+                        "latency_dns_ms": req.latency_dns_ms,
+                        "latency_tls_ms": req.latency_tls_ms,
+                        "latency_ttfb_ms": req.latency_ttfb_ms,
+                        "latency_transfer_ms": req.latency_transfer_ms,
+                        "cache_control": req.cache_control,
+                        "cache_status": req.cache_status,
+                        "etag": req.etag,
+                        "age_seconds": req.age_seconds,
+                        "initiator_type": req.initiator_type,
+                        "protocol": req.protocol,
+                        "remote_ip": req.remote_ip,
+                        "connection_reused": req.connection_reused,
+                        "redirect_count": req.redirect_count,
+                    })
 
     def to_access_log_jsonl(self, path: str | Path) -> None:
         """Export to JSONL access log format for the dashboard."""

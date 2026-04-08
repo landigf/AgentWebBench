@@ -1,0 +1,90 @@
+{
+  "release": "browseruse-live-v3",
+  "collected_on": "2026-04-08",
+  "collection_method": "BrowserUse live scripted-random baseline",
+  "tasks": [
+    {
+      "task_id": "api-integration-1",
+      "task_name": "Compare weather API providers",
+      "repeats": 10,
+      "avg_requests_per_run": 114.2,
+      "avg_bytes_per_run": 1803949.8,
+      "live_driver": "scripted-random"
+    },
+    {
+      "task_id": "documentation-lookup-1",
+      "task_name": "Look up Python asyncio documentation",
+      "repeats": 10,
+      "avg_requests_per_run": 124.4,
+      "avg_bytes_per_run": 847584.2,
+      "live_driver": "scripted-random"
+    },
+    {
+      "task_id": "fact-checking-1",
+      "task_name": "Verify EU AI Act provisions",
+      "repeats": 10,
+      "avg_requests_per_run": 86.8,
+      "avg_bytes_per_run": 3065326.6,
+      "live_driver": "scripted-random"
+    },
+    {
+      "task_id": "job-market-1",
+      "task_name": "ML engineer positions in Zurich",
+      "repeats": 10,
+      "avg_requests_per_run": 206.6,
+      "avg_bytes_per_run": 3868886.0,
+      "live_driver": "scripted-random"
+    },
+    {
+      "task_id": "literature-review-1",
+      "task_name": "Survey recent papers on LLM agents",
+      "repeats": 10,
+      "avg_requests_per_run": 24.0,
+      "avg_bytes_per_run": 355957.7,
+      "live_driver": "scripted-random"
+    },
+    {
+      "task_id": "news-aggregation-1",
+      "task_name": "Aggregate today's top AI news",
+      "repeats": 10,
+      "avg_requests_per_run": 366.9,
+      "avg_bytes_per_run": 10104932.1,
+      "live_driver": "scripted-random"
+    },
+    {
+      "task_id": "product-comparison-1",
+      "task_name": "Compare top 3 cloud GPU providers",
+      "repeats": 10,
+      "avg_requests_per_run": 251.4,
+      "avg_bytes_per_run": 8245827.7,
+      "live_driver": "scripted-random"
+    },
+    {
+      "task_id": "real-estate-1",
+      "task_name": "Compare apartment rents in Zurich districts",
+      "repeats": 10,
+      "avg_requests_per_run": 16.0,
+      "avg_bytes_per_run": 80838.9,
+      "live_driver": "scripted-random"
+    },
+    {
+      "task_id": "regulatory-lookup-1",
+      "task_name": "GDPR compliance for AI data collection",
+      "repeats": 10,
+      "avg_requests_per_run": 39.0,
+      "avg_bytes_per_run": 1099437.0,
+      "live_driver": "scripted-random"
+    },
+    {
+      "task_id": "travel-planning-1",
+      "task_name": "Plan a weekend trip to Zurich",
+      "repeats": 10,
+      "avg_requests_per_run": 254.0,
+      "avg_bytes_per_run": 7040604.1,
+      "live_driver": "scripted-random"
+    }
+  ],
+  "total_requests": 14833,
+  "total_bytes": 365133441,
+  "total_sessions": 100
+}

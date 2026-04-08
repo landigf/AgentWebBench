@@ -1,0 +1,355 @@
+{
+  "task_id": "product-comparison-1",
+  "task_name": "Compare top 3 cloud GPU providers",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 2514,
+  "avg_requests_per_run": 251.4,
+  "avg_bytes_per_run": 8245827.7,
+  "sessions": [
+    {
+      "session_id": "product-comparison-1_scraping_0",
+      "total_requests": 249,
+      "total_bytes": 8269842,
+      "unique_urls": 225,
+      "duration_ms": 10104.487,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "target_domains": [
+          "aws.amazon.com",
+          "azure.microsoft.com",
+          "cloud.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/",
+          "https://cloud.google.com/compute/docs/gpus"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "product-comparison-1_scraping_1",
+      "total_requests": 253,
+      "total_bytes": 8270981,
+      "unique_urls": 227,
+      "duration_ms": 8976.475,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "target_domains": [
+          "aws.amazon.com",
+          "azure.microsoft.com",
+          "cloud.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/",
+          "https://aws.amazon.com/ec2/instance-types/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "product-comparison-1_scraping_2",
+      "total_requests": 246,
+      "total_bytes": 8267427,
+      "unique_urls": 224,
+      "duration_ms": 9214.792,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "target_domains": [
+          "aws.amazon.com",
+          "azure.microsoft.com",
+          "cloud.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/",
+          "https://aws.amazon.com/ec2/instance-types/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "product-comparison-1_scraping_3",
+      "total_requests": 250,
+      "total_bytes": 8116517,
+      "unique_urls": 223,
+      "duration_ms": 9471.112,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "target_domains": [
+          "aws.amazon.com",
+          "azure.microsoft.com",
+          "cloud.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/",
+          "https://aws.amazon.com/ec2/instance-types/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "product-comparison-1_scraping_4",
+      "total_requests": 249,
+      "total_bytes": 8263182,
+      "unique_urls": 223,
+      "duration_ms": 8559.876,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "target_domains": [
+          "aws.amazon.com",
+          "azure.microsoft.com",
+          "cloud.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://aws.amazon.com/ec2/instance-types/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "product-comparison-1_scraping_5",
+      "total_requests": 259,
+      "total_bytes": 8201886,
+      "unique_urls": 229,
+      "duration_ms": 29394.702,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "target_domains": [
+          "aws.amazon.com",
+          "azure.microsoft.com",
+          "cloud.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "product-comparison-1_scraping_6",
+      "total_requests": 255,
+      "total_bytes": 8269028,
+      "unique_urls": 226,
+      "duration_ms": 29382.686,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "target_domains": [
+          "aws.amazon.com",
+          "azure.microsoft.com",
+          "cloud.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "product-comparison-1_scraping_7",
+      "total_requests": 249,
+      "total_bytes": 8269339,
+      "unique_urls": 223,
+      "duration_ms": 9013.254,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "target_domains": [
+          "aws.amazon.com",
+          "azure.microsoft.com",
+          "cloud.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/",
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "product-comparison-1_scraping_8",
+      "total_requests": 256,
+      "total_bytes": 8266398,
+      "unique_urls": 227,
+      "duration_ms": 29621.558,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "target_domains": [
+          "aws.amazon.com",
+          "azure.microsoft.com",
+          "cloud.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://aws.amazon.com/ec2/instance-types/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "product-comparison-1_scraping_9",
+      "total_requests": 248,
+      "total_bytes": 8263677,
+      "unique_urls": 223,
+      "duration_ms": 8709.201,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://cloud.google.com/compute/docs/gpus",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/"
+        ],
+        "target_domains": [
+          "aws.amazon.com",
+          "azure.microsoft.com",
+          "cloud.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://aws.amazon.com/ec2/instance-types/",
+          "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/",
+          "https://cloud.google.com/compute/docs/gpus"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    }
+  ]
+}

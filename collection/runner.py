@@ -13,6 +13,7 @@ import asyncio
 import hashlib
 import json
 import os
+import platform
 import random
 import sys
 import time
@@ -42,6 +43,16 @@ except ImportError:
 
 
 DEFAULT_TEST_PUBLISHER_URL = os.getenv("SPOTAIFY_TEST_PUBLISHER_URL", "http://localhost:9001")
+
+# Linux/cloud headless Chromium flags (required for GCP VMs, Docker, CI)
+_LINUX_BROWSER_ARGS = [
+    "--no-sandbox",
+    "--disable-gpu",
+    "--disable-dev-shm-usage",
+    "--disable-extensions",
+    "--no-first-run",
+] if platform.system() == "Linux" else []
+_LINUX_SANDBOX = False if platform.system() == "Linux" else None
 
 
 def _safe_getattr(obj, attr, default="unknown"):
@@ -320,6 +331,8 @@ async def run_browseruse_controlled_task(task: dict, mode: str, run_id: int, pub
         is_local=True,
         allowed_domains=[urlsplit(publisher_base_url).netloc],
         user_agent="SpotAIfy-ASL/0.2",
+        args=_LINUX_BROWSER_ARGS or None,
+        chromium_sandbox=_LINUX_SANDBOX,
     )
 
     await browser.start()
@@ -373,6 +386,8 @@ async def run_browseruse_live_task(task: dict, run_id: int, max_steps: int) -> T
         is_local=True,
         allowed_domains=domains or None,
         user_agent="SpotAIfy-ASL/0.2",
+        args=_LINUX_BROWSER_ARGS or None,
+        chromium_sandbox=_LINUX_SANDBOX,
     )
     session_id = f"{task['id']}_scraping_{run_id}"
     tracer = BrowserUseNetworkTracer(
@@ -443,6 +458,8 @@ async def run_browseruse_live_scripted_task(
         is_local=True,
         allowed_domains=domains or None,
         user_agent="SpotAIfy-ASL/0.2",
+        args=_LINUX_BROWSER_ARGS or None,
+        chromium_sandbox=_LINUX_SANDBOX,
     )
     session_id = f"{task['id']}_scraping_{run_id}"
     tracer = BrowserUseNetworkTracer(

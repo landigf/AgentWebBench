@@ -1,0 +1,325 @@
+{
+  "task_id": "documentation-lookup-1",
+  "task_name": "Look up Python asyncio documentation",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 1244,
+  "avg_requests_per_run": 124.4,
+  "avg_bytes_per_run": 847584.2,
+  "sessions": [
+    {
+      "session_id": "documentation-lookup-1_scraping_0",
+      "total_requests": 126,
+      "total_bytes": 717587,
+      "unique_urls": 125,
+      "duration_ms": 19046.615,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_1",
+      "total_requests": 126,
+      "total_bytes": 884449,
+      "unique_urls": 125,
+      "duration_ms": 3438.512,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_2",
+      "total_requests": 126,
+      "total_bytes": 884969,
+      "unique_urls": 125,
+      "duration_ms": 18892.81,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_3",
+      "total_requests": 122,
+      "total_bytes": 885068,
+      "unique_urls": 121,
+      "duration_ms": 3365.203,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_4",
+      "total_requests": 122,
+      "total_bytes": 884840,
+      "unique_urls": 121,
+      "duration_ms": 3367.274,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_5",
+      "total_requests": 126,
+      "total_bytes": 678991,
+      "unique_urls": 125,
+      "duration_ms": 18883.476,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_6",
+      "total_requests": 122,
+      "total_bytes": 885350,
+      "unique_urls": 121,
+      "duration_ms": 3286.258,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_7",
+      "total_requests": 126,
+      "total_bytes": 885803,
+      "unique_urls": 125,
+      "duration_ms": 18868.412,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_8",
+      "total_requests": 122,
+      "total_bytes": 883380,
+      "unique_urls": 121,
+      "duration_ms": 3249.316,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_9",
+      "total_requests": 126,
+      "total_bytes": 885405,
+      "unique_urls": 125,
+      "duration_ms": 18902.795,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    }
+  ]
+}

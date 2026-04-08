@@ -1,0 +1,325 @@
+{
+  "task_id": "real-estate-1",
+  "task_name": "Compare apartment rents in Zurich districts",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 160,
+  "avg_requests_per_run": 16.0,
+  "avg_bytes_per_run": 80838.9,
+  "sessions": [
+    {
+      "session_id": "real-estate-1_scraping_0",
+      "total_requests": 16,
+      "total_bytes": 80641,
+      "unique_urls": 14,
+      "duration_ms": 19381.845,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_1",
+      "total_requests": 16,
+      "total_bytes": 81533,
+      "unique_urls": 14,
+      "duration_ms": 19322.565,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_2",
+      "total_requests": 16,
+      "total_bytes": 81752,
+      "unique_urls": 14,
+      "duration_ms": 4182.514,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_3",
+      "total_requests": 16,
+      "total_bytes": 80309,
+      "unique_urls": 14,
+      "duration_ms": 4268.782,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_4",
+      "total_requests": 16,
+      "total_bytes": 81142,
+      "unique_urls": 14,
+      "duration_ms": 19357.75,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_5",
+      "total_requests": 16,
+      "total_bytes": 80642,
+      "unique_urls": 14,
+      "duration_ms": 19320.284,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_6",
+      "total_requests": 16,
+      "total_bytes": 80311,
+      "unique_urls": 14,
+      "duration_ms": 19212.633,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_7",
+      "total_requests": 16,
+      "total_bytes": 79029,
+      "unique_urls": 14,
+      "duration_ms": 19113.258,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_8",
+      "total_requests": 16,
+      "total_bytes": 81839,
+      "unique_urls": 14,
+      "duration_ms": 19436.515,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_9",
+      "total_requests": 16,
+      "total_bytes": 81191,
+      "unique_urls": 14,
+      "duration_ms": 19260.218,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "task_id": "literature-review-1",
+  "task_name": "Survey recent papers on LLM agents",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 240,
+  "avg_requests_per_run": 24.0,
+  "avg_bytes_per_run": 355957.7,
+  "sessions": [
+    {
+      "session_id": "literature-review-1_scraping_0",
+      "total_requests": 25,
+      "total_bytes": 380741,
+      "unique_urls": 25,
+      "duration_ms": 19064.064,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_1",
+      "total_requests": 23,
+      "total_bytes": 332970,
+      "unique_urls": 23,
+      "duration_ms": 3312.511,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://arxiv.org/list/cs.AI/recent"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_2",
+      "total_requests": 25,
+      "total_bytes": 380891,
+      "unique_urls": 25,
+      "duration_ms": 19135.853,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://arxiv.org/list/cs.AI/recent"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_3",
+      "total_requests": 23,
+      "total_bytes": 332921,
+      "unique_urls": 23,
+      "duration_ms": 3389.766,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://arxiv.org/list/cs.AI/recent"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_4",
+      "total_requests": 23,
+      "total_bytes": 332899,
+      "unique_urls": 23,
+      "duration_ms": 3309.656,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://arxiv.org/list/cs.AI/recent"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_5",
+      "total_requests": 25,
+      "total_bytes": 381023,
+      "unique_urls": 25,
+      "duration_ms": 19119.724,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_6",
+      "total_requests": 23,
+      "total_bytes": 332683,
+      "unique_urls": 23,
+      "duration_ms": 3218.727,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://arxiv.org/list/cs.AI/recent"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_7",
+      "total_requests": 24,
+      "total_bytes": 332894,
+      "unique_urls": 24,
+      "duration_ms": 3271.57,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_8",
+      "total_requests": 25,
+      "total_bytes": 380784,
+      "unique_urls": 25,
+      "duration_ms": 19061.923,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://arxiv.org/list/cs.AI/recent"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_9",
+      "total_requests": 24,
+      "total_bytes": 371771,
+      "unique_urls": 24,
+      "duration_ms": 3465.128,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    }
+  ]
+}

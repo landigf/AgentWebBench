@@ -1,0 +1,12 @@
+{
+  "one_hit_object_fraction": 0.47362341162880245,
+  "unique_request_fraction": 0.1750825861255309,
+  "prefix_unique_request_fraction": 0.1805,
+  "prefix_revisit_request_fraction": 0.8195,
+  "mean_object_size": 17467.35964574509,
+  "size_cv": 3.210079169762702,
+  "total_requests": 14833,
+  "unique_objects": 2597,
+  "total_bytes": 365134278,
+  "predicted_regime": "GDSF"
+}
