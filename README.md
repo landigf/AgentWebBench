@@ -1,7 +1,5 @@
 # AgentWebBench
 
-[![Paper](https://img.shields.io/badge/Paper-IMC%202026-blue)](https://arxiv.org/abs/TODO)
-[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/landigf/AgentWebBench)
 [![License: Apache 2.0](https://img.shields.io/badge/Code-Apache%202.0-green)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-orange)](LICENSE-DATA)
 
@@ -150,10 +148,9 @@ If you use AgentWebBench in your research, please cite:
 ```bibtex
 @inproceedings{agentwebbench2026,
   title     = {{AgentWebBench}: A Reproducible Benchmark for Browser-Mediated Web Workloads},
-  author    = {Anonymous},
-  booktitle = {Proceedings of the ACM Internet Measurement Conference (IMC)},
+  author    = {Landi, Gennaro Francesco},
   year      = {2026},
-  note      = {Under review}
+  url       = {https://github.com/landigf/AgentWebBench}
 }
 ```
 
