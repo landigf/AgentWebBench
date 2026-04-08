@@ -1,0 +1,145 @@
+{
+  "task_id": "regulatory-lookup-1",
+  "task_name": "GDPR compliance for AI data collection",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "agent",
+  "repeats": 5,
+  "failed_runs": [],
+  "total_requests": 195,
+  "avg_requests_per_run": 39.0,
+  "avg_bytes_per_run": 1099439.4,
+  "sessions": [
+    {
+      "session_id": "regulatory-lookup-1_scraping_0",
+      "total_requests": 39,
+      "total_bytes": 1099437,
+      "unique_urls": 39,
+      "duration_ms": 10422.809,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_1",
+      "total_requests": 39,
+      "total_bytes": 1099437,
+      "unique_urls": 39,
+      "duration_ms": 2760.628,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_2",
+      "total_requests": 39,
+      "total_bytes": 1099437,
+      "unique_urls": 39,
+      "duration_ms": 10421.621,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_3",
+      "total_requests": 39,
+      "total_bytes": 1099437,
+      "unique_urls": 39,
+      "duration_ms": 10460.134,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_4",
+      "total_requests": 39,
+      "total_bytes": 1099449,
+      "unique_urls": 39,
+      "duration_ms": 2879.137,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    }
+  ]
+}

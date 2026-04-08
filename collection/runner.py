@@ -42,6 +42,14 @@ except ImportError:
 
 
 DEFAULT_TEST_PUBLISHER_URL = os.getenv("SPOTAIFY_TEST_PUBLISHER_URL", "http://localhost:9001")
+
+
+def _safe_getattr(obj, attr, default="unknown"):
+    """getattr that catches property errors (e.g. ChatGoogleGenerativeAI.provider)."""
+    try:
+        return getattr(obj, attr, default)
+    except Exception:
+        return default
 DEFAULT_BROWSERUSE_MODEL = os.getenv("SPOTAIFY_BROWSERUSE_MODEL", "gpt-4.1-mini")
 
 
@@ -113,8 +121,23 @@ def resolve_browseruse_llm():
     if ChatAnthropic is not None and os.getenv("ANTHROPIC_API_KEY"):
         return ChatAnthropic(model=os.getenv("SPOTAIFY_BROWSERUSE_ANTHROPIC_MODEL", "claude-3-5-sonnet-latest"))
     if os.getenv("GOOGLE_API_KEY"):
+        # Use Gemini via OpenAI-compatible endpoint (BrowserUse-compatible)
+        # Monkey-patch to strip frequency_penalty/presence_penalty which Gemini rejects
+        if ChatOpenAI is not None:
+            import openai as _openai
+            _orig_create = _openai.resources.chat.completions.Completions.create
+            def _patched_create(self, **kwargs):
+                kwargs.pop("frequency_penalty", None)
+                kwargs.pop("presence_penalty", None)
+                return _orig_create(self, **kwargs)
+            _openai.resources.chat.completions.Completions.create = _patched_create
+            return ChatOpenAI(
+                model=os.getenv("SPOTAIFY_BROWSERUSE_GEMINI_MODEL", "gemini-2.5-flash"),
+                api_key=os.getenv("GOOGLE_API_KEY"),
+                base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+            )
         from langchain_google_genai import ChatGoogleGenerativeAI
-        return ChatGoogleGenerativeAI(model=os.getenv("SPOTAIFY_BROWSERUSE_GEMINI_MODEL", "gemini-2.0-flash"))
+        return ChatGoogleGenerativeAI(model=os.getenv("SPOTAIFY_BROWSERUSE_GEMINI_MODEL", "gemini-2.5-flash"))
     raise RuntimeError(
         "No BrowserUse-compatible LLM credentials found. Set BROWSER_USE_API_KEY, OPENAI_API_KEY, ANTHROPIC_API_KEY, or GOOGLE_API_KEY."
     )
@@ -369,7 +392,7 @@ async def run_browseruse_live_task(task: dict, run_id: int, max_steps: int) -> T
             browser=browser,
             use_vision=False,
             max_actions_per_step=4,
-            max_failures=3,
+            max_failures=10,
             step_timeout=60,
             directly_open_url=True,
             source="spotaify-benchmark",
@@ -385,8 +408,8 @@ async def run_browseruse_live_task(task: dict, run_id: int, max_steps: int) -> T
                 "max_steps": max_steps,
                 "agent_completed": history.is_done() if hasattr(history, "is_done") else None,
                 "agent_success": history.is_successful() if hasattr(history, "is_successful") else None,
-                "llm_provider": getattr(llm, "provider", "unknown"),
-                "llm_model": getattr(llm, "name", getattr(llm, "model", "unknown")),
+                "llm_provider": _safe_getattr(llm, "provider", "unknown"),
+                "llm_model": _safe_getattr(llm, "name", _safe_getattr(llm, "model", "unknown")),
             }
         )
         return session

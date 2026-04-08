@@ -1,0 +1,172 @@
+{
+  "version": "0.1",
+  "generator": "benchmark-runner-browseruse-live-scraping-agent",
+  "created_at": "2026-04-07T23:51:33.974958+00:00",
+  "sessions": [
+    {
+      "session_id": "news-aggregation-1_scraping_0",
+      "task_id": "news-aggregation-1",
+      "task_name": "Aggregate today's top AI news",
+      "agent_type": "multi-step",
+      "access_mode": "scraping",
+      "start_time_us": 1775605885217697,
+      "end_time_us": 1775605887188139,
+      "requests": [],
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_1",
+      "task_id": "news-aggregation-1",
+      "task_name": "Aggregate today's top AI news",
+      "agent_type": "multi-step",
+      "access_mode": "scraping",
+      "start_time_us": 1775605887207123,
+      "end_time_us": 1775605889024775,
+      "requests": [],
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_2",
+      "task_id": "news-aggregation-1",
+      "task_name": "Aggregate today's top AI news",
+      "agent_type": "multi-step",
+      "access_mode": "scraping",
+      "start_time_us": 1775605889043020,
+      "end_time_us": 1775605890687450,
+      "requests": [],
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_3",
+      "task_id": "news-aggregation-1",
+      "task_name": "Aggregate today's top AI news",
+      "agent_type": "multi-step",
+      "access_mode": "scraping",
+      "start_time_us": 1775605890705549,
+      "end_time_us": 1775605892322317,
+      "requests": [],
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_4",
+      "task_id": "news-aggregation-1",
+      "task_name": "Aggregate today's top AI news",
+      "agent_type": "multi-step",
+      "access_mode": "scraping",
+      "start_time_us": 1775605892339156,
+      "end_time_us": 1775605893972854,
+      "requests": [],
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "version": "0.1",
+  "generator": "benchmark-runner-browseruse-live-scraping-agent",
+  "created_at": "2026-04-07T23:52:07.762773+00:00",
+  "sessions": [
+    {
+      "session_id": "travel-planning-1_scraping_0",
+      "task_id": "travel-planning-1",
+      "task_name": "Plan a weekend trip to Zurich",
+      "agent_type": "multi-step",
+      "access_mode": "scraping",
+      "start_time_us": 1775605919216916,
+      "end_time_us": 1775605920888736,
+      "requests": [],
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_1",
+      "task_id": "travel-planning-1",
+      "task_name": "Plan a weekend trip to Zurich",
+      "agent_type": "multi-step",
+      "access_mode": "scraping",
+      "start_time_us": 1775605920905305,
+      "end_time_us": 1775605922569016,
+      "requests": [],
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_2",
+      "task_id": "travel-planning-1",
+      "task_name": "Plan a weekend trip to Zurich",
+      "agent_type": "multi-step",
+      "access_mode": "scraping",
+      "start_time_us": 1775605922587306,
+      "end_time_us": 1775605924261251,
+      "requests": [],
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_3",
+      "task_id": "travel-planning-1",
+      "task_name": "Plan a weekend trip to Zurich",
+      "agent_type": "multi-step",
+      "access_mode": "scraping",
+      "start_time_us": 1775605924278442,
+      "end_time_us": 1775605925976322,
+      "requests": [],
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    },
+    {
+      "session_id": "travel-planning-1_scraping_4",
+      "task_id": "travel-planning-1",
+      "task_name": "Plan a weekend trip to Zurich",
+      "agent_type": "multi-step",
+      "access_mode": "scraping",
+      "start_time_us": 1775605925993935,
+      "end_time_us": 1775605927760787,
+      "requests": [],
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "target_urls": [
+          "https://www.google.com/travel/flights",
+          "https://www.booking.com/",
+          "https://www.zuerich.com/en"
+        ],
+        "target_domains": [
+          "www.booking.com",
+          "www.google.com",
+          "www.zuerich.com"
+        ],
+        "max_steps": 15,
+        "agent_completed": false,
+        "agent_success": null,
+        "llm_provider": "openai",
+        "llm_model": "gemini-2.5-flash",
+        "collection_region": "eu-zurich",
+        "collection_zone": "unknown",
+        "collection_provider": "local",
+        "collection_vm_type": "macbook"
+      }
+    }
+  ]
+}
