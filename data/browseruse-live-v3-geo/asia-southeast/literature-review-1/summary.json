@@ -1,0 +1,365 @@
+{
+  "task_id": "literature-review-1",
+  "task_name": "Survey recent papers on LLM agents",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 836,
+  "avg_requests_per_run": 83.6,
+  "avg_bytes_per_run": 978315.3,
+  "sessions": [
+    {
+      "session_id": "literature-review-1_scraping_0",
+      "total_requests": 89,
+      "total_bytes": 535604,
+      "unique_urls": 30,
+      "duration_ms": 12505.361,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://arxiv.org/list/cs.AI/recent?skip=0&show=50",
+          "https://arxiv.org/",
+          "https://scholar.google.com/",
+          "https://scholar.google.com/citations?view_op=metrics_intro&hl=en&oe=ASCII",
+          "https://scholar.google.com/schhp?hl=en&oe=ASCII&as_sdt=0,5"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_1",
+      "total_requests": 86,
+      "total_bytes": 1188223,
+      "unique_urls": 51,
+      "duration_ms": 50249.854,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en&oe=ASCII",
+          "https://scholar.google.com/citations?hl=en&oe=ASCII",
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://arxiv.org/",
+          "https://arxiv.org/search/advanced"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_2",
+      "total_requests": 57,
+      "total_bytes": 1050869,
+      "unique_urls": 46,
+      "duration_ms": 13134.555,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en&oe=ASCII",
+          "https://scholar.google.com/citations?hl=en&oe=ASCII",
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://arxiv.org/login",
+          "https://arxiv.org/IgnoreMe"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_3",
+      "total_requests": 87,
+      "total_bytes": 854742,
+      "unique_urls": 44,
+      "duration_ms": 36937.759,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://scholar.google.com/schhp?hl=en&oe=ASCII&as_sdt=0,5",
+          "https://scholar.google.com/scholar?scilib=1&hl=en&oe=ASCII&as_sdt=0,5",
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://arxiv.org/",
+          "https://arxiv.org/login"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_4",
+      "total_requests": 93,
+      "total_bytes": 1303288,
+      "unique_urls": 58,
+      "duration_ms": 43428.394,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://scholar.google.com/scholar_labs/search?hl=en&oe=ASCII",
+          "https://scholar.google.com/citations?view_op=metrics_intro&hl=en&oe=ASCII",
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://arxiv.org/login",
+          "https://arxiv.org/search/advanced"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_5",
+      "total_requests": 96,
+      "total_bytes": 1027639,
+      "unique_urls": 46,
+      "duration_ms": 38109.171,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://arxiv.org/list/cs.AI/recent?skip=0&show=50",
+          "https://arxiv.org/login",
+          "https://scholar.google.com/",
+          "https://scholar.google.com/scholar?scilib=1&hl=en&oe=ASCII&as_sdt=0,5",
+          "https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en&oe=ASCII"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_6",
+      "total_requests": 56,
+      "total_bytes": 610861,
+      "unique_urls": 35,
+      "duration_ms": 15701.999,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://scholar.google.com/citations?hl=en&oe=ASCII",
+          "https://scholar.google.com/citations?view_op=metrics_intro&hl=en&oe=ASCII",
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://arxiv.org/IgnoreMe",
+          "https://arxiv.org/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_7",
+      "total_requests": 95,
+      "total_bytes": 1235997,
+      "unique_urls": 51,
+      "duration_ms": 12416.826,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://arxiv.org/list/cs.AI/recent?skip=220&show=50",
+          "https://arxiv.org/search/advanced",
+          "https://scholar.google.com/",
+          "https://scholar.google.com/citations?hl=en&oe=ASCII",
+          "https://scholar.google.com/scholar_alerts?view_op=list_alerts&hl=en&oe=ASCII"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_8",
+      "total_requests": 95,
+      "total_bytes": 1012091,
+      "unique_urls": 46,
+      "duration_ms": 38157.165,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://scholar.google.com/",
+          "https://scholar.google.com/citations?view_op=metrics_intro&hl=en&oe=ASCII",
+          "https://scholar.google.com/scholar_labs/search?hl=en&oe=ASCII",
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://arxiv.org/login",
+          "https://arxiv.org/list/cs.AI/recent?skip=220&show=50"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "literature-review-1_scraping_9",
+      "total_requests": 82,
+      "total_bytes": 963839,
+      "unique_urls": 46,
+      "duration_ms": 38212.807,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://scholar.google.com/"
+        ],
+        "target_domains": [
+          "arxiv.org",
+          "scholar.google.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arxiv.org/list/cs.AI/recent",
+          "https://arxiv.org/",
+          "https://arxiv.org/login",
+          "https://scholar.google.com/",
+          "https://scholar.google.com/citations?view_op=metrics_intro&hl=en&oe=ASCII",
+          "https://scholar.google.com/citations?hl=en&oe=ASCII"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    }
+  ]
+}

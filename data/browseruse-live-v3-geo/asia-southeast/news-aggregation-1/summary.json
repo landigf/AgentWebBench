@@ -1,0 +1,395 @@
+{
+  "task_id": "news-aggregation-1",
+  "task_name": "Aggregate today's top AI news",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 15247,
+  "avg_requests_per_run": 1524.7,
+  "avg_bytes_per_run": 18512012.3,
+  "sessions": [
+    {
+      "session_id": "news-aggregation-1_scraping_0",
+      "total_requests": 1843,
+      "total_bytes": 17768001,
+      "unique_urls": 928,
+      "duration_ms": 51962.012,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://techcrunch.com/category/venture/",
+          "https://techcrunch.com/category/startups/",
+          "https://arstechnica.com/ai/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://www.theverge.com/policy",
+          "https://www.theverge.com/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_1",
+      "total_requests": 1542,
+      "total_bytes": 17559821,
+      "unique_urls": 738,
+      "duration_ms": 48151.232,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://www.theverge.com/entertainment",
+          "https://www.theverge.com/policy",
+          "https://arstechnica.com/ai/",
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://techcrunch.com/",
+          "https://techcrunch.com/category/startups/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_2",
+      "total_requests": 1326,
+      "total_bytes": 16999523,
+      "unique_urls": 614,
+      "duration_ms": 40077.229,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://www.theverge.com/policy",
+          "https://www.theverge.com/science",
+          "https://arstechnica.com/ai/",
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://techcrunch.com/latest/",
+          "https://techcrunch.com/events/tc-disrupt-2026/?utm_source=tc&utm_medium=ad&utm_campaign=disrupt2026&utm_content=flashsale&promo=topbanner_ebflashsale&display="
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_3",
+      "total_requests": 1483,
+      "total_bytes": 17440497,
+      "unique_urls": 764,
+      "duration_ms": 49004.072,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://www.theverge.com/tech",
+          "https://www.theverge.com/",
+          "https://arstechnica.com/ai/",
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://techcrunch.com/",
+          "https://techcrunch.com/category/venture/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_4",
+      "total_requests": 1453,
+      "total_bytes": 21609324,
+      "unique_urls": 756,
+      "duration_ms": 47260.953,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arstechnica.com/ai/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://www.theverge.com/tech",
+          "https://www.theverge.com/reviews",
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://techcrunch.com/category/startups/",
+          "https://techcrunch.com/events/tc-disrupt-2026/?utm_source=tc&utm_medium=ad&utm_campaign=disrupt2026&utm_content=seb&promo=topbanner_seb&display="
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_5",
+      "total_requests": 1839,
+      "total_bytes": 17686025,
+      "unique_urls": 896,
+      "duration_ms": 47156.986,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://techcrunch.com/category/startups/",
+          "https://techcrunch.com/latest/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://www.theverge.com/reviews",
+          "https://www.theverge.com/science",
+          "https://arstechnica.com/ai/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_6",
+      "total_requests": 1518,
+      "total_bytes": 21610408,
+      "unique_urls": 760,
+      "duration_ms": 48065.491,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://www.theverge.com/tech",
+          "https://www.theverge.com/entertainment",
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://techcrunch.com/events/tc-disrupt-2026/?utm_source=tc&utm_medium=ad&utm_campaign=disrupt2026&utm_content=flashsale&promo=topbanner_ebflashsale&display=",
+          "https://techcrunch.com/events/tc-disrupt-2026/?utm_source=tc&utm_medium=ad&utm_campaign=disrupt2026&utm_content=seb&promo=topbanner_seb&display=",
+          "https://arstechnica.com/ai/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_7",
+      "total_requests": 1585,
+      "total_bytes": 22199010,
+      "unique_urls": 812,
+      "duration_ms": 47410.716,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arstechnica.com/ai/",
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://techcrunch.com/events/tc-disrupt-2026/?utm_source=tc&utm_medium=ad&utm_campaign=disrupt2026&utm_content=seb&promo=topbanner_seb&display=",
+          "https://techcrunch.com/category/venture/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://www.theverge.com/tech",
+          "https://www.theverge.com/science"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_8",
+      "total_requests": 1212,
+      "total_bytes": 15631748,
+      "unique_urls": 612,
+      "duration_ms": 51198.69,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://arstechnica.com/ai/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://www.theverge.com/policy",
+          "https://www.theverge.com/",
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://techcrunch.com/latest/",
+          "https://techcrunch.com/category/venture/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "news-aggregation-1_scraping_9",
+      "total_requests": 1446,
+      "total_bytes": 16615766,
+      "unique_urls": 691,
+      "duration_ms": 37309.208,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://arstechnica.com/ai/"
+        ],
+        "target_domains": [
+          "arstechnica.com",
+          "techcrunch.com",
+          "www.theverge.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://techcrunch.com/category/artificial-intelligence/",
+          "https://techcrunch.com/latest/",
+          "https://techcrunch.com/events/tc-disrupt-2026/?utm_source=tc&utm_medium=ad&utm_campaign=disrupt2026&utm_content=flashsale&promo=topbanner_ebflashsale&display=",
+          "https://arstechnica.com/ai/",
+          "https://www.theverge.com/ai-artificial-intelligence",
+          "https://www.theverge.com/tech",
+          "https://www.theverge.com/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    }
+  ]
+}

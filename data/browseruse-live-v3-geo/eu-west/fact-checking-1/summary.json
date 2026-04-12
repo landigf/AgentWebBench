@@ -1,0 +1,335 @@
+{
+  "task_id": "fact-checking-1",
+  "task_name": "Verify EU AI Act provisions",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 1638,
+  "avg_requests_per_run": 163.8,
+  "avg_bytes_per_run": 3314502.5,
+  "sessions": [
+    {
+      "session_id": "fact-checking-1_scraping_0",
+      "total_requests": 165,
+      "total_bytes": 3330868,
+      "unique_urls": 89,
+      "duration_ms": 25879.744,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://digital-strategy.ec.europa.eu/de/policies/regulatory-framework-ai"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_1",
+      "total_requests": 164,
+      "total_bytes": 3320047,
+      "unique_urls": 89,
+      "duration_ms": 25469.17,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://digital-strategy.ec.europa.eu/da/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_2",
+      "total_requests": 163,
+      "total_bytes": 3362487,
+      "unique_urls": 89,
+      "duration_ms": 23276.39,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://digital-strategy.ec.europa.eu/da/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_3",
+      "total_requests": 161,
+      "total_bytes": 3285502,
+      "unique_urls": 86,
+      "duration_ms": 7618.163,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://digital-strategy.ec.europa.eu/bg/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_4",
+      "total_requests": 167,
+      "total_bytes": 3329008,
+      "unique_urls": 91,
+      "duration_ms": 25315.499,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://digital-strategy.ec.europa.eu/et/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_5",
+      "total_requests": 162,
+      "total_bytes": 3296548,
+      "unique_urls": 87,
+      "duration_ms": 6063.517,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://digital-strategy.ec.europa.eu/de/policies/regulatory-framework-ai"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_6",
+      "total_requests": 162,
+      "total_bytes": 3247674,
+      "unique_urls": 89,
+      "duration_ms": 5411.241,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://digital-strategy.ec.europa.eu/es/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_7",
+      "total_requests": 165,
+      "total_bytes": 3333932,
+      "unique_urls": 89,
+      "duration_ms": 23743.516,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://digital-strategy.ec.europa.eu/et/policies/regulatory-framework-ai"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_8",
+      "total_requests": 163,
+      "total_bytes": 3311936,
+      "unique_urls": 87,
+      "duration_ms": 6139.807,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://digital-strategy.ec.europa.eu/de/policies/regulatory-framework-ai",
+          "https://eur-lex.europa.eu/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "fact-checking-1_scraping_9",
+      "total_requests": 166,
+      "total_bytes": 3327023,
+      "unique_urls": 89,
+      "duration_ms": 24011.477,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        ],
+        "target_domains": [
+          "digital-strategy.ec.europa.eu",
+          "eur-lex.europa.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://eur-lex.europa.eu/",
+          "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "https://digital-strategy.ec.europa.eu/es/policies/regulatory-framework-ai"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    }
+  ]
+}

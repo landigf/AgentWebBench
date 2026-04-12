@@ -1,0 +1,390 @@
+{
+  "task_id": "regulatory-lookup-1",
+  "task_name": "GDPR compliance for AI data collection",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 7411,
+  "avg_requests_per_run": 741.1,
+  "avg_bytes_per_run": 1293078.4,
+  "sessions": [
+    {
+      "session_id": "regulatory-lookup-1_scraping_0",
+      "total_requests": 704,
+      "total_bytes": 1275885,
+      "unique_urls": 67,
+      "duration_ms": 47056.472,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/",
+          "https://gdpr-info.eu/art-2-gdpr/",
+          "https://gdpr-info.eu/recitals/",
+          "https://gdpr-info.eu/recitals/no-3/",
+          "https://gdpr-info.eu/recitals/no-1/",
+          "https://gdpr-info.eu/issues/",
+          "https://gdpr-info.eu/issues/email-marketing/",
+          "https://gdpr-info.eu/issues/data-protection-officer/",
+          "https://gdpr-info.eu/issues/consent/",
+          "https://gdpr-info.eu/issues/encryption/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_1",
+      "total_requests": 705,
+      "total_bytes": 1283878,
+      "unique_urls": 68,
+      "duration_ms": 46906.661,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/",
+          "https://gdpr-info.eu/chapter-1/",
+          "https://gdpr-info.eu/recitals/",
+          "https://gdpr-info.eu/recitals/no-2/",
+          "https://gdpr-info.eu/recitals/no-3/",
+          "https://gdpr-info.eu/issues/",
+          "https://gdpr-info.eu/issues/data-protection-officer/",
+          "https://gdpr-info.eu/issues/email-marketing/",
+          "https://gdpr-info.eu/issues/consent/",
+          "https://gdpr-info.eu/issues/encryption/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_2",
+      "total_requests": 631,
+      "total_bytes": 1270178,
+      "unique_urls": 65,
+      "duration_ms": 12852.481,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/",
+          "https://gdpr-info.eu/chapter-1/",
+          "https://gdpr-info.eu/issues/",
+          "https://gdpr-info.eu/issues/consent/",
+          "https://gdpr-info.eu/recitals/",
+          "https://gdpr-info.eu/recitals/no-1/",
+          "https://gdpr-info.eu/recitals/no-2/",
+          "https://gdpr-info.eu/recitals/no-4/",
+          "https://gdpr-info.eu/recitals/no-3/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_3",
+      "total_requests": 702,
+      "total_bytes": 1276190,
+      "unique_urls": 67,
+      "duration_ms": 13676.75,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/",
+          "https://gdpr-info.eu/recitals/",
+          "https://gdpr-info.eu/recitals/no-1/",
+          "https://gdpr-info.eu/recitals/no-3/",
+          "https://gdpr-info.eu/recitals/no-4/",
+          "https://gdpr-info.eu/issues/",
+          "https://gdpr-info.eu/issues/data-protection-officer/",
+          "https://gdpr-info.eu/issues/email-marketing/",
+          "https://gdpr-info.eu/issues/consent/",
+          "https://gdpr-info.eu/issues/encryption/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_4",
+      "total_requests": 926,
+      "total_bytes": 1341584,
+      "unique_urls": 76,
+      "duration_ms": 18350.384,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/",
+          "https://gdpr-info.eu/art-1-gdpr/",
+          "https://gdpr-info.eu/art-3-gdpr/",
+          "https://gdpr-info.eu/art-2-gdpr/",
+          "https://gdpr-info.eu/issues/",
+          "https://gdpr-info.eu/issues/email-marketing/",
+          "https://gdpr-info.eu/issues/data-protection-officer/",
+          "https://gdpr-info.eu/issues/encryption/",
+          "https://gdpr-info.eu/recitals/",
+          "https://gdpr-info.eu/recitals/no-3/",
+          "https://gdpr-info.eu/recitals/no-1/",
+          "https://gdpr-info.eu/recitals/no-4/",
+          "https://gdpr-info.eu/recitals/no-2/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_5",
+      "total_requests": 704,
+      "total_bytes": 1276927,
+      "unique_urls": 67,
+      "duration_ms": 48019.179,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/",
+          "https://gdpr-info.eu/issues/",
+          "https://gdpr-info.eu/issues/encryption/",
+          "https://gdpr-info.eu/issues/data-protection-officer/",
+          "https://gdpr-info.eu/issues/email-marketing/",
+          "https://gdpr-info.eu/recitals/",
+          "https://gdpr-info.eu/recitals/no-2/",
+          "https://gdpr-info.eu/recitals/no-3/",
+          "https://gdpr-info.eu/recitals/no-1/",
+          "https://gdpr-info.eu/recitals/no-4/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_6",
+      "total_requests": 779,
+      "total_bytes": 1302757,
+      "unique_urls": 71,
+      "duration_ms": 51522.551,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/",
+          "https://gdpr-info.eu/chapter-1/",
+          "https://gdpr-info.eu/art-3-gdpr/",
+          "https://gdpr-info.eu/art-2-gdpr/",
+          "https://gdpr-info.eu/recitals/",
+          "https://gdpr-info.eu/recitals/no-4/",
+          "https://gdpr-info.eu/issues/",
+          "https://gdpr-info.eu/issues/encryption/",
+          "https://gdpr-info.eu/issues/email-marketing/",
+          "https://gdpr-info.eu/issues/consent/",
+          "https://gdpr-info.eu/issues/data-protection-officer/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_7",
+      "total_requests": 926,
+      "total_bytes": 1350712,
+      "unique_urls": 78,
+      "duration_ms": 59246.278,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/",
+          "https://gdpr-info.eu/art-2-gdpr/",
+          "https://gdpr-info.eu/chapter-1/",
+          "https://gdpr-info.eu/art-3-gdpr/",
+          "https://gdpr-info.eu/recitals/",
+          "https://gdpr-info.eu/recitals/no-2/",
+          "https://gdpr-info.eu/recitals/no-1/",
+          "https://gdpr-info.eu/recitals/no-3/",
+          "https://gdpr-info.eu/issues/",
+          "https://gdpr-info.eu/issues/data-protection-officer/",
+          "https://gdpr-info.eu/issues/email-marketing/",
+          "https://gdpr-info.eu/issues/consent/",
+          "https://gdpr-info.eu/issues/encryption/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_8",
+      "total_requests": 630,
+      "total_bytes": 1261026,
+      "unique_urls": 64,
+      "duration_ms": 42796.272,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/",
+          "https://gdpr-info.eu/art-3-gdpr/",
+          "https://gdpr-info.eu/issues/",
+          "https://gdpr-info.eu/issues/data-protection-officer/",
+          "https://gdpr-info.eu/recitals/",
+          "https://gdpr-info.eu/recitals/no-3/",
+          "https://gdpr-info.eu/recitals/no-4/",
+          "https://gdpr-info.eu/recitals/no-1/",
+          "https://gdpr-info.eu/recitals/no-2/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "regulatory-lookup-1_scraping_9",
+      "total_requests": 704,
+      "total_bytes": 1291647,
+      "unique_urls": 69,
+      "duration_ms": 13672.535,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://gdpr-info.eu/"
+        ],
+        "target_domains": [
+          "gdpr-info.eu"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://gdpr-info.eu/",
+          "https://gdpr-info.eu/art-3-gdpr/",
+          "https://gdpr-info.eu/art-1-gdpr/",
+          "https://gdpr-info.eu/chapter-1/",
+          "https://gdpr-info.eu/recitals/",
+          "https://gdpr-info.eu/issues/",
+          "https://gdpr-info.eu/issues/encryption/",
+          "https://gdpr-info.eu/issues/data-protection-officer/",
+          "https://gdpr-info.eu/issues/email-marketing/",
+          "https://gdpr-info.eu/issues/consent/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    }
+  ]
+}

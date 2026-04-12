@@ -1,0 +1,412 @@
+{
+  "task_id": "documentation-lookup-1",
+  "task_name": "Look up Python asyncio documentation",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 8557,
+  "avg_requests_per_run": 855.7,
+  "avg_bytes_per_run": 1199363.2,
+  "sessions": [
+    {
+      "session_id": "documentation-lookup-1_scraping_0",
+      "total_requests": 389,
+      "total_bytes": 1090644,
+      "unique_urls": 131,
+      "duration_ms": 16207.988,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://docs.python.org/3/genindex.html",
+          "https://docs.python.org/3/genindex-A.html",
+          "https://docs.python.org/3/library/re.html",
+          "https://docs.python.org/3/library/string.templatelib.html",
+          "https://docs.python.org/3/library/string.html",
+          "https://docs.python.org/3/improve-page-nojs.html",
+          "https://docs.python.org/license.html",
+          "https://docs.python.org/contents.html",
+          "https://docs.python.org/improve-page-nojs.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_1",
+      "total_requests": 1201,
+      "total_bytes": 1416887,
+      "unique_urls": 214,
+      "duration_ms": 47540.543,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+          "https://developer.mozilla.org/en-US/",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_2",
+      "total_requests": 1201,
+      "total_bytes": 1475872,
+      "unique_urls": 217,
+      "duration_ms": 47805.511,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+          "https://developer.mozilla.org/en-US/",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_3",
+      "total_requests": 1163,
+      "total_bytes": 1409638,
+      "unique_urls": 180,
+      "duration_ms": 14802.564,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://developer.mozilla.org/en-US/",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_4",
+      "total_requests": 1200,
+      "total_bytes": 1433914,
+      "unique_urls": 216,
+      "duration_ms": 47655.931,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+          "https://developer.mozilla.org/en-US/",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_5",
+      "total_requests": 431,
+      "total_bytes": 388602,
+      "unique_urls": 123,
+      "duration_ms": 20523.483,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://docs.python.org/3/genindex.html",
+          "https://docs.python.org/3/genindex-Symbols.html",
+          "https://docs.python.org/3/library/stdtypes.html",
+          "https://docs.python.org/3/bugs.html",
+          "https://docs.python.org/3/py-modindex.html",
+          "https://docs.python.org/3/library/__main__.html",
+          "https://docs.python.org/3/improve-page-nojs.html",
+          "https://docs.python.org/3/copyright.html",
+          "https://docs.python.org/3/index.html",
+          "https://docs.python.org/3.13/",
+          "https://docs.python.org/3.12/",
+          "https://docs.python.org/3.10/",
+          "https://docs.python.org/3.15/",
+          "https://docs.python.org/3.11/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_6",
+      "total_requests": 1160,
+      "total_bytes": 1471654,
+      "unique_urls": 183,
+      "duration_ms": 14751.825,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "https://developer.mozilla.org/en-US/",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_7",
+      "total_requests": 350,
+      "total_bytes": 935241,
+      "unique_urls": 224,
+      "duration_ms": 18712.565,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://docs.python.org/3/py-modindex.html",
+          "https://docs.python.org/3/index.html",
+          "https://docs.python.org/3.14/",
+          "https://docs.python.org/3.10/",
+          "https://docs.python.org/3.12/",
+          "https://docs.python.org/3.15/",
+          "https://docs.python.org/3.13/",
+          "https://docs.python.org/3.13/download.html",
+          "https://docs.python.org/3.13/archives/python-3.13-docs-texinfo.tar.bz2",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "navigation_errors": [
+          {
+            "url": "https://docs.python.org/3.13/archives/python-3.13-docs-texinfo.tar.bz2",
+            "error": "Navigation failed: net::ERR_ABORTED"
+          }
+        ],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_8",
+      "total_requests": 1203,
+      "total_bytes": 1467721,
+      "unique_urls": 214,
+      "duration_ms": 47400.186,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+          "https://developer.mozilla.org/en-US/",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+          "https://docs.python.org/3/library/asyncio.html"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "documentation-lookup-1_scraping_9",
+      "total_requests": 259,
+      "total_bytes": 903459,
+      "unique_urls": 130,
+      "duration_ms": 38682.007,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "target_domains": [
+          "developer.mozilla.org",
+          "docs.python.org"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://docs.python.org/3/library/asyncio.html",
+          "https://docs.python.org/3/library/asyncio-runner.html",
+          "https://docs.python.org/3/genindex.html",
+          "https://docs.python.org/3/index.html",
+          "https://docs.python.org/3/download.html",
+          "https://docs.python.org/3/archives/python-3.14-docs-html.tar.bz2",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "navigation_errors": [
+          {
+            "url": "https://docs.python.org/3/archives/python-3.14-docs-html.tar.bz2",
+            "error": "Navigation failed: net::ERR_ABORTED"
+          }
+        ],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "asia-southeast",
+        "collection_zone": "asia-southeast1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    }
+  ]
+}

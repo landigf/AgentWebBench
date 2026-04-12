@@ -1,0 +1,325 @@
+{
+  "task_id": "real-estate-1",
+  "task_name": "Compare apartment rents in Zurich districts",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 310,
+  "avg_requests_per_run": 31.0,
+  "avg_bytes_per_run": 543817.8,
+  "sessions": [
+    {
+      "session_id": "real-estate-1_scraping_0",
+      "total_requests": 31,
+      "total_bytes": 543894,
+      "unique_urls": 22,
+      "duration_ms": 19593.026,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_1",
+      "total_requests": 31,
+      "total_bytes": 545000,
+      "unique_urls": 22,
+      "duration_ms": 19468.571,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_2",
+      "total_requests": 31,
+      "total_bytes": 543019,
+      "unique_urls": 22,
+      "duration_ms": 4771.498,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_3",
+      "total_requests": 31,
+      "total_bytes": 542618,
+      "unique_urls": 22,
+      "duration_ms": 4828.439,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_4",
+      "total_requests": 31,
+      "total_bytes": 544705,
+      "unique_urls": 22,
+      "duration_ms": 19541.15,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_5",
+      "total_requests": 31,
+      "total_bytes": 544477,
+      "unique_urls": 22,
+      "duration_ms": 19762.843,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_6",
+      "total_requests": 31,
+      "total_bytes": 544503,
+      "unique_urls": 22,
+      "duration_ms": 4653.919,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_7",
+      "total_requests": 31,
+      "total_bytes": 542789,
+      "unique_urls": 22,
+      "duration_ms": 4808.599,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_8",
+      "total_requests": 31,
+      "total_bytes": 543322,
+      "unique_urls": 22,
+      "duration_ms": 4586.374,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.immoscout24.ch/",
+          "https://www.homegate.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "real-estate-1_scraping_9",
+      "total_requests": 31,
+      "total_bytes": 543851,
+      "unique_urls": 22,
+      "duration_ms": 4610.389,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "target_domains": [
+          "www.homegate.ch",
+          "www.immoscout24.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.homegate.ch/",
+          "https://www.immoscout24.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    }
+  ]
+}

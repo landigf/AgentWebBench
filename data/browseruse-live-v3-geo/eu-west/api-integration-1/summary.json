@@ -1,0 +1,385 @@
+{
+  "task_id": "api-integration-1",
+  "task_name": "Compare weather API providers",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 2914,
+  "avg_requests_per_run": 291.4,
+  "avg_bytes_per_run": 3071038.0,
+  "sessions": [
+    {
+      "session_id": "api-integration-1_scraping_0",
+      "total_requests": 281,
+      "total_bytes": 2270391,
+      "unique_urls": 158,
+      "duration_ms": 10736.681,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://openweathermap.org/api",
+          "https://www.weatherapi.com/",
+          "https://open-meteo.com/"
+        ],
+        "target_domains": [
+          "open-meteo.com",
+          "openweathermap.org",
+          "www.weatherapi.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://openweathermap.org/api",
+          "https://openweathermap.org/users/sign_in",
+          "https://open-meteo.com/",
+          "https://open-meteo.com/en/licence",
+          "https://www.weatherapi.com/",
+          "https://www.weatherapi.com/docs/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "api-integration-1_scraping_1",
+      "total_requests": 273,
+      "total_bytes": 1774916,
+      "unique_urls": 150,
+      "duration_ms": 10648.156,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://openweathermap.org/api",
+          "https://www.weatherapi.com/",
+          "https://open-meteo.com/"
+        ],
+        "target_domains": [
+          "open-meteo.com",
+          "openweathermap.org",
+          "www.weatherapi.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.weatherapi.com/",
+          "https://www.weatherapi.com/weather/",
+          "https://open-meteo.com/",
+          "https://open-meteo.com/en/docs",
+          "https://openweathermap.org/api",
+          "https://openweathermap.org/guide"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "api-integration-1_scraping_2",
+      "total_requests": 342,
+      "total_bytes": 6487047,
+      "unique_urls": 207,
+      "duration_ms": 40857.343,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://openweathermap.org/api",
+          "https://www.weatherapi.com/",
+          "https://open-meteo.com/"
+        ],
+        "target_domains": [
+          "open-meteo.com",
+          "openweathermap.org",
+          "www.weatherapi.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.weatherapi.com/",
+          "https://www.weatherapi.com/contact.aspx",
+          "https://open-meteo.com/",
+          "https://open-meteo.com/en/docs/historical-weather-api",
+          "https://openweathermap.org/api",
+          "https://openweathermap.org/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "api-integration-1_scraping_3",
+      "total_requests": 302,
+      "total_bytes": 2612611,
+      "unique_urls": 176,
+      "duration_ms": 41983.635,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://openweathermap.org/api",
+          "https://www.weatherapi.com/",
+          "https://open-meteo.com/"
+        ],
+        "target_domains": [
+          "open-meteo.com",
+          "openweathermap.org",
+          "www.weatherapi.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.weatherapi.com/",
+          "https://www.weatherapi.com/pricing.aspx",
+          "https://open-meteo.com/",
+          "https://open-meteo.com/en/docs",
+          "https://openweathermap.org/api",
+          "https://openweathermap.org/marketplace"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "api-integration-1_scraping_4",
+      "total_requests": 290,
+      "total_bytes": 2499991,
+      "unique_urls": 183,
+      "duration_ms": 11450.401,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://openweathermap.org/api",
+          "https://www.weatherapi.com/",
+          "https://open-meteo.com/"
+        ],
+        "target_domains": [
+          "open-meteo.com",
+          "openweathermap.org",
+          "www.weatherapi.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://open-meteo.com/",
+          "https://open-meteo.com/en/pricing",
+          "https://www.weatherapi.com/",
+          "https://www.weatherapi.com/weather/",
+          "https://openweathermap.org/api",
+          "https://openweathermap.org/weathermap"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "api-integration-1_scraping_5",
+      "total_requests": 246,
+      "total_bytes": 1666718,
+      "unique_urls": 121,
+      "duration_ms": 10071.065,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://openweathermap.org/api",
+          "https://www.weatherapi.com/",
+          "https://open-meteo.com/"
+        ],
+        "target_domains": [
+          "open-meteo.com",
+          "openweathermap.org",
+          "www.weatherapi.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://openweathermap.org/api",
+          "https://openweathermap.org/support-centre",
+          "https://www.weatherapi.com/",
+          "https://www.weatherapi.com/api-explorer.aspx",
+          "https://open-meteo.com/",
+          "https://open-meteo.com/en/about"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "api-integration-1_scraping_6",
+      "total_requests": 333,
+      "total_bytes": 5669018,
+      "unique_urls": 205,
+      "duration_ms": 40697.249,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://openweathermap.org/api",
+          "https://www.weatherapi.com/",
+          "https://open-meteo.com/"
+        ],
+        "target_domains": [
+          "open-meteo.com",
+          "openweathermap.org",
+          "www.weatherapi.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.weatherapi.com/",
+          "https://www.weatherapi.com/pricing.aspx",
+          "https://openweathermap.org/api",
+          "https://openweathermap.org/",
+          "https://open-meteo.com/",
+          "https://open-meteo.com/en/docs/historical-weather-api"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "api-integration-1_scraping_7",
+      "total_requests": 277,
+      "total_bytes": 2133986,
+      "unique_urls": 144,
+      "duration_ms": 14077.743,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://openweathermap.org/api",
+          "https://www.weatherapi.com/",
+          "https://open-meteo.com/"
+        ],
+        "target_domains": [
+          "open-meteo.com",
+          "openweathermap.org",
+          "www.weatherapi.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://open-meteo.com/",
+          "https://open-meteo.com/en/pricing",
+          "https://openweathermap.org/api",
+          "https://openweathermap.org/guide",
+          "https://www.weatherapi.com/",
+          "https://www.weatherapi.com/api-explorer.aspx"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "api-integration-1_scraping_8",
+      "total_requests": 274,
+      "total_bytes": 2386457,
+      "unique_urls": 146,
+      "duration_ms": 10873.166,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://openweathermap.org/api",
+          "https://www.weatherapi.com/",
+          "https://open-meteo.com/"
+        ],
+        "target_domains": [
+          "open-meteo.com",
+          "openweathermap.org",
+          "www.weatherapi.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://open-meteo.com/",
+          "https://open-meteo.com/en/licence",
+          "https://www.weatherapi.com/",
+          "https://www.weatherapi.com/docs/",
+          "https://openweathermap.org/api",
+          "https://openweathermap.org/support-centre"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "api-integration-1_scraping_9",
+      "total_requests": 296,
+      "total_bytes": 3209245,
+      "unique_urls": 186,
+      "duration_ms": 11652.347,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://openweathermap.org/api",
+          "https://www.weatherapi.com/",
+          "https://open-meteo.com/"
+        ],
+        "target_domains": [
+          "open-meteo.com",
+          "openweathermap.org",
+          "www.weatherapi.com"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://openweathermap.org/api",
+          "https://openweathermap.org/weathermap",
+          "https://open-meteo.com/",
+          "https://open-meteo.com/en/pricing",
+          "https://www.weatherapi.com/",
+          "https://www.weatherapi.com/docs/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    }
+  ]
+}

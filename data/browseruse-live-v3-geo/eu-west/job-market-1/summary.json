@@ -1,0 +1,363 @@
+{
+  "task_id": "job-market-1",
+  "task_name": "ML engineer positions in Zurich",
+  "mode": "scraping",
+  "backend": "browseruse",
+  "surface": "live",
+  "live_driver": "scripted-random",
+  "repeats": 10,
+  "failed_runs": [],
+  "total_requests": 2544,
+  "avg_requests_per_run": 254.4,
+  "avg_bytes_per_run": 4683529.9,
+  "sessions": [
+    {
+      "session_id": "job-market-1_scraping_0",
+      "total_requests": 542,
+      "total_bytes": 4960221,
+      "unique_urls": 219,
+      "duration_ms": 38562.713,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "target_domains": [
+          "www.glassdoor.com",
+          "www.indeed.com",
+          "www.jobs.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm",
+          "https://www.jobs.ch/en/",
+          "https://www.jobs.ch/de/",
+          "https://www.jobs.ch/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "job-market-1_scraping_1",
+      "total_requests": 426,
+      "total_bytes": 4529759,
+      "unique_urls": 211,
+      "duration_ms": 15178.191,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "target_domains": [
+          "www.glassdoor.com",
+          "www.indeed.com",
+          "www.jobs.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.jobs.ch/en/",
+          "https://www.jobs.ch/",
+          "https://www.jobs.ch/de/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm",
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "job-market-1_scraping_2",
+      "total_requests": 436,
+      "total_bytes": 5026143,
+      "unique_urls": 236,
+      "duration_ms": 37900.146,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "target_domains": [
+          "www.glassdoor.com",
+          "www.indeed.com",
+          "www.jobs.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.jobs.ch/en/",
+          "https://www.jobs.ch/de/",
+          "https://www.jobs.ch/en/salary/start/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm",
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "job-market-1_scraping_3",
+      "total_requests": 290,
+      "total_bytes": 12839035,
+      "unique_urls": 252,
+      "duration_ms": 37372.35,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "target_domains": [
+          "www.glassdoor.com",
+          "www.indeed.com",
+          "www.jobs.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.jobs.ch/en/",
+          "https://www.jobs.ch/en/vacancies/?term=",
+          "https://www.jobs.ch/de/job-coach/neuer-look/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm",
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "job-market-1_scraping_4",
+      "total_requests": 150,
+      "total_bytes": 3341779,
+      "unique_urls": 134,
+      "duration_ms": 29250.484,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "target_domains": [
+          "www.glassdoor.com",
+          "www.indeed.com",
+          "www.jobs.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm",
+          "https://www.jobs.ch/en/",
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "job-market-1_scraping_5",
+      "total_requests": 131,
+      "total_bytes": 3072191,
+      "unique_urls": 124,
+      "duration_ms": 8822.567,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "target_domains": [
+          "www.glassdoor.com",
+          "www.indeed.com",
+          "www.jobs.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "job-market-1_scraping_6",
+      "total_requests": 132,
+      "total_bytes": 3180279,
+      "unique_urls": 125,
+      "duration_ms": 8538.891,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "target_domains": [
+          "www.glassdoor.com",
+          "www.indeed.com",
+          "www.jobs.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.jobs.ch/en/",
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "job-market-1_scraping_7",
+      "total_requests": 151,
+      "total_bytes": 3377598,
+      "unique_urls": 134,
+      "duration_ms": 29460.488,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "target_domains": [
+          "www.glassdoor.com",
+          "www.indeed.com",
+          "www.jobs.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm",
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "job-market-1_scraping_8",
+      "total_requests": 150,
+      "total_bytes": 3331068,
+      "unique_urls": 134,
+      "duration_ms": 29019.058,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "target_domains": [
+          "www.glassdoor.com",
+          "www.indeed.com",
+          "www.jobs.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm",
+          "https://www.jobs.ch/en/",
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    },
+    {
+      "session_id": "job-market-1_scraping_9",
+      "total_requests": 136,
+      "total_bytes": 3177226,
+      "unique_urls": 124,
+      "duration_ms": 8563.892,
+      "metadata": {
+        "backend": "browseruse",
+        "surface": "live",
+        "live_driver": "scripted-random",
+        "target_urls": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.jobs.ch/en/",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm"
+        ],
+        "target_domains": [
+          "www.glassdoor.com",
+          "www.indeed.com",
+          "www.jobs.ch"
+        ],
+        "max_steps": 15,
+        "navigation_plan": [
+          "https://www.indeed.com/jobs?q=machine+learning&l=Zurich",
+          "https://www.glassdoor.com/Job/zurich-machine-learning-jobs-SRCH_IL.0,6_IC3267892_KO7,23.htm",
+          "https://www.jobs.ch/en/"
+        ],
+        "navigation_errors": [],
+        "collection_note": "Credential-free BrowserUse browser baseline with randomized same-site exploration",
+        "collection_region": "eu-west",
+        "collection_zone": "europe-west1-b",
+        "collection_provider": "gcp",
+        "collection_vm_type": "e2-standard-2"
+      }
+    }
+  ]
+}
