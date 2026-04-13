@@ -121,7 +121,7 @@ Rules:
 
 
 def has_browseruse_llm_credentials() -> bool:
-    return any(os.getenv(key) for key in ("BROWSER_USE_API_KEY", "OPENAI_API_KEY", "ANTHROPIC_API_KEY"))
+    return any(os.getenv(key) for key in ("BROWSER_USE_API_KEY", "OPENAI_API_KEY", "ANTHROPIC_API_KEY", "GOOGLE_API_KEY"))
 
 
 def resolve_browseruse_llm():
@@ -136,12 +136,22 @@ def resolve_browseruse_llm():
         # Monkey-patch to strip frequency_penalty/presence_penalty which Gemini rejects
         if ChatOpenAI is not None:
             import openai as _openai
+
+            # Patch BOTH sync and async create methods
             _orig_create = _openai.resources.chat.completions.Completions.create
             def _patched_create(self, **kwargs):
                 kwargs.pop("frequency_penalty", None)
                 kwargs.pop("presence_penalty", None)
                 return _orig_create(self, **kwargs)
             _openai.resources.chat.completions.Completions.create = _patched_create
+
+            _orig_async = _openai.resources.chat.completions.AsyncCompletions.create
+            async def _patched_async(self, **kwargs):
+                kwargs.pop("frequency_penalty", None)
+                kwargs.pop("presence_penalty", None)
+                return await _orig_async(self, **kwargs)
+            _openai.resources.chat.completions.AsyncCompletions.create = _patched_async
+
             return ChatOpenAI(
                 model=os.getenv("SPOTAIFY_BROWSERUSE_GEMINI_MODEL", "gemini-2.5-flash"),
                 api_key=os.getenv("GOOGLE_API_KEY"),
@@ -567,7 +577,9 @@ def run_benchmark(
                     failed_runs.append({"run_id": r, "error": str(exc)})
 
             if not sessions:
-                raise RuntimeError(f"No successful sessions were collected for task {task['id']} ({m}).")
+                print(f"\n⚠️  WARNING: No successful sessions for task {task['id']} ({m}). "
+                      f"Skipping to next task. ({len(failed_runs)} failures)")
+                continue
 
             # Inject collection region metadata from environment
             region_meta = {
