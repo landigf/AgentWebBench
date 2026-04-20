@@ -1,4 +1,15 @@
+# Core dependencies for reproducing BrowseTrace paper results
+libcachesim>=0.3.3
 matplotlib>=3.8
+numpy>=1.24
+scipy>=1.11
+pandas>=2.0
 pydantic>=2.0
 pyyaml>=6.0
-numpy>=1.24
+
+# Optional (only for re-collecting traces from scratch, not for reproducing results):
+# browser-use>=0.2
+# playwright>=1.47
+# openai>=1.0
+# anthropic>=0.30
+# google-generativeai>=0.7

@@ -19,7 +19,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -79,7 +79,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -135,7 +135,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -180,11 +180,11 @@
         },
         {
           "timestamp_us": 1775654299631794,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -234,7 +234,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -280,7 +280,7 @@
         },
         {
           "timestamp_us": 1775654299935006,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -292,7 +292,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -348,7 +348,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -403,7 +403,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -463,7 +463,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -519,7 +519,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -564,11 +564,11 @@
         },
         {
           "timestamp_us": 1775654308995897,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -618,7 +618,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -664,7 +664,7 @@
         },
         {
           "timestamp_us": 1775654309192577,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -676,7 +676,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -732,7 +732,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -776,13 +776,13 @@
         },
         {
           "timestamp_us": 1775654299543042,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAKUBezuIy43MAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=o3_wnY~UJtrQzZt_pGHkx_iat_AXec17bRaBPZ2T63m_XIHc7INlRNfWj7iu2MzAsaTlObRXBosqaeM8UTKo90cFzROi1cScL9tewtrihKOFfQ91cSuh924dvVzuY~JN&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=f02676113db201d64f3c832a1d8445d68f422359b74c701afd96f004e291acc29ff1a2c2997107fad8717aa2815fe083&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -823,13 +823,13 @@
         },
         {
           "timestamp_us": 1775654308937018,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAs80DDFNvzUYAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=KQvhAnTMrIqehUzVG23LdCqRI0BlfuH6kRcec0RbBsxs26q02RctqEYdLJRQjzUgGyym_M5zoQuJSX4mIjEZQjknhhr18ED242TDwWyRXFx1jRL5X_w5CqbdIrVmea~H&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=4edef55a23f3869c58f400228565228a2edd81f1d12ec4013231547106de70e0c9f3399ae5a7b5401c9c7e5c624d1e99&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -910,7 +910,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -970,7 +970,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1026,7 +1026,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1071,11 +1071,11 @@
         },
         {
           "timestamp_us": 1775654319226923,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -1125,7 +1125,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -1171,7 +1171,7 @@
         },
         {
           "timestamp_us": 1775654319589720,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -1183,7 +1183,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -1239,7 +1239,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -1288,7 +1288,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -1348,7 +1348,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1404,7 +1404,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1449,11 +1449,11 @@
         },
         {
           "timestamp_us": 1775654328549698,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -1497,7 +1497,7 @@
         },
         {
           "timestamp_us": 1775654328677434,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -1509,7 +1509,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -1565,7 +1565,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -1621,7 +1621,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -1667,13 +1667,13 @@
         },
         {
           "timestamp_us": 1775654319127983,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAUq6MzhWyLQgAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=a4Q1X39yCvQupbbmX0oZCmn2w31KqgGeQhdyIWQvWjthQ7vWr1F1P2dYB5~Qd2GUiripj9yLdFW~Nf5HgB2O2xB16AMzxvOLlFSFZVHQKGYTXmKiINpvOkqkV8_WIVmX&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=c8f21475a95d21898035c398dbb4e5ca890f48607b08154ceacf649b4a56cde255e86c424c26e9bfd687130e4e954c7d&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -1714,13 +1714,13 @@
         },
         {
           "timestamp_us": 1775654328461535,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAPAF21LUa3KAAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=kW7dBzn70SMn8upnskFQdPFU9eLYR8~FoBw7v20WveuxwmU7EA4qt93JvcngpZbEVbZjlJU3VEBRMqzJG6u2Cjg9HilOx~34_VlfCE7eRnSCIboyiRFZoHfsKFxRIuhl&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=ed9cab4c0da5aaf81b3578414d72452e5520cdea6c977b6e6ed9ccf047d6425bd1c1ead25001abe53c21bd4e54c86869&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -1801,7 +1801,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -1861,7 +1861,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1917,7 +1917,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1962,11 +1962,11 @@
         },
         {
           "timestamp_us": 1775654338737799,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -2016,7 +2016,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -2062,7 +2062,7 @@
         },
         {
           "timestamp_us": 1775654339039441,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -2074,7 +2074,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -2130,7 +2130,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -2179,7 +2179,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -2239,7 +2239,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2295,7 +2295,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2340,11 +2340,11 @@
         },
         {
           "timestamp_us": 1775654340550705,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -2394,7 +2394,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -2440,7 +2440,7 @@
         },
         {
           "timestamp_us": 1775654340733780,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -2452,7 +2452,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -2508,7 +2508,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -2558,13 +2558,13 @@
         },
         {
           "timestamp_us": 1775654338568606,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAVCBn2Wb5hWIAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=QZokdLIYLvctllbzxyWRo8GfjqtPjAtsowUIOWKkgGiTYAa_EY4Z7pNLSBz8AJqOhvAc5V2zVbFEmRwCN2zvP3mbZvNPYM0wDabHp_1IHl_f4SnlbmMbB6ZwS2qio~8u&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=da6706a881588ba7aa1cbcd6c90af50f84a5e8b0921c938d2f13660739933f279c2a29d9b88e83417cb3878a297012fb&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -2605,13 +2605,13 @@
         },
         {
           "timestamp_us": 1775654340454276,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA8bn_B1P6PzYAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=dgkCW0rDAoibVgmzbzKlyGqszL7WjdYkNM2HX603Br~AxQNAdIxhFX93fycEF3nNpoOUEbPo6fj4jq5UUBqRudKN3v8tadh8kPhz_mGaEEd0isrXtdUhesNzMTXbC_mO&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=36f5345a70ced845fa23f7ee173232f9731a8191bfac219db7140a70e2f0fdfc0d80719cc4cbf04662b1fdcab694b828&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -2692,7 +2692,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -2752,7 +2752,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2808,7 +2808,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2853,11 +2853,11 @@
         },
         {
           "timestamp_us": 1775654343077445,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -2907,7 +2907,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -2953,7 +2953,7 @@
         },
         {
           "timestamp_us": 1775654343374299,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -2965,7 +2965,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -3021,7 +3021,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -3070,7 +3070,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -3130,7 +3130,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3186,7 +3186,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3231,11 +3231,11 @@
         },
         {
           "timestamp_us": 1775654344899679,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -3285,7 +3285,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -3331,7 +3331,7 @@
         },
         {
           "timestamp_us": 1775654345163111,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -3343,7 +3343,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -3399,7 +3399,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -3449,13 +3449,13 @@
         },
         {
           "timestamp_us": 1775654342996021,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAa20Q2IODwQsAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=t7KXul0uphqcTUo3eq3Fsbco93VIaOMGBnq1peubOZBeJD2D25Puvix2lD3zHAz_ZUpcefckfu~1hHUeDH1EJ1oDv6b80v7A_B84FnLd2I5csxQIDDsIeEVin~54BqnT&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=64ff0b63946f09aab94ede5a47f3784c199d62ce988603312872432b513402694b743581ce2c0d23cfa402fd4f72ef36&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -3496,13 +3496,13 @@
         },
         {
           "timestamp_us": 1775654344822178,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMACj4aQmbJuqoAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=2lo6oR2uxpmBAseLgN4VR2hJn8_LKZF~ZYOtxsefVbD_aF100HdKmRSY7yqxSr3T6oXPD7hO1Q1qdTY58bW0O5wLGnngclfdSbDgITRckyxx6bnnemG26PFRlyOgOBkL&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=f26fbbc18776679297d5ffd7323c79c56a2434ef7ca712f4ce51527a39bcc8636f36094d5ff0b2e683b44934557da7e5&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -3583,7 +3583,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -3643,7 +3643,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3699,7 +3699,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3744,11 +3744,11 @@
         },
         {
           "timestamp_us": 1775654347538140,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -3798,7 +3798,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -3844,7 +3844,7 @@
         },
         {
           "timestamp_us": 1775654347922134,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -3856,7 +3856,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -3912,7 +3912,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -3961,7 +3961,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -4021,7 +4021,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4077,7 +4077,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4122,11 +4122,11 @@
         },
         {
           "timestamp_us": 1775654356861648,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -4176,7 +4176,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -4222,7 +4222,7 @@
         },
         {
           "timestamp_us": 1775654357048483,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -4234,7 +4234,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -4290,7 +4290,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -4340,13 +4340,13 @@
         },
         {
           "timestamp_us": 1775654347442348,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAKV-QVxPCMqEAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=8A6lRdARJxvftFSunWvWZ4ZelUt6EXMmyuRowc_wY4yog3KLRPntJrZq5qM1jdsXV9bYaAiltct~7lZwhJBWN4_JLfbXMoZieWAdQ~EuKCDXUrmliN4bXYmLOQ2Jjn2h&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=e34fae09abcb97858102070dcf028682c6aa7e3049b72d7b7e6f1c6f39da6c1eec9dfde5f6af6c6c7d63a187bb390c22&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -4387,13 +4387,13 @@
         },
         {
           "timestamp_us": 1775654356788924,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMADhVRMrKhxKwAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=Cg7lpd6yN9ByET7h_BtkBt3vXweqR9LKd4vyAJI3jeJa4VJMAcBPm9cXkOcJpCTR0j~F~BBgG_xviUKrOwnZpkvg9Q0ux8fVyTqc4xcBqp5P3XuOZUIj8PypqGjU3TOz&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=2b9f9155d7df90dbfd3be0f33406344f3a1d0116b19c2a4157f57cb8ebe239697dd5aacf0c1ad0332967019fa51ca92c&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -4474,7 +4474,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -4534,7 +4534,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4590,7 +4590,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4635,11 +4635,11 @@
         },
         {
           "timestamp_us": 1775654367187951,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -4689,7 +4689,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -4735,7 +4735,7 @@
         },
         {
           "timestamp_us": 1775654367494344,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -4747,7 +4747,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -4803,7 +4803,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -4858,7 +4858,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -4918,7 +4918,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4974,7 +4974,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5019,11 +5019,11 @@
         },
         {
           "timestamp_us": 1775654376581604,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -5073,7 +5073,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -5119,7 +5119,7 @@
         },
         {
           "timestamp_us": 1775654376787476,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -5131,7 +5131,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -5187,7 +5187,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -5231,13 +5231,13 @@
         },
         {
           "timestamp_us": 1775654367122847,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMApApQUCyspucAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=Tej_mb8WpBRIfN3l5mD0NqoDR8TqxY~8ZB1_nKbbRy5sMSvwy7vyEaH_8DzoDvFjMk0puasNCW34A8yAPCvLDhEEddWrVFoTcRcrr8f6YngXDCiWTZcxILKXlKYQYS4n&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=103d1075f9337f1534fae37ba83fa1b811742656fd138b2dcf8ff53395d48d187a813d5a5b8ab6e87aff95b918cee54d&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -5278,13 +5278,13 @@
         },
         {
           "timestamp_us": 1775654376532415,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAjfEkgGU77B0Al0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=2Oe9Z24k5GRUl5Jc7Auc~zGxcvWTu0RsN~p1qqfv_Az10g1UZKcA4j2PrUoMphkUtZC~SvNl2p0_4yELSxQFoF1uAFg4i600V2QqkqSLMpEWSnrpvECIwb67HQrHk4GS&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=a51cebb641a2ed0f893589b3d4d027d31891a40b4520832c26e33fe44316a668624960781dd4bcff872f0ebacd18b862&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -5365,7 +5365,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -5425,7 +5425,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5481,7 +5481,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5526,11 +5526,11 @@
         },
         {
           "timestamp_us": 1775654386663647,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -5580,7 +5580,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -5626,7 +5626,7 @@
         },
         {
           "timestamp_us": 1775654386955252,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -5638,7 +5638,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -5694,7 +5694,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -5743,7 +5743,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -5803,7 +5803,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5859,7 +5859,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5904,11 +5904,11 @@
         },
         {
           "timestamp_us": 1775654395942855,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -5958,7 +5958,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -6004,7 +6004,7 @@
         },
         {
           "timestamp_us": 1775654396150498,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -6016,7 +6016,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -6072,7 +6072,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -6122,13 +6122,13 @@
         },
         {
           "timestamp_us": 1775654386566545,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA7nMwOygqjzQAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=UFkQ_XnASc8~BEawk_9GH0ZTpZOZ39kpLK0u8vtzKvJODvwSlA0qTGf9jwUeEEGaiyCYHE~pc5d4Z0mbQNLR4U9BffBQn8kmen4J~3nx~h6mpWDiaBV7YOgrvIhOt3w2&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=b6cc75680ec5a4e89e57cddce40e6509b331d146718df526eaf68f4a140d5cc4cbe751c39faf227ecfea93ecf232a56f&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -6169,13 +6169,13 @@
         },
         {
           "timestamp_us": 1775654395797772,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAIz2kc0JGzswAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=26HCMWxdNI0RN4KNLwgXNfiIu_I4VV3HEHxvo4j6DBnZBhE30Sr3j8y2fsW8_glS9o3Elfv1bgSYPdETuQEhgHXQzU1lDqb8jTPSdikqmil26tmuvSoVHHXPJRRwoSPL&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=e7a428b6159791b8d990d0fe8d82a574a1d9aa3e89e39068b86e1c2a47891fb6e864defd362fe02df1e8bb2ca64d5475&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -6256,7 +6256,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -6316,7 +6316,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6372,7 +6372,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6417,11 +6417,11 @@
         },
         {
           "timestamp_us": 1775654406083365,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -6471,7 +6471,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -6517,7 +6517,7 @@
         },
         {
           "timestamp_us": 1775654406376656,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -6529,7 +6529,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -6585,7 +6585,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -6640,7 +6640,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -6700,7 +6700,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6756,7 +6756,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6801,11 +6801,11 @@
         },
         {
           "timestamp_us": 1775654415317929,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -6855,7 +6855,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -6901,7 +6901,7 @@
         },
         {
           "timestamp_us": 1775654415512503,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -6913,7 +6913,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -6969,7 +6969,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -7013,13 +7013,13 @@
         },
         {
           "timestamp_us": 1775654405987186,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAdmeStrWoQBkAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=8U5bb75KRfRp5ylafmqdx1vZmXNWImp2zDCVENsohLjdhlrn~G1ESsZwYwx_QPRf0u5ilrs0nCr0ExRCJ7rKQs~n5iDScDuOQA9LDLgPRO8cAzjb5toOU~qGwenk~s80&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=97460535602ba33fddc1372249586806de29195f43159c942391d699b5138337d3d91ce5f1a130a248dab8b07dc65950&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -7060,13 +7060,13 @@
         },
         {
           "timestamp_us": 1775654415176495,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA268cJwrPyu0Al0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=gtM0xJucTChG0osCC6yOgzQHzSRmgkrZuUcIu5uegXYWqGfQheY431Mg5o_UQ1~ytLOReKBe_SpcJt1eABMgRWl42p44sGBlASD6lxqWzsX76tpt43IBhAuAlNDgDpDS&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=f8b768bcab5ca4246d0d5eec8418247c0b23ca4d0c47df41d792aff4d96b4978776fc665d430ca307993a6a8e2c4d816&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -7147,7 +7147,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -7207,7 +7207,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7263,7 +7263,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7308,11 +7308,11 @@
         },
         {
           "timestamp_us": 1775654425480098,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -7362,7 +7362,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -7408,7 +7408,7 @@
         },
         {
           "timestamp_us": 1775654425779238,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -7420,7 +7420,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -7476,7 +7476,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -7525,7 +7525,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -7585,7 +7585,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7641,7 +7641,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7686,11 +7686,11 @@
         },
         {
           "timestamp_us": 1775654434811646,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -7740,7 +7740,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -7786,7 +7786,7 @@
         },
         {
           "timestamp_us": 1775654435015355,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -7798,7 +7798,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -7854,7 +7854,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -7904,13 +7904,13 @@
         },
         {
           "timestamp_us": 1775654425404723,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAQgd22RuA5loAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=0CKh1oBm~qFXIbhnPTt~qXBTNWFbKIEjUoQBXE3QUH8Kbt6DMKjfUQ~mMgyOH0PO~iX7Vnm7FeGb~hNICI3s2E5l44wVgwOSt4DcVECn_OLtSRhE7IZnADeVnUYXswvG&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=ace1be74d19b6805ab2144a70729c440390b030686b62e7c913921fe7c4774a159771ebe8abb719a86732e8ad14ef146&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -7951,13 +7951,13 @@
         },
         {
           "timestamp_us": 1775654434757247,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAYbVKyRnWhAYAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=f0963WPTmJHo_HKTpDrx0CpI23fYlD8zw3CNOXPsCR6TOwg01n6FZJ2yOyd9nLjQ_58uFItILxqOZN6bvr6N2brFhN3L5t0JM0e7Ko4uSA7ak0xGIVC4zavsGBGz4mXr&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=13a9c53d7a2be448c75381f044e72902e4afdd93a9c3d60d77501a63c48c84399466782b2b9250954ba7aa5ea81ce16c&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -8038,7 +8038,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -8098,7 +8098,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8154,7 +8154,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8199,11 +8199,11 @@
         },
         {
           "timestamp_us": 1775654444997223,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -8253,7 +8253,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -8299,7 +8299,7 @@
         },
         {
           "timestamp_us": 1775654445311517,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -8311,7 +8311,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -8367,7 +8367,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -8422,7 +8422,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -8482,7 +8482,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8538,7 +8538,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8583,11 +8583,11 @@
         },
         {
           "timestamp_us": 1775654454282147,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -8631,7 +8631,7 @@
         },
         {
           "timestamp_us": 1775654454378609,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -8643,7 +8643,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -8693,7 +8693,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -8751,7 +8751,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -8795,13 +8795,13 @@
         },
         {
           "timestamp_us": 1775654444925699,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA9zZAUUeoKO0Al0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=l2JKVUSwuX3_vCAdp5sqMf4QxAXx0Tnn5wq4~QHoVLOaf_Via93vfk3wZpRo3mL6Z7qMFASZ1iONWybgTDM0g1c8eSZmcn5yuTsP5U_wCkHXcsH~8HHk~vCwvkg~gJyX&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=1f77b5254b72b8356a5352a932bf3c5656ab9a05ff44ca77bce6ec2217931ff2262c402481d253008784eabb3d4a1da6&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -8842,13 +8842,13 @@
         },
         {
           "timestamp_us": 1775654454215679,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAYf0Lo1bNbrEAl0s40Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=MdhpJjh8vYradoLQ69VUSvFF9UKm_FXVTWLDQkU2~A_oRRH7HTyrGHzgw25HtirSD6M1xvwy2YTdstonz8SXn6i8jELvwPP8Z7~BgpgMARTUkVe0EldphwjxCCa5UvZg&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=520cdf3b30b5ff5989c0695a9ac5105d01f9fab065a308c99c26f61fc1282cef6f061f2cec08bf5982e40bd6d6abb2cc&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""

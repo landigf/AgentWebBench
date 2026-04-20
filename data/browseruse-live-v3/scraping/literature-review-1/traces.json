@@ -19,7 +19,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -68,13 +68,13 @@
         },
         {
           "timestamp_us": 1775653642118724,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=20260318",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -131,7 +131,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -188,7 +188,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -245,7 +245,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -302,7 +302,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -359,7 +359,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -410,13 +410,13 @@
         },
         {
           "timestamp_us": 1775653642118862,
-          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=20250819",
+          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -473,7 +473,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -530,7 +530,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -581,13 +581,13 @@
         },
         {
           "timestamp_us": 1775653642120036,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -644,7 +644,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -707,7 +707,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -758,13 +758,13 @@
         },
         {
           "timestamp_us": 1775653642230019,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -827,7 +827,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -878,13 +878,13 @@
         },
         {
           "timestamp_us": 1775653642229879,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -941,13 +941,13 @@
         },
         {
           "timestamp_us": 1775653642230106,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1010,7 +1010,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1058,13 +1058,13 @@
         },
         {
           "timestamp_us": 1775653643462270,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1121,13 +1121,13 @@
         },
         {
           "timestamp_us": 1775653644462367,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathZoom.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathZoom.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1190,7 +1190,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1243,7 +1243,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1296,7 +1296,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1348,7 +1348,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -1401,7 +1401,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1489,7 +1489,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -1542,7 +1542,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1595,7 +1595,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1648,7 +1648,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1701,7 +1701,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1754,7 +1754,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -1809,7 +1809,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1860,13 +1860,13 @@
         },
         {
           "timestamp_us": 1775653662782343,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=20260318",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1923,7 +1923,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1980,7 +1980,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2037,7 +2037,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2088,13 +2088,13 @@
         },
         {
           "timestamp_us": 1775653662782536,
-          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=20250819",
+          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2151,7 +2151,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2208,7 +2208,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2259,13 +2259,13 @@
         },
         {
           "timestamp_us": 1775653662785326,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2322,7 +2322,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2379,7 +2379,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2442,7 +2442,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2493,13 +2493,13 @@
         },
         {
           "timestamp_us": 1775653662954792,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2556,13 +2556,13 @@
         },
         {
           "timestamp_us": 1775653662954947,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2619,13 +2619,13 @@
         },
         {
           "timestamp_us": 1775653662955037,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2688,7 +2688,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2745,7 +2745,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2833,7 +2833,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -2886,7 +2886,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2939,7 +2939,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2992,7 +2992,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3045,7 +3045,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3098,7 +3098,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -3153,7 +3153,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3210,7 +3210,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3261,13 +3261,13 @@
         },
         {
           "timestamp_us": 1775653674376826,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=20260318",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3324,7 +3324,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3381,7 +3381,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3432,13 +3432,13 @@
         },
         {
           "timestamp_us": 1775653674377038,
-          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=20250819",
+          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3495,7 +3495,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3552,7 +3552,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3603,13 +3603,13 @@
         },
         {
           "timestamp_us": 1775653674379892,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3666,7 +3666,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3723,7 +3723,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3786,7 +3786,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3843,7 +3843,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3894,13 +3894,13 @@
         },
         {
           "timestamp_us": 1775653674559348,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3957,13 +3957,13 @@
         },
         {
           "timestamp_us": 1775653674559221,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4020,13 +4020,13 @@
         },
         {
           "timestamp_us": 1775653674559430,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4089,7 +4089,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4137,13 +4137,13 @@
         },
         {
           "timestamp_us": 1775653675798044,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4200,13 +4200,13 @@
         },
         {
           "timestamp_us": 1775653676798461,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathZoom.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathZoom.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4303,7 +4303,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -4356,7 +4356,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4409,7 +4409,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4462,7 +4462,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4515,7 +4515,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4568,7 +4568,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -4617,13 +4617,13 @@
         },
         {
           "timestamp_us": 1775653685824832,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=20260318",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4680,7 +4680,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4737,7 +4737,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4788,13 +4788,13 @@
         },
         {
           "timestamp_us": 1775653685825076,
-          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=20250819",
+          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4851,7 +4851,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4908,7 +4908,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4965,7 +4965,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5022,7 +5022,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5073,13 +5073,13 @@
         },
         {
           "timestamp_us": 1775653685827860,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5136,7 +5136,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5193,7 +5193,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5256,7 +5256,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5307,13 +5307,13 @@
         },
         {
           "timestamp_us": 1775653686004583,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5370,13 +5370,13 @@
         },
         {
           "timestamp_us": 1775653686004414,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5439,7 +5439,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5490,13 +5490,13 @@
         },
         {
           "timestamp_us": 1775653686004691,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5559,7 +5559,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5647,7 +5647,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -5700,7 +5700,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5753,7 +5753,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5806,7 +5806,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5859,7 +5859,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5912,7 +5912,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -5967,7 +5967,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6018,13 +6018,13 @@
         },
         {
           "timestamp_us": 1775653689485842,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=20260318",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6081,7 +6081,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6138,7 +6138,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6195,7 +6195,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6246,13 +6246,13 @@
         },
         {
           "timestamp_us": 1775653689486045,
-          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=20250819",
+          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6309,7 +6309,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6366,7 +6366,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6417,13 +6417,13 @@
         },
         {
           "timestamp_us": 1775653689489143,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6480,7 +6480,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6537,7 +6537,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6600,7 +6600,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6651,13 +6651,13 @@
         },
         {
           "timestamp_us": 1775653689582386,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6714,13 +6714,13 @@
         },
         {
           "timestamp_us": 1775653689582522,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6783,7 +6783,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6834,13 +6834,13 @@
         },
         {
           "timestamp_us": 1775653689582614,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6903,7 +6903,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6991,7 +6991,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -7040,13 +7040,13 @@
         },
         {
           "timestamp_us": 1775653691575738,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=20260318",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7103,7 +7103,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7160,7 +7160,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7217,7 +7217,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7274,7 +7274,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7325,13 +7325,13 @@
         },
         {
           "timestamp_us": 1775653691575871,
-          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=20250819",
+          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7388,7 +7388,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7445,7 +7445,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7496,13 +7496,13 @@
         },
         {
           "timestamp_us": 1775653691577072,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7559,7 +7559,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7616,7 +7616,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7679,7 +7679,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7736,7 +7736,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7787,13 +7787,13 @@
         },
         {
           "timestamp_us": 1775653691628961,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7850,13 +7850,13 @@
         },
         {
           "timestamp_us": 1775653691629105,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7913,13 +7913,13 @@
         },
         {
           "timestamp_us": 1775653691629180,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7982,7 +7982,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8030,13 +8030,13 @@
         },
         {
           "timestamp_us": 1775653692858443,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8093,13 +8093,13 @@
         },
         {
           "timestamp_us": 1775653693856775,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathZoom.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathZoom.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8161,7 +8161,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -8214,7 +8214,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8267,7 +8267,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8320,7 +8320,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8373,7 +8373,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8461,7 +8461,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -8514,7 +8514,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8567,7 +8567,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8620,7 +8620,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8673,7 +8673,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8726,7 +8726,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -8775,13 +8775,13 @@
         },
         {
           "timestamp_us": 1775653712360245,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=20260318",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8838,7 +8838,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8895,7 +8895,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8952,7 +8952,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9009,7 +9009,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9060,13 +9060,13 @@
         },
         {
           "timestamp_us": 1775653712360466,
-          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=20250819",
+          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9123,7 +9123,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9180,7 +9180,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9231,13 +9231,13 @@
         },
         {
           "timestamp_us": 1775653712362732,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9294,7 +9294,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9351,7 +9351,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9408,7 +9408,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9471,7 +9471,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9522,13 +9522,13 @@
         },
         {
           "timestamp_us": 1775653712452242,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9585,13 +9585,13 @@
         },
         {
           "timestamp_us": 1775653712452106,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9648,13 +9648,13 @@
         },
         {
           "timestamp_us": 1775653712452319,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9717,7 +9717,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9791,7 +9791,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -9846,7 +9846,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9897,13 +9897,13 @@
         },
         {
           "timestamp_us": 1775653714484930,
-          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=20250819",
+          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9960,7 +9960,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10011,13 +10011,13 @@
         },
         {
           "timestamp_us": 1775653714484768,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=20260318",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10074,7 +10074,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10131,7 +10131,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10188,7 +10188,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10245,7 +10245,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10296,13 +10296,13 @@
         },
         {
           "timestamp_us": 1775653714485396,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10359,7 +10359,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10416,7 +10416,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10479,7 +10479,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10530,13 +10530,13 @@
         },
         {
           "timestamp_us": 1775653714579101,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10599,7 +10599,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10650,13 +10650,13 @@
         },
         {
           "timestamp_us": 1775653714579232,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10713,13 +10713,13 @@
         },
         {
           "timestamp_us": 1775653714579313,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10782,7 +10782,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10835,7 +10835,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -10888,7 +10888,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10941,7 +10941,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10994,7 +10994,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11047,7 +11047,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11095,13 +11095,13 @@
         },
         {
           "timestamp_us": 1775653715811204,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=_REDACTED_",
           "method": "GET",
           "status": 0,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11175,7 +11175,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -11228,7 +11228,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11281,7 +11281,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11334,7 +11334,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11387,7 +11387,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11440,7 +11440,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -11495,7 +11495,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11552,7 +11552,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11609,7 +11609,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11660,13 +11660,13 @@
         },
         {
           "timestamp_us": 1775653727276524,
-          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=20250819",
+          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11723,7 +11723,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11780,7 +11780,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11831,13 +11831,13 @@
         },
         {
           "timestamp_us": 1775653727276318,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=20260318",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11894,7 +11894,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11945,13 +11945,13 @@
         },
         {
           "timestamp_us": 1775653727279221,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12008,7 +12008,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12065,7 +12065,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12128,7 +12128,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12185,7 +12185,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12236,13 +12236,13 @@
         },
         {
           "timestamp_us": 1775653727424201,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12299,13 +12299,13 @@
         },
         {
           "timestamp_us": 1775653727424371,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12362,13 +12362,13 @@
         },
         {
           "timestamp_us": 1775653727424474,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12431,7 +12431,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12479,13 +12479,13 @@
         },
         {
           "timestamp_us": 1775653728655760,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12542,13 +12542,13 @@
         },
         {
           "timestamp_us": 1775653729655555,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathZoom.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathZoom.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12645,7 +12645,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -12700,7 +12700,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12751,13 +12751,13 @@
         },
         {
           "timestamp_us": 1775653737458449,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=20260318",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12814,7 +12814,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12871,7 +12871,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12928,7 +12928,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12985,7 +12985,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13036,13 +13036,13 @@
         },
         {
           "timestamp_us": 1775653737458711,
-          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=20250819",
+          "url": "https://arxiv.org/static/browse/0.3.4/js/optin-modal.js?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13099,7 +13099,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13150,13 +13150,13 @@
         },
         {
           "timestamp_us": 1775653737460705,
-          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+          "url": "https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13213,7 +13213,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13270,7 +13270,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13333,7 +13333,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13384,13 +13384,13 @@
         },
         {
           "timestamp_us": 1775653737549974,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/input/TeX/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13447,13 +13447,13 @@
         },
         {
           "timestamp_us": 1775653737550130,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/jax/output/HTML-CSS/config.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13516,7 +13516,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13567,13 +13567,13 @@
         },
         {
           "timestamp_us": 1775653737550222,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/tex2jax.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13636,7 +13636,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/list/cs.AI/recent",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13684,13 +13684,13 @@
         },
         {
           "timestamp_us": 1775653738785516,
-          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=2.7.3",
+          "url": "https://static.arxiv.org/MathJax-2.7.3/extensions/MathMenu.js?V=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://arxiv.org/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13752,7 +13752,7 @@
           "status": 200,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"macOS\""
@@ -13805,7 +13805,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13858,7 +13858,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13911,7 +13911,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13964,7 +13964,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"macOS\"",
             "referer": "https://scholar.google.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "sec-ch-ua-mobile": "?0"
           },

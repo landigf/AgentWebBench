@@ -1,20 +1,50 @@
 cff-version: 1.2.0
-title: "AgentWebBench: A Reproducible Benchmark for Browser-Mediated Web Workloads"
-message: "If you use this dataset, please cite it using the metadata from this file."
+title: "BrowseTrace: A Reproducible Benchmark for Browser-Mediated AI Agent Web Workloads"
+message: "If you use this dataset, please cite the IMC 2026 paper and the dataset using the metadata in this file."
 type: dataset
 authors:
   - family-names: "Landi"
     given-names: "Gennaro Francesco"
     email: "landig@ethz.ch"
     affiliation: "ETH Zurich"
-repository-code: "https://github.com/landigf/AgentWebBench"
+repository-code: "https://github.com/landigf/BrowseTrace"
+url: "https://github.com/landigf/BrowseTrace"
 license: Apache-2.0
-version: "2.0"
-date-released: "2026-04-08"
+version: "3.0"
+date-released: "2026-04-29"
 keywords:
   - web measurement
   - AI agents
   - browser automation
+  - HTTP traces
   - caching
+  - CDN
   - benchmark
   - reproducibility
+  - libCacheSim
+abstract: >
+  BrowseTrace is a public HTTP-request-level benchmark of browser-mediated
+  AI-agent web traffic. It captures 1,301 sessions: 400 scripted-random
+  sessions across four geographic regions and 901 LLM-driven sessions
+  across six models from five providers (OpenAI GPT-4.1-mini, Google
+  Gemini 2.5 Flash and Pro, Anthropic Claude Haiku 4.5, DeepSeek-V3.2,
+  Alibaba Qwen 2.5-Coder 7B). The release ships stitched cache-replay
+  CSVs that reproduce the paper's cache-policy numbers under libCacheSim
+  (37.4% LRU vs 59.5% GDSF at 5 MiB on scripted traffic; 43.5% vs 76.2%
+  on LLM traffic).
+preferred-citation:
+  type: conference-paper
+  title: "BrowseTrace: Request-Level Traffic Characterization of Browser-Mediated AI Agents"
+  authors:
+    - family-names: "Landi"
+      given-names: "Gennaro Francesco"
+      email: "landig@ethz.ch"
+      affiliation: "ETH Zurich"
+  year: 2026
+  conference:
+    name: "Proceedings of the ACM Internet Measurement Conference (IMC)"
+    location: "Karlsruhe, Germany"
+    date-start: "2026-10-12"
+    date-end: "2026-10-16"
+  publisher:
+    name: "ACM"
