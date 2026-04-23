@@ -1,5 +1,5 @@
 {
-  "release": "browseruse-live-v3",
+  "release": "release-v3",
   "collected_on": "2026-04-08",
   "collection_method": "BrowserUse live scripted-random baseline",
   "tasks": [

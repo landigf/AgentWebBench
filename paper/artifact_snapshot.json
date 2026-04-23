@@ -1,5 +1,5 @@
 {
-  "release": "browseruse-live-v3",
+  "release": "release-v3",
   "description": "BrowseTrace full release: scripted baseline + LLM-driven agent traces for cache-replay and workload characterization.",
   "scope": {
     "total_sessions": 1301,
@@ -33,7 +33,7 @@
   "canonical_files": {
     "scripted_cache_trace": "research/agent-traffic/cache-sim/traces/full_400_sessions.csv",
     "llm_cache_trace": "research/agent-traffic/cache-sim/traces/llm_full_901.csv",
-    "scripted_per_task_summaries": "asl-project/data/releases/browseruse-live-v3/scraping/<task>/summary.json",
+    "scripted_per_task_summaries": "asl-project/data/releases/release-v3/scraping/<task>/summary.json",
     "llm_raw_source_dirs": [
       "asl-project/data/round9/round9-multiregion-20260415/",
       "asl-project/data/round10-gcp/round10-docker-zurich/",

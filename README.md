@@ -54,7 +54,8 @@ Full Table 5 (all 6 policies × 5 cache sizes) reproduces from `data/traces/full
 ## Quick start
 
 ```bash
-git clone https://github.com/landigf/BrowseTrace.git
+curl -L -o BrowseTrace.zip https://anonymous.4open.science/api/repo/BrowseTrace/zip
+unzip BrowseTrace.zip -d BrowseTrace
 cd BrowseTrace
 pip install -r requirements.txt
 
@@ -80,12 +81,12 @@ for label, path in [
 #   llm      GDSF @5MiB: 76.2%
 ```
 
-## Release manifest: `browseruse-live-v3`
+## Release manifest: `release-v3`
 
-The `browseruse-live-v3` manifest pins four components:
+The `release-v3` manifest pins four components:
 
-1. **Scripted subtree** (`data/browseruse-live-v3/`) — Zurich scripted-random collection with per-task `traces.json`, `access_log.jsonl`, `cache_trace.csv`, `summary.json`.
-2. **Multi-region scripted extension** (`data/browseruse-live-v3-geo/`) — scripted-random sessions from `us-central1`, `europe-west1`, `asia-southeast1`.
+1. **Scripted subtree** (`data/release-v3/`) — Zurich scripted-random collection with per-task `traces.json`, `access_log.jsonl`, `cache_trace.csv`, `summary.json`.
+2. **Multi-region scripted extension** (`data/release-v3-geo/`) — scripted-random sessions from `us-central1`, `europe-west1`, `asia-southeast1`.
 3. **LLM-driven bundles** — per-model, per-region session directories spanning all six LLMs. See [`DATASET_CARD.md`](DATASET_CARD.md) for full layout.
 4. **Canonical stitched cache-replay CSVs** (`data/traces/`) — the inputs every paper-level cache claim is replayed from:
    - `full_400_sessions.csv` (82,455 rows, scripted)
@@ -172,8 +173,8 @@ BrowseTrace/
 ├── LICENSE / LICENSE-DATA          — Apache-2.0 (code) / CC-BY-4.0 (data)
 ├── requirements.txt                — pinned Python dependencies
 ├── data/
-│   ├── browseruse-live-v3/         — Zurich scripted subtree
-│   ├── browseruse-live-v3-geo/     — multi-region scripted
+│   ├── release-v3/                 — Zurich scripted subtree
+│   ├── release-v3-geo/             — multi-region scripted
 │   └── traces/                     — canonical stitched CSVs
 │       ├── full_400_sessions.csv
 │       └── llm_full_901.csv

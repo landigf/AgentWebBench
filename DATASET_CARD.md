@@ -5,7 +5,7 @@
 ## Overview
 
 - **Dataset:** BrowseTrace
-- **Version:** v3 (release manifest `browseruse-live-v3`, released 2026-04-29)
+- **Version:** v3 (release manifest `release-v3`, released 2026-04-29)
 - **Curator:** Gennaro Francesco Landi (ETH Zurich)
 - **License (data):** [CC BY 4.0](LICENSE-DATA)
 - **License (code):** [Apache 2.0](LICENSE)
@@ -52,7 +52,7 @@ See [`collection/tasks.yaml`](collection/tasks.yaml) for full target site lists 
 
 ## File formats
 
-### Per-task artifacts (`data/browseruse-live-v3/scraping/<task>/`)
+### Per-task artifacts (`data/release-v3/scraping/<task>/`)
 
 | File | Format | Purpose |
 |---|---|---|

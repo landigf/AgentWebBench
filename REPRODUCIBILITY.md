@@ -12,7 +12,8 @@ This guide takes a fresh clone of the repository and reproduces every numeric cl
 ## Step 0: clone
 
 ```bash
-git clone https://github.com/landigf/BrowseTrace.git
+curl -L -o BrowseTrace.zip https://anonymous.4open.science/api/repo/BrowseTrace/zip
+unzip BrowseTrace.zip -d BrowseTrace
 cd BrowseTrace
 ```
 
@@ -44,7 +45,7 @@ Expected output (summary line at the end):
 Summary: N OK, 1 WARN, 0 FAIL
 ```
 
-The single WARN is a documented scope-labelling clarification about the `browseruse-live-v3` directory; it is not a reproducibility failure.
+The single WARN is a documented scope-labelling clarification about the `release-v3` directory; it is not a reproducibility failure.
 
 If you see any FAIL, do not proceed — the repo state is inconsistent with the paper.
 

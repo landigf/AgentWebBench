@@ -20,7 +20,7 @@ All notable changes to BrowseTrace are documented here. Format follows [Keep a C
 - **Renamed from AgentWebBench to BrowseTrace** (paper title and repo name).
 - All cache-policy numbers now reported from libCacheSim (the reference C implementation), not our purpose-built Python simulator. The internal Python simulator diverged on frequency-adaptive policies at small caches (peak 18 pp on W-TinyLFU at 1 MiB); libCacheSim is now canonical.
 - Abstract headline: LRU 37.4% vs GDSF 59.5% at 5 MiB on scripted; 43.5% vs 76.2% on LLM traffic.
-- Release description: `browseruse-live-v3` is now a manifest that pins the scripted subtree, the per-model LLM bundles, and the two canonical cache CSVs; this replaces the earlier ambiguous framing that implied the named directory alone held 1,301 sessions.
+- Release description: `release-v3` is now a manifest that pins the scripted subtree, the per-model LLM bundles, and the two canonical cache CSVs; this replaces the earlier ambiguous framing that implied the named directory alone held 1,301 sessions.
 
 ### Fixed
 - RFC 9309 bibliography: authors corrected to Koster, Illyes, Zeller, Sassman (was incorrectly attributed to "Google").

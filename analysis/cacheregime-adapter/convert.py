@@ -10,7 +10,7 @@ with CacheRegime (cache policy regime characterization), enabling:
 
 Usage:
     python convert.py \
-        --input ../../asl-project/data/releases/browseruse-live-v3/ \
+        --input ../../asl-project/data/releases/release-v3/ \
         --output ./cacheregime-traces/ \
         --format csv    # or 'events' for Python pickle
 

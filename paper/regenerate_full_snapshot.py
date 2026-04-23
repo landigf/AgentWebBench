@@ -7,7 +7,7 @@ Reads the canonical cache-trace CSVs:
   - research/agent-traffic/cache-sim/traces/llm_full_901.csv        (LLM)
 
 And the per-task summaries under:
-  - asl-project/data/releases/release-v3/scraping/<task>/summary.json
+  - asl-project/data/releases/browseruse-live-v3/scraping/<task>/summary.json
     (for the Zurich scripted subset per-task statistics)
 
 Produces paper/artifact_snapshot.json which records:
@@ -31,7 +31,7 @@ REPO_ROOT = PAPER_DIR.parents[2]
 CACHE_SIM = REPO_ROOT / "research" / "agent-traffic" / "cache-sim"
 SCRIPTED_CSV = CACHE_SIM / "traces" / "full_400_sessions.csv"
 LLM_CSV = CACHE_SIM / "traces" / "llm_full_901.csv"
-RELEASES = REPO_ROOT / "asl-project" / "data" / "releases" / "release-v3"
+RELEASES = REPO_ROOT / "asl-project" / "data" / "releases" / "browseruse-live-v3"
 
 
 def count_rows(path: Path) -> int:
@@ -49,7 +49,7 @@ def main() -> None:
     llm_rows = count_rows(LLM_CSV)
 
     snapshot = {
-        "release": "release-v3",
+        "release": "browseruse-live-v3",
         "description": (
             "BrowseTrace full release: scripted baseline + LLM-driven agent traces "
             "for cache-replay and workload characterization."
@@ -75,7 +75,7 @@ def main() -> None:
         "canonical_files": {
             "scripted_cache_trace": str(SCRIPTED_CSV.relative_to(REPO_ROOT)),
             "llm_cache_trace": str(LLM_CSV.relative_to(REPO_ROOT)),
-            "scripted_per_task_summaries": "asl-project/data/releases/release-v3/scraping/<task>/summary.json",
+            "scripted_per_task_summaries": "asl-project/data/releases/browseruse-live-v3/scraping/<task>/summary.json",
             "llm_raw_source_dirs": [
                 "asl-project/data/round9/round9-multiregion-20260415/",
                 "asl-project/data/round10-gcp/round10-docker-zurich/",

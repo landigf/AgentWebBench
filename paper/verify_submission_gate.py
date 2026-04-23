@@ -33,7 +33,7 @@ from libcachesim import GDSF, LRU, ReaderInitParam, TraceReader, TraceType
 ROOT = Path("/Users/landigf/Desktop/Code/Research/SpotAIfy")
 PAPER_DIR = ROOT / "research" / "agent-traffic" / "paper"
 CACHE_SIM_DIR = ROOT / "research" / "agent-traffic" / "cache-sim" / "traces"
-RELEASE_DIR = ROOT / "asl-project" / "data" / "releases" / "release-v3"
+RELEASE_DIR = ROOT / "asl-project" / "data" / "releases" / "browseruse-live-v3"
 
 TEX = PAPER_DIR / "BrowseTrace.tex"
 ABSTRACT = PAPER_DIR / "imc-abstract.txt"
@@ -337,7 +337,7 @@ def count_forbidden(path: Path) -> Counter[str]:
 def check_sanitization() -> None:
     release_counts = count_forbidden(RELEASE_DIR)
     leaked_release = {k: v for k, v in release_counts.items() if v > 0}
-    require(not leaked_release, "sanitization_release", "No forbidden anonymity strings in release-v3 release subtree", f"Forbidden strings remain in release subtree: {leaked_release}")
+    require(not leaked_release, "sanitization_release", "No forbidden anonymity strings in browseruse-live-v3 release subtree", f"Forbidden strings remain in release subtree: {leaked_release}")
 
     for bundle in (SCRIPTED_CSV, LLM_CSV):
         counts = count_forbidden(bundle)

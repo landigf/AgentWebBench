@@ -17,7 +17,7 @@ found were missing):
 Idempotent. Safe to re-run. Writes in-place.
 
 Usage:
-    python3 sanitize_release.py <root>  # e.g., asl-project/data/releases/browseruse-live-v3
+    python3 sanitize_release.py <root>  # e.g., asl-project/data/releases/release-v3
 
 Reports a summary of changes. Exits non-zero if any "forbidden" string remains
 after the sweep (e.g., SpotAIfy leakage).
