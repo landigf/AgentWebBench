@@ -1,5 +1,5 @@
-# AgentWebBench v2 — Reproducible collection container
-# Build from SpotAIfy root: docker build -f asl-project/benchmarks/Dockerfile -t agentwebbench-runner:v2 .
+# BrowseTrace v3 — Reproducible collection container
+# Build from repo root: docker build -f collection/Dockerfile -t browsetrace-runner:v3 .
 FROM python:3.12-slim
 
 # Browser dependencies for Chromium / Playwright
@@ -15,16 +15,16 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Python dependencies
-COPY asl-project/benchmarks/requirements.txt /app/requirements.txt
+COPY collection/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt \
     && playwright install chromium --with-deps
 
 # Copy project files needed for collection
 COPY trace_schema.py /app/trace_schema.py
-COPY asl-project/benchmarks/ /app/asl-project/benchmarks/
-COPY asl-project/instrumentation/ /app/asl-project/instrumentation/
+COPY collection/ /app/collection/
+COPY instrumentation/ /app/instrumentation/
 
-WORKDIR /app/asl-project/benchmarks
+WORKDIR /app/collection
 
 # Default: show help. Override CMD to run collection.
 ENTRYPOINT ["python", "runner.py"]

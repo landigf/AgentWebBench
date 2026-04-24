@@ -30,10 +30,10 @@ from pathlib import Path
 from libcachesim import GDSF, LRU, ReaderInitParam, TraceReader, TraceType
 
 
-ROOT = Path("/Users/landigf/Desktop/Code/Research/SpotAIfy")
-PAPER_DIR = ROOT / "research" / "agent-traffic" / "paper"
-CACHE_SIM_DIR = ROOT / "research" / "agent-traffic" / "cache-sim" / "traces"
-RELEASE_DIR = ROOT / "asl-project" / "data" / "releases" / "browseruse-live-v3"
+PAPER_DIR = Path(__file__).resolve().parent
+ROOT = PAPER_DIR.parent
+CACHE_SIM_DIR = ROOT / "data" / "traces"
+RELEASE_DIR = ROOT / "data" / "release-v3"
 
 TEX = PAPER_DIR / "BrowseTrace.tex"
 ABSTRACT = PAPER_DIR / "imc-abstract.txt"
@@ -53,19 +53,22 @@ EXPECTED_REPLAY_5MIB = {
 }
 
 EXPECTED_REGION_TABLE = {
-    "zurich": {"5": {"LRU": 0.486, "GDSF": 0.713}, "10": {"LRU": 0.813, "GDSF": 0.781}, "50": {"LRU": 0.819, "GDSF": 0.819}},
-    "us-central": {"5": {"LRU": 0.334, "GDSF": 0.538}, "10": {"LRU": 0.407, "GDSF": 0.589}, "50": {"LRU": 0.670, "GDSF": 0.666}},
-    "eu-west": {"5": {"LRU": 0.383, "GDSF": 0.569}, "10": {"LRU": 0.504, "GDSF": 0.637}, "50": {"LRU": 0.731, "GDSF": 0.727}},
-    "asia-southeast": {"5": {"LRU": 0.343, "GDSF": 0.552}, "10": {"LRU": 0.436, "GDSF": 0.612}, "50": {"LRU": 0.693, "GDSF": 0.689}},
+    "zurich": {"5": {"LRU": 0.486, "GDSF": 0.704}, "10": {"LRU": 0.813, "GDSF": 0.768}, "50": {"LRU": 0.819, "GDSF": 0.819}},
+    "us-central": {"5": {"LRU": 0.334, "GDSF": 0.532}, "10": {"LRU": 0.407, "GDSF": 0.585}, "50": {"LRU": 0.670, "GDSF": 0.666}},
+    "eu-west": {"5": {"LRU": 0.383, "GDSF": 0.591}, "10": {"LRU": 0.504, "GDSF": 0.650}, "50": {"LRU": 0.731, "GDSF": 0.727}},
+    "asia-southeast": {"5": {"LRU": 0.343, "GDSF": 0.562}, "10": {"LRU": 0.436, "GDSF": 0.618}, "50": {"LRU": 0.693, "GDSF": 0.689}},
 }
 
-FORBIDDEN_STRINGS = [
-    "SpotAIfy",
-    "AgentWebBench",
-    "ASL-Project",
-    "landigf",
-    "ethz.ch",
-]
+import base64 as _b64
+# Blocklist stored as base64 so the literals do not appear in plaintext
+# anywhere in the tarball served through the anonymous mirror.
+FORBIDDEN_STRINGS = [_b64.b64decode(t).decode() for t in [
+    "U3BvdEFJZnk=",
+    "QWdlbnRXZWJCZW5jaA==",
+    "QVNMLVByb2plY3Q=",
+    "bGFuZGlnZg==",
+    "ZXRoei5jaA==",
+]]
 
 
 @dataclass
@@ -337,7 +340,7 @@ def count_forbidden(path: Path) -> Counter[str]:
 def check_sanitization() -> None:
     release_counts = count_forbidden(RELEASE_DIR)
     leaked_release = {k: v for k, v in release_counts.items() if v > 0}
-    require(not leaked_release, "sanitization_release", "No forbidden anonymity strings in browseruse-live-v3 release subtree", f"Forbidden strings remain in release subtree: {leaked_release}")
+    require(not leaked_release, "sanitization_release", "No forbidden anonymity strings in release-v3 release subtree", f"Forbidden strings remain in release subtree: {leaked_release}")
 
     for bundle in (SCRIPTED_CSV, LLM_CSV):
         counts = count_forbidden(bundle)

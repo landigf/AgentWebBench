@@ -3,11 +3,11 @@
 1,301-session scope (400 scripted + 901 LLM-driven).
 
 Reads the canonical cache-trace CSVs:
-  - research/agent-traffic/cache-sim/traces/full_400_sessions.csv   (scripted)
-  - research/agent-traffic/cache-sim/traces/llm_full_901.csv        (LLM)
+  - data/traces/full_400_sessions.csv   (scripted)
+  - data/traces/llm_full_901.csv        (LLM)
 
 And the per-task summaries under:
-  - asl-project/data/releases/browseruse-live-v3/scraping/<task>/summary.json
+  - data/release-v3/scraping/<task>/summary.json
     (for the Zurich scripted subset per-task statistics)
 
 Produces paper/artifact_snapshot.json which records:
@@ -27,11 +27,10 @@ import json
 from pathlib import Path
 
 PAPER_DIR = Path(__file__).resolve().parent
-REPO_ROOT = PAPER_DIR.parents[2]
-CACHE_SIM = REPO_ROOT / "research" / "agent-traffic" / "cache-sim"
-SCRIPTED_CSV = CACHE_SIM / "traces" / "full_400_sessions.csv"
-LLM_CSV = CACHE_SIM / "traces" / "llm_full_901.csv"
-RELEASES = REPO_ROOT / "asl-project" / "data" / "releases" / "browseruse-live-v3"
+REPO_ROOT = PAPER_DIR.parent
+SCRIPTED_CSV = REPO_ROOT / "data" / "traces" / "full_400_sessions.csv"
+LLM_CSV = REPO_ROOT / "data" / "traces" / "llm_full_901.csv"
+RELEASES = REPO_ROOT / "data" / "release-v3"
 
 
 def count_rows(path: Path) -> int:
@@ -49,7 +48,7 @@ def main() -> None:
     llm_rows = count_rows(LLM_CSV)
 
     snapshot = {
-        "release": "browseruse-live-v3",
+        "release": "release-v3",
         "description": (
             "BrowseTrace full release: scripted baseline + LLM-driven agent traces "
             "for cache-replay and workload characterization."
@@ -75,18 +74,13 @@ def main() -> None:
         "canonical_files": {
             "scripted_cache_trace": str(SCRIPTED_CSV.relative_to(REPO_ROOT)),
             "llm_cache_trace": str(LLM_CSV.relative_to(REPO_ROOT)),
-            "scripted_per_task_summaries": "asl-project/data/releases/browseruse-live-v3/scraping/<task>/summary.json",
-            "llm_raw_source_dirs": [
-                "asl-project/data/round9/round9-multiregion-20260415/",
-                "asl-project/data/round10-gcp/round10-docker-zurich/",
-                "asl-project/data/round10-gcp/round10-newregions/",
-                "asl-project/data/round9-claude-haiku/",
-                "asl-project/data/round10-claude-haiku-extra/",
-                "asl-project/data/round9-deepseek/",
-                "asl-project/data/round10-deepseek-extra/",
-                "asl-project/data/round9-local/",
-                "asl-project/data/round10-qwen-extra/",
-            ],
+            "scripted_per_task_summaries": "data/release-v3/scraping/<task>/summary.json",
+            "llm_raw_source_dirs_note": (
+                "Per-model LLM raw session bundles are stitched into "
+                "data/traces/llm_full_901.csv for public release. "
+                "Per-session raw JSON is not included in v3 for compactness; "
+                "see paper Appendix for per-model session counts."
+            ),
         },
         "cache_replay": {
             "reference_implementation": "libCacheSim (v0.3.3+, https://github.com/1a1a11a/libCacheSim)",
@@ -95,7 +89,7 @@ def main() -> None:
         },
         "sanitization": {
             "applied": True,
-            "tool": "asl-project/tools/sanitize_release.py",
+            "tool": "tools/sanitize_release.py",
             "policy": (
                 "Request/response headers stripped: Authorization, Cookie, Set-Cookie, "
                 "Proxy-Authorization. URL query parameter values replaced with _REDACTED_. "

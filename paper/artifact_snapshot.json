@@ -31,20 +31,10 @@
     ]
   },
   "canonical_files": {
-    "scripted_cache_trace": "research/agent-traffic/cache-sim/traces/full_400_sessions.csv",
-    "llm_cache_trace": "research/agent-traffic/cache-sim/traces/llm_full_901.csv",
-    "scripted_per_task_summaries": "asl-project/data/releases/release-v3/scraping/<task>/summary.json",
-    "llm_raw_source_dirs": [
-      "asl-project/data/round9/round9-multiregion-20260415/",
-      "asl-project/data/round10-gcp/round10-docker-zurich/",
-      "asl-project/data/round10-gcp/round10-newregions/",
-      "asl-project/data/round9-claude-haiku/",
-      "asl-project/data/round10-claude-haiku-extra/",
-      "asl-project/data/round9-deepseek/",
-      "asl-project/data/round10-deepseek-extra/",
-      "asl-project/data/round9-local/",
-      "asl-project/data/round10-qwen-extra/"
-    ]
+    "scripted_cache_trace": "data/traces/full_400_sessions.csv",
+    "llm_cache_trace": "data/traces/llm_full_901.csv",
+    "scripted_per_task_summaries": "data/release-v3/scraping/<task>/summary.json",
+    "llm_raw_source_dirs_note": "Per-model LLM raw session bundles are stitched into data/traces/llm_full_901.csv for public release. Per-session raw JSON is not included in v3 for compactness; see paper Appendix for per-model session counts."
   },
   "cache_replay": {
     "reference_implementation": "libCacheSim (v0.3.3+, https://github.com/1a1a11a/libCacheSim)",
@@ -66,7 +56,7 @@
   },
   "sanitization": {
     "applied": true,
-    "tool": "asl-project/tools/sanitize_release.py",
+    "tool": "tools/sanitize_release.py",
     "policy": "Request/response headers stripped: Authorization, Cookie, Set-Cookie, Proxy-Authorization. URL query parameter values replaced with _REDACTED_. User-Agent strings with project-brand tokens replaced with 'BrowseTrace/1.0 (benchmark)'. Recursive scrub of nested JSON fields."
   },
   "paper_body_reference_numbers": {

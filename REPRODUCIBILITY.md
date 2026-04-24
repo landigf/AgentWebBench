@@ -162,4 +162,4 @@ python3 analysis/stitch_llm_trace.py \
 
 ## Contact
 
-Issues: https://github.com/landigf/BrowseTrace/issues
+Issues: via the anonymous mirror at https://anonymous.4open.science/r/BrowseTrace (author contact published after IMC 2026 notification).

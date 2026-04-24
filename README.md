@@ -8,7 +8,7 @@
 
 BrowseTrace is the first public HTTP-request-level benchmark of browser-mediated AI-agent traffic. Unlike agent benchmarks that measure *what* agents accomplish, BrowseTrace captures *how* they interact with web infrastructure, enabling cache, CDN, and admission policy research on realistic agentic workloads.
 
-> **Paper:** Landi, G.F. (2026). *BrowseTrace: Request-Level Traffic Characterization of Browser-Mediated AI Agents.* ACM Internet Measurement Conference (IMC 2026), Karlsruhe, Germany.
+> **Paper:** Anonymous Authors (2026). *BrowseTrace: Request-Level Traffic Characterization of Browser-Mediated AI Agents.* ACM Internet Measurement Conference (IMC 2026), Karlsruhe, Germany. Author metadata withheld for double-blind review.
 
 ## Headline results
 
@@ -146,11 +146,12 @@ If you use BrowseTrace in your research:
 ```bibtex
 @inproceedings{browsetrace2026,
   title     = {{BrowseTrace}: Request-Level Traffic Characterization of Browser-Mediated AI Agents},
-  author    = {Landi, Gennaro Francesco},
+  author    = {Anonymous Authors},
   year      = {2026},
   booktitle = {Proceedings of the ACM Internet Measurement Conference (IMC)},
   location  = {Karlsruhe, Germany},
-  url       = {https://github.com/landigf/BrowseTrace},
+  note      = {Author metadata withheld for double-blind review},
+  url       = {https://anonymous.4open.science/r/BrowseTrace},
 }
 ```
 

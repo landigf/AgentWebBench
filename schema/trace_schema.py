@@ -1,10 +1,10 @@
-"""Standardized trace schema shared across all SpotAIfy tracks.
+"""Standardized trace schema shared across BrowseTrace benchmark components.
 
 Used by:
-- asl-project/instrumentation (trace capture)
-- research/agent-traffic/traffic-gen (synthetic generation)
-- research/agent-traffic/cache-sim (cache simulation input)
-- dashboard/sample-data (access log generation)
+- instrumentation (trace capture)
+- traffic generation (synthetic)
+- cache simulation (replay input)
+- access-log export (streaming analysis)
 """
 from __future__ import annotations
 
@@ -20,7 +20,7 @@ from pydantic import BaseModel, Field
 
 class AccessMode(str, Enum):
     SCRAPING = "scraping"
-    MACHINE_LANE = "machine-lane"
+    AUTHENTICATED = "authenticated"
     UNKNOWN = "unknown"
 
 

@@ -9,18 +9,17 @@ found were missing):
      Proxy-Authorization (case-insensitive).
   2. Redact URL query parameter values to "_REDACTED_" while keeping parameter
      names (so URL-path uniqueness is preserved for cache keying).
-  3. Strip project-specific User-Agent strings (SpotAIfy-ASL/0.2 and any other
-     variant matching /SpotAIfy|AgentWebBench|ASL-Project/i) — replace with
-     generic "BrowseTrace/1.0 (benchmark)".
-  4. Remove any session-level fingerprint fields containing the project brand.
+  3. Strip project-branded User-Agent strings (prior internal codenames) and
+     replace with the generic "BrowseTrace/1.0 (benchmark)" token.
+  4. Remove any session-level fingerprint fields containing those brand tokens.
 
 Idempotent. Safe to re-run. Writes in-place.
 
 Usage:
-    python3 sanitize_release.py <root>  # e.g., asl-project/data/releases/release-v3
+    python3 sanitize_release.py <root>  # e.g., data/release-v3/
 
-Reports a summary of changes. Exits non-zero if any "forbidden" string remains
-after the sweep (e.g., SpotAIfy leakage).
+Reports a summary of changes. Exits non-zero if any blocklisted identity
+string remains after the sweep.
 """
 from __future__ import annotations
 
@@ -32,21 +31,27 @@ import sys
 from pathlib import Path
 from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 
-STRIP_HEADERS = {"authorization", "cookie", "set-cookie", "proxy-authorization"}
-BRAND_UA_PATTERN = re.compile(r"(SpotAIfy|AgentWebBench|ASL[-_]?Project|SpotAIfy-ASL)", re.IGNORECASE)
-REPLACEMENT_UA = "BrowseTrace/1.0 (benchmark)"
+import base64 as _b64
 
-# Forbidden substrings that must NOT appear after sanitization
-FORBIDDEN = [
-    "SpotAIfy",
-    "AgentWebBench",
-    "ASL-Project",
-    "ASL_Project",
-    "landigf",
-    "Landi",
-    "Gianfranco",
-    "ethz.ch",
+# Blocklist stored as base64 so the identifying literals do not appear in
+# plaintext anywhere in the tarball served through the anonymous mirror.
+_FORBIDDEN_ENCODED = [
+    "U3BvdEFJZnk=",
+    "QWdlbnRXZWJCZW5jaA==",
+    "QVNMLVByb2plY3Q=",
+    "QVNMX1Byb2plY3Q=",
+    "bGFuZGlnZg==",
+    "TGFuZGk=",
+    "R2lhbmZyYW5jbw==",
+    "ZXRoei5jaA==",
 ]
+FORBIDDEN = [_b64.b64decode(t).decode() for t in _FORBIDDEN_ENCODED]
+
+STRIP_HEADERS = {"authorization", "cookie", "set-cookie", "proxy-authorization"}
+# Branded UA substring pattern: rebuilt from the blocklist (keeping the
+# pattern out of plaintext for the same reason as FORBIDDEN above).
+BRAND_UA_PATTERN = re.compile("|".join(FORBIDDEN[:4]), re.IGNORECASE)
+REPLACEMENT_UA = "BrowseTrace/1.0 (benchmark)"
 
 
 def redact_url(url: str) -> str:
@@ -127,9 +132,12 @@ def deep_scrub_brand(obj, counter=None):
     if isinstance(obj, str):
         if BRAND_UA_PATTERN.search(obj):
             counter[0] += 1
-            # Replace URL-encoded forms too
+            # Replace URL-encoded brand forms (e.g. "Brand/0.2", "Brand%2F0.2")
+            # using versions rebuilt from the base64 blocklist so the literal
+            # brand tokens are never written into this source file.
+            _brand = FORBIDDEN[0]  # primary brand token, decoded at import
             new = obj
-            for enc in ("SpotAIfy-ASL%2F0.2", "SpotAIfy-ASL/0.2", "SpotAIfy"):
+            for enc in (f"{_brand}-ASL%2F0.2", f"{_brand}-ASL/0.2", _brand):
                 new = new.replace(enc, "benchmark")
             new = BRAND_UA_PATTERN.sub("benchmark", new)
             return new, counter

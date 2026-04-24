@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Convert AgentWebBench traces to CacheRegime Event format.
+"""Convert BrowseTrace traces to CacheRegime Event format.
 
-This adapter bridges AgentWebBench (browser-mediated agent traffic)
+This adapter bridges BrowseTrace (browser-mediated agent traffic)
 with CacheRegime (cache policy regime characterization), enabling:
 1. Direct replay of agent traces through CacheRegime's 6-policy simulator
 2. Workload feature computation (one_hit_ratio, size_cv, etc.)
@@ -10,13 +10,13 @@ with CacheRegime (cache policy regime characterization), enabling:
 
 Usage:
     python convert.py \
-        --input ../../asl-project/data/releases/release-v3/ \
+        --input ../../data/release-v3/ \
         --output ./cacheregime-traces/ \
         --format csv    # or 'events' for Python pickle
 
     # Then in CacheRegime:
     cd /path/to/CacheRegime
-    python tools/fast27_realistic_panel_v2.py --external-ai-csv ./cacheregime-traces/agentwebbench.csv
+    python tools/fast27_realistic_panel_v2.py --external-ai-csv ./cacheregime-traces/browsetrace.csv
 """
 from __future__ import annotations
 
@@ -45,12 +45,12 @@ class CacheRegimeEvent:
     obj_size: int
     source: str          # "human" or "ai"
     session_id: str
-    source_label: str    # e.g., "agentwebbench:news-aggregation"
-    trace_name: str      # "agentwebbench"
+    source_label: str    # e.g., "browsetrace:news-aggregation"
+    trace_name: str      # "browsetrace"
 
 
-def load_agentwebbench_traces(release_dir: Path) -> list[dict]:
-    """Load all requests from an AgentWebBench release."""
+def load_browsetrace_traces(release_dir: Path) -> list[dict]:
+    """Load all requests from an BrowseTrace release."""
     all_requests = []
     for tf_path in sorted(release_dir.rglob("traces.json")):
         with tf_path.open() as f:
@@ -71,8 +71,8 @@ def load_agentwebbench_traces(release_dir: Path) -> list[dict]:
     return all_requests
 
 
-def convert_to_events(requests: list[dict], trace_name: str = "agentwebbench") -> list[CacheRegimeEvent]:
-    """Convert AgentWebBench requests to CacheRegime Events."""
+def convert_to_events(requests: list[dict], trace_name: str = "browsetrace") -> list[CacheRegimeEvent]:
+    """Convert BrowseTrace requests to CacheRegime Events."""
     events = []
     for req in requests:
         url = req["url"]
@@ -173,17 +173,17 @@ def export_csv(events: list[CacheRegimeEvent], output_path: Path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert AgentWebBench → CacheRegime format")
-    parser.add_argument("--input", required=True, help="AgentWebBench release directory")
+    parser = argparse.ArgumentParser(description="Convert BrowseTrace → CacheRegime format")
+    parser.add_argument("--input", required=True, help="BrowseTrace release directory")
     parser.add_argument("--output", default="./cacheregime-traces", help="Output directory")
-    parser.add_argument("--trace-name", default="agentwebbench", help="Trace name for CacheRegime")
+    parser.add_argument("--trace-name", default="browsetrace", help="Trace name for CacheRegime")
     args = parser.parse_args()
 
     release_dir = Path(args.input)
     output_dir = Path(args.output)
 
-    print(f"Loading AgentWebBench traces from {release_dir}...")
-    requests = load_agentwebbench_traces(release_dir)
+    print(f"Loading BrowseTrace traces from {release_dir}...")
+    requests = load_browsetrace_traces(release_dir)
     print(f"  {len(requests)} requests loaded")
 
     print("Converting to CacheRegime Events...")
@@ -198,7 +198,7 @@ def main():
     regime = predict_regime(features)
     print(f"\n  Predicted CacheRegime policy family: {regime}")
 
-    csv_path = output_dir / "agentwebbench.csv"
+    csv_path = output_dir / "browsetrace.csv"
     export_csv(events, csv_path)
     print(f"\n  Exported to {csv_path}")
 

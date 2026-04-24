@@ -6,11 +6,11 @@
 
 - **Dataset:** BrowseTrace
 - **Version:** v3 (release manifest `release-v3`, released 2026-04-29)
-- **Curator:** Gennaro Francesco Landi (ETH Zurich)
+- **Curator:** Anonymous Authors (affiliation withheld for double-blind review)
 - **License (data):** [CC BY 4.0](LICENSE-DATA)
 - **License (code):** [Apache 2.0](LICENSE)
-- **Primary reference:** Landi (2026). *BrowseTrace: Request-Level Traffic Characterization of Browser-Mediated AI Agents.* In Proceedings of IMC 2026.
-- **Canonical location:** https://github.com/landigf/BrowseTrace
+- **Primary reference:** Anonymous Authors (2026). *BrowseTrace: Request-Level Traffic Characterization of Browser-Mediated AI Agents.* In Proceedings of IMC 2026.
+- **Canonical location:** https://anonymous.4open.science/r/BrowseTrace
 - **Supported tasks:** cache-policy evaluation, CDN workload characterization, web-measurement longitudinal study, agent traffic modelling.
 
 ## Scope
@@ -119,14 +119,15 @@ If you use BrowseTrace in your research, please cite the IMC 2026 paper:
 ```bibtex
 @inproceedings{browsetrace2026,
   title     = {{BrowseTrace}: Request-Level Traffic Characterization of Browser-Mediated AI Agents},
-  author    = {Landi, Gennaro Francesco},
+  author    = {Anonymous Authors},
   year      = {2026},
   booktitle = {Proceedings of the ACM Internet Measurement Conference (IMC)},
   location  = {Karlsruhe, Germany},
+  note      = {Author metadata withheld for double-blind review},
 }
 ```
 
 ## Contact
 
-Open an issue: https://github.com/landigf/BrowseTrace/issues
-Email: `landig@ethz.ch`
+Contact via the anonymous artifact mirror: https://anonymous.4open.science/r/BrowseTrace
+Author email will be published after the double-blind review period concludes.

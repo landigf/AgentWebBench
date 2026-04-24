@@ -30,10 +30,10 @@ from pathlib import Path
 from libcachesim import GDSF, LRU, ReaderInitParam, TraceReader, TraceType
 
 
-ROOT = Path("/Users/landigf/Desktop/Code/Research/SpotAIfy")
-PAPER_DIR = ROOT / "research" / "agent-traffic" / "paper"
-CACHE_SIM_DIR = ROOT / "research" / "agent-traffic" / "cache-sim" / "traces"
-RELEASE_DIR = ROOT / "asl-project" / "data" / "releases" / "release-v3"
+ROOT = Path(__file__).resolve().parent
+PAPER_DIR = ROOT / "paper"
+CACHE_SIM_DIR = ROOT / "data" / "traces"
+RELEASE_DIR = ROOT / "data" / "release-v3"
 
 TEX = PAPER_DIR / "BrowseTrace.tex"
 ABSTRACT = PAPER_DIR / "imc-abstract.txt"
@@ -59,13 +59,16 @@ EXPECTED_REGION_TABLE = {
     "asia-southeast": {"5": {"LRU": 0.343, "GDSF": 0.552}, "10": {"LRU": 0.436, "GDSF": 0.612}, "50": {"LRU": 0.693, "GDSF": 0.689}},
 }
 
-FORBIDDEN_STRINGS = [
-    "SpotAIfy",
-    "AgentWebBench",
-    "ASL-Project",
-    "landigf",
-    "ethz.ch",
-]
+import base64 as _b64
+# Blocklist stored as base64 so the literals do not appear in plaintext
+# anywhere in the tarball served through the anonymous mirror.
+FORBIDDEN_STRINGS = [_b64.b64decode(t).decode() for t in [
+    "U3BvdEFJZnk=",
+    "QWdlbnRXZWJCZW5jaA==",
+    "QVNMLVByb2plY3Q=",
+    "bGFuZGlnZg==",
+    "ZXRoei5jaA==",
+]]
 
 
 @dataclass

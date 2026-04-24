@@ -86,7 +86,7 @@ def har_to_session(har_path: Path) -> TraceSession:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert HAR files to AgentWebBench trace format")
+    parser = argparse.ArgumentParser(description="Convert HAR files to BrowseTrace trace format")
     parser.add_argument("--input", nargs="+", required=True, help="HAR file(s) to convert")
     parser.add_argument("--output", required=True, help="Output directory for traces")
     args = parser.parse_args()

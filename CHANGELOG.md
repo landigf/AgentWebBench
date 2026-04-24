@@ -17,7 +17,7 @@ All notable changes to BrowseTrace are documented here. Format follows [Keep a C
 - Dataset-card fields: provenance, sanitization policy, known limitations, reference implementation (libCacheSim).
 
 ### Changed
-- **Renamed from AgentWebBench to BrowseTrace** (paper title and repo name).
+- **Benchmark title finalized as BrowseTrace** (prior working codename superseded at v3).
 - All cache-policy numbers now reported from libCacheSim (the reference C implementation), not our purpose-built Python simulator. The internal Python simulator diverged on frequency-adaptive policies at small caches (peak 18 pp on W-TinyLFU at 1 MiB); libCacheSim is now canonical.
 - Abstract headline: LRU 37.4% vs GDSF 59.5% at 5 MiB on scripted; 43.5% vs 76.2% on LLM traffic.
 - Release description: `release-v3` is now a manifest that pins the scripted subtree, the per-model LLM bundles, and the two canonical cache CSVs; this replaces the earlier ambiguous framing that implied the named directory alone held 1,301 sessions.
@@ -33,7 +33,7 @@ All notable changes to BrowseTrace are documented here. Format follows [Keep a C
   - Stripped `Authorization` / `Cookie` / `Set-Cookie` / `Proxy-Authorization` headers (removed 121 leaked Basic-Auth credentials in prior-version traces).
   - Redacted all URL query parameter values to `_REDACTED_` (4,378 URLs in release subtree; 30,321 in canonical scripted CSV).
   - Replaced project-brand User-Agent strings with `BrowseTrace/1.0 (benchmark)`.
-- Verified zero occurrences of forbidden anonymity tokens (`SpotAIfy`, `AgentWebBench`, `ASL-Project`, author surname) across release subtree and canonical CSVs.
+- Verified zero occurrences of author-linked identity strings across release subtree and canonical CSVs (see `tools/sanitize_release.py` for the blocklist used during automated verification).
 
 ### Removed
 - Legacy `browseruse-live-v1` and `browseruse-live-v2` references from documentation. Those earlier releases are superseded by v3.

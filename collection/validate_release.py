@@ -18,8 +18,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 from trace_schema import TraceFile
 
-ROOT = Path(__file__).resolve().parents[2]
-RELEASES_DIR = ROOT / "asl-project" / "data" / "releases"
+ROOT = Path(__file__).resolve().parents[1]
+RELEASES_DIR = ROOT / "data"
 
 
 class ValidationReport:

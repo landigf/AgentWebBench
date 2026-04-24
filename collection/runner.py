@@ -42,7 +42,7 @@ except ImportError:
     ChatOpenAI = None
 
 
-DEFAULT_TEST_PUBLISHER_URL = os.getenv("SPOTAIFY_TEST_PUBLISHER_URL", "http://localhost:9001")
+DEFAULT_TEST_PUBLISHER_URL = os.getenv("BROWSETRACE_TEST_PUBLISHER_URL", "http://localhost:9001")
 
 # Linux/cloud headless Chromium flags (required for GCP VMs, Docker, CI)
 _LINUX_BROWSER_ARGS = [
@@ -61,7 +61,7 @@ def _safe_getattr(obj, attr, default="unknown"):
         return getattr(obj, attr, default)
     except Exception:
         return default
-DEFAULT_BROWSERUSE_MODEL = os.getenv("SPOTAIFY_BROWSERUSE_MODEL", "gpt-4.1-mini")
+DEFAULT_BROWSERUSE_MODEL = os.getenv("BROWSETRACE_BROWSERUSE_MODEL", "gpt-4.1-mini")
 
 
 class AnchorParser(HTMLParser):
@@ -130,7 +130,7 @@ def resolve_browseruse_llm():
     if ChatOpenAI is not None and os.getenv("OPENAI_API_KEY"):
         return ChatOpenAI(model=DEFAULT_BROWSERUSE_MODEL)
     if ChatAnthropic is not None and os.getenv("ANTHROPIC_API_KEY"):
-        return ChatAnthropic(model=os.getenv("SPOTAIFY_BROWSERUSE_ANTHROPIC_MODEL", "claude-3-5-sonnet-latest"))
+        return ChatAnthropic(model=os.getenv("BROWSETRACE_BROWSERUSE_ANTHROPIC_MODEL", "claude-3-5-sonnet-latest"))
     if os.getenv("GOOGLE_API_KEY"):
         # Use Gemini via OpenAI-compatible endpoint (BrowserUse-compatible)
         # Monkey-patch to strip frequency_penalty/presence_penalty which Gemini rejects
@@ -153,28 +153,28 @@ def resolve_browseruse_llm():
             _openai.resources.chat.completions.AsyncCompletions.create = _patched_async
 
             return ChatOpenAI(
-                model=os.getenv("SPOTAIFY_BROWSERUSE_GEMINI_MODEL", "gemini-2.5-flash"),
+                model=os.getenv("BROWSETRACE_BROWSERUSE_GEMINI_MODEL", "gemini-2.5-flash"),
                 api_key=os.getenv("GOOGLE_API_KEY"),
                 base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
             )
         from langchain_google_genai import ChatGoogleGenerativeAI
-        return ChatGoogleGenerativeAI(model=os.getenv("SPOTAIFY_BROWSERUSE_GEMINI_MODEL", "gemini-2.5-flash"))
+        return ChatGoogleGenerativeAI(model=os.getenv("BROWSETRACE_BROWSERUSE_GEMINI_MODEL", "gemini-2.5-flash"))
     raise RuntimeError(
         "No BrowserUse-compatible LLM credentials found. Set BROWSER_USE_API_KEY, OPENAI_API_KEY, ANTHROPIC_API_KEY, or GOOGLE_API_KEY."
     )
 
 
 def build_waid_client(purpose: str = "retrieval-live") -> WAIDClient:
-    private_key_b64 = os.getenv("SPOTAIFY_WAID_PRIVATE_KEY_B64")
-    private_key_path = os.getenv("SPOTAIFY_WAID_PRIVATE_KEY_PATH")
+    private_key_b64 = os.getenv("BROWSETRACE_WAID_PRIVATE_KEY_B64")
+    private_key_path = os.getenv("BROWSETRACE_WAID_PRIVATE_KEY_PATH")
     if not private_key_b64 and not private_key_path:
         raise RuntimeError(
-            "Machine-lane BrowserUse runs require SPOTAIFY_WAID_PRIVATE_KEY_B64 or SPOTAIFY_WAID_PRIVATE_KEY_PATH."
+            "Authenticated BrowserUse runs require BROWSETRACE_WAID_PRIVATE_KEY_B64 or BROWSETRACE_WAID_PRIVATE_KEY_PATH."
         )
 
     return WAIDClient(
-        domain=os.getenv("SPOTAIFY_WAID_DOMAIN", "agent.example.com"),
-        selector=os.getenv("SPOTAIFY_WAID_SELECTOR", "s1"),
+        domain=os.getenv("BROWSETRACE_WAID_DOMAIN", "agent.example.com"),
+        selector=os.getenv("BROWSETRACE_WAID_SELECTOR", "s1"),
         purpose=purpose,
         private_key_b64=private_key_b64,
         private_key_path=private_key_path,
@@ -195,7 +195,7 @@ def discover_same_site_links(seed_url: str, limit: int = 4) -> list[str]:
     request = Request(
         seed_url,
         headers={
-            "User-Agent": "SpotAIfy-Benchmark/0.2",
+            "User-Agent": "BrowseTrace/1.0 (benchmark)",
             "Accept": "text/html,application/xhtml+xml",
         },
     )
@@ -311,7 +311,7 @@ def run_mock_task(task: dict, mode: str, run_id: int) -> TraceSession:
     if mode == "scraping":
         tracer.simulate_scraping_session(base_url, n_pages=n_pages)
     else:
-        tracer.simulate_machine_lane_session(base_url, n_pages=n_pages)
+        tracer.simulate_authenticated_session(base_url, n_pages=n_pages)
 
     session = tracer.export()
     session.metadata.update(
@@ -340,7 +340,7 @@ async def run_browseruse_controlled_task(task: dict, mode: str, run_id: int, pub
         headless=True,
         is_local=True,
         allowed_domains=[urlsplit(publisher_base_url).netloc],
-        user_agent="SpotAIfy-ASL/0.2",
+        user_agent="BrowseTrace/1.0 (benchmark)",
         args=_LINUX_BROWSER_ARGS or None,
         chromium_sandbox=_LINUX_SANDBOX,
     )
@@ -351,7 +351,7 @@ async def run_browseruse_controlled_task(task: dict, mode: str, run_id: int, pub
         n_pages = estimate_pages(task)
         article_ids = controlled_article_ids(task["id"], n_pages)
 
-        if mode == "machine-lane":
+        if mode == "authenticated":
             waid_client = build_waid_client()
             await browser.set_extra_headers({})
             await browser.navigate_to(f"{publisher_base_url}/.well-known/machine-access.json")
@@ -395,7 +395,7 @@ async def run_browseruse_live_task(task: dict, run_id: int, max_steps: int) -> T
         headless=True,
         is_local=True,
         allowed_domains=domains or None,
-        user_agent="SpotAIfy-ASL/0.2",
+        user_agent="BrowseTrace/1.0 (benchmark)",
         args=_LINUX_BROWSER_ARGS or None,
         chromium_sandbox=_LINUX_SANDBOX,
     )
@@ -420,7 +420,7 @@ async def run_browseruse_live_task(task: dict, run_id: int, max_steps: int) -> T
             max_failures=10,
             step_timeout=60,
             directly_open_url=True,
-            source="spotaify-benchmark",
+            source="browsetrace-benchmark",
         )
         history = await agent.run(max_steps=max_steps)
         session = tracer.export()
@@ -467,7 +467,7 @@ async def run_browseruse_live_scripted_task(
         headless=True,
         is_local=True,
         allowed_domains=domains or None,
-        user_agent="SpotAIfy-ASL/0.2",
+        user_agent="BrowseTrace/1.0 (benchmark)",
         args=_LINUX_BROWSER_ARGS or None,
         chromium_sandbox=_LINUX_SANDBOX,
     )
@@ -550,7 +550,7 @@ def run_benchmark(
     if surface == "live" and mode != "scraping":
         raise RuntimeError("Live BrowserUse runs currently support scraping mode only.")
 
-    modes = ["scraping", "machine-lane"] if mode == "both" else [mode]
+    modes = ["scraping", "authenticated"] if mode == "both" else [mode]
     out = Path(output_dir)
 
     for m in modes:
@@ -638,9 +638,9 @@ def run_benchmark(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="ASL Benchmark Runner")
+    parser = argparse.ArgumentParser(description="BrowseTrace Benchmark Runner")
     parser.add_argument("--task", default="all", help="Task ID or 'all'")
-    parser.add_argument("--mode", default="both", choices=["scraping", "machine-lane", "both"])
+    parser.add_argument("--mode", default="both", choices=["scraping", "authenticated", "both"])
     parser.add_argument("--repeats", type=int, default=3, help="Runs per config")
     parser.add_argument("--output", default="../data/", help="Output directory")
     parser.add_argument("--backend", default="browseruse", choices=["browseruse", "mock"])
@@ -663,7 +663,7 @@ def main():
     )
     args = parser.parse_args()
 
-    print("\n  ASL Benchmark Runner\n")
+    print("\n  BrowseTrace Benchmark Runner\n")
     run_benchmark(
         task_id=args.task,
         mode=args.mode,

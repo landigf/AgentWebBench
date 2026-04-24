@@ -127,7 +127,7 @@ class HTTPTracer:
 class BrowserUseNetworkTracer(HTTPTracer):
     """Capture real browser traffic from BrowserUse's CDP layer.
 
-    The output matches the shared SpotAIfy trace schema so the same files can be
+    The output matches the shared BrowseTrace trace schema so the same files can be
     replayed into cache simulation, dashboard analysis, and paper figures.
     """
 
@@ -464,8 +464,8 @@ class MockBrowserTracer(HTTPTracer):
 
             time.sleep(0.01)  # Small delay between pages
 
-    def simulate_machine_lane_session(self, base_url: str, n_pages: int = 5):
-        """Simulate machine lane: structured JSON only."""
+    def simulate_authenticated_session(self, base_url: str, n_pages: int = 5):
+        """Simulate authenticated (structured JSON) lane."""
         rng = random.Random(hash(self.session_id))
 
         # Discovery: fetch machine-access.json once

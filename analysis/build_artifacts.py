@@ -19,10 +19,10 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-ROOT = Path(__file__).resolve().parents[3]
+ROOT = Path(__file__).resolve().parents[1]
 PAPER_DIR = Path(__file__).resolve().parent
-ASL_RELEASES = ROOT / "asl-project" / "data" / "releases"
-CACHE_SIM_DIR = ROOT / "research" / "agent-traffic" / "cache-sim"
+ASL_RELEASES = ROOT / "data"
+CACHE_SIM_DIR = ROOT / "cache-sim"
 PAPER_FIGURES = PAPER_DIR / "figures"
 
 
@@ -445,7 +445,7 @@ def regenerate(release: str) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Rebuild paper artifacts from a benchmark release")
-    parser.add_argument("--release", default="browseruse-live-v1", help="Release name under asl-project/data/releases/")
+    parser.add_argument("--release", default="release-v3", help="Release name under data/")
     args = parser.parse_args()
     regenerate(args.release)
 

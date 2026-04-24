@@ -1,14 +1,9 @@
 cff-version: 1.2.0
 title: "BrowseTrace: A Reproducible Benchmark for Browser-Mediated AI Agent Web Workloads"
-message: "If you use this dataset, please cite the IMC 2026 paper and the dataset using the metadata in this file."
+message: "If you use this dataset, please cite the IMC 2026 paper. Author metadata will be populated after the double-blind review period concludes."
 type: dataset
 authors:
-  - family-names: "Landi"
-    given-names: "Gennaro Francesco"
-    email: "landig@ethz.ch"
-    affiliation: "ETH Zurich"
-repository-code: "https://github.com/landigf/BrowseTrace"
-url: "https://github.com/landigf/BrowseTrace"
+  - name: "Anonymous Authors"
 license: Apache-2.0
 version: "3.0"
 date-released: "2026-04-29"
@@ -36,10 +31,7 @@ preferred-citation:
   type: conference-paper
   title: "BrowseTrace: Request-Level Traffic Characterization of Browser-Mediated AI Agents"
   authors:
-    - family-names: "Landi"
-      given-names: "Gennaro Francesco"
-      email: "landig@ethz.ch"
-      affiliation: "ETH Zurich"
+    - name: "Anonymous Authors"
   year: 2026
   conference:
     name: "Proceedings of the ACM Internet Measurement Conference (IMC)"

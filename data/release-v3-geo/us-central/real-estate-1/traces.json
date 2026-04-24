@@ -19,7 +19,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -79,7 +79,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -135,7 +135,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -180,13 +180,13 @@
         },
         {
           "timestamp_us": 1775655895281995,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA4eH0C7iq8D0AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=j2TW4zoaJ~7Os8oqBHFEIB7guzAJG7~DTA_7WlH6JPiMVfDFGZVPnOHsnfL9KmoZcyh9NN2uGse23hoJon5PcgO94k0U91rVElEWLzYECWflhxvLoNzG7DHnS2sCgDLs&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=eaeac67d4f512316faa90635708c92c1846a58137d6029dc6db5141061fdeef036d0d2831b0d76f5b2e34f719e632f96&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -227,11 +227,11 @@
         },
         {
           "timestamp_us": 1775655895404955,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -281,7 +281,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA4eH0C7iq8D0AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=j2TW4zoaJ~7Os8oqBHFEIB7guzAJG7~DTA_7WlH6JPiMVfDFGZVPnOHsnfL9KmoZcyh9NN2uGse23hoJon5PcgO94k0U91rVElEWLzYECWflhxvLoNzG7DHnS2sCgDLs&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=eaeac67d4f512316faa90635708c92c1846a58137d6029dc6db5141061fdeef036d0d2831b0d76f5b2e34f719e632f96&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -327,7 +327,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -373,7 +373,7 @@
         },
         {
           "timestamp_us": 1775655896036588,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -385,7 +385,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -429,13 +429,13 @@
         },
         {
           "timestamp_us": 1775655896049404,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA4eH0C7iq8D0AInrx3Q==&cid=0NxaPirOC8UvXOKYWvZn8cFb9VXoYnyriKNTTsW8jWh6NLMryg5EX1YOw7Eo5ZnJ1E~MdSe0DmLMCnBwFGu7wUyT2TIDAt3QB~Trqhj2iwyaRTYH7ZJgxasPYUom9L4m&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=58424&e=e4e6480fd3baf2c79af64f3ae30ab8bbaffd5757e030134c0493c0c29f47a49d0edfac2a0ea96869496fa866095965eb&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA4eH0C7iq8D0AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=j2TW4zoaJ~7Os8oqBHFEIB7guzAJG7~DTA_7WlH6JPiMVfDFGZVPnOHsnfL9KmoZcyh9NN2uGse23hoJon5PcgO94k0U91rVElEWLzYECWflhxvLoNzG7DHnS2sCgDLs&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=eaeac67d4f512316faa90635708c92c1846a58137d6029dc6db5141061fdeef036d0d2831b0d76f5b2e34f719e632f96&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -488,7 +488,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -544,7 +544,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -599,7 +599,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -656,7 +656,7 @@
             "origin": "https://geo.captcha-delivery.com",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -709,13 +709,13 @@
         },
         {
           "timestamp_us": 1775655896084447,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=-4116726659759588676",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -769,7 +769,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -829,7 +829,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -885,7 +885,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -930,13 +930,13 @@
         },
         {
           "timestamp_us": 1775655904513762,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAVk-gsrpGcWwAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=uAWp1fx0adOXFwpCDQNUqIDdda3SzGsAw~IPAjSP4IBSlOs8pyBBTa8~Qa7B8qr3uSpSoVM1GkI5weWkvyu~gHAxOsTz8lWf4lDWS80iMB9H2XkoSPSPnFd2mRvY9E7f&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=4580a610f7f174d09ac6caba6098aa16008ce6c9c69838997023ce70730991afbb753c92e7ef34557a35818ef841739e&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -977,11 +977,11 @@
         },
         {
           "timestamp_us": 1775655904598986,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -1031,7 +1031,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAVk-gsrpGcWwAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=uAWp1fx0adOXFwpCDQNUqIDdda3SzGsAw~IPAjSP4IBSlOs8pyBBTa8~Qa7B8qr3uSpSoVM1GkI5weWkvyu~gHAxOsTz8lWf4lDWS80iMB9H2XkoSPSPnFd2mRvY9E7f&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=4580a610f7f174d09ac6caba6098aa16008ce6c9c69838997023ce70730991afbb753c92e7ef34557a35818ef841739e&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -1077,7 +1077,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -1129,7 +1129,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1184,7 +1184,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1240,7 +1240,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1295,7 +1295,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1345,7 +1345,7 @@
         },
         {
           "timestamp_us": 1775655904918032,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -1357,7 +1357,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -1511,13 +1511,13 @@
         },
         {
           "timestamp_us": 1775655904944276,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAVk-gsrpGcWwAInrx3Q==&cid=~N8mpvRgUaEXO5YPUtd4L7SPjXb9IO57gPPq0gJEHNDn2s7MprqeXw6B0d85ZCXvCOr7nYP35~bNRQv1Zxq_KqwanFTW6R2debgUjbFmo1qEax8485fajolUqt7lm_53&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=55411&e=165f189199eb07cba255583535a4297a7e0c6200b6fd6339dcbd8ce9ad8b795f3cf106816a3a5cb22f91ffd825be844f&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAVk-gsrpGcWwAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=uAWp1fx0adOXFwpCDQNUqIDdda3SzGsAw~IPAjSP4IBSlOs8pyBBTa8~Qa7B8qr3uSpSoVM1GkI5weWkvyu~gHAxOsTz8lWf4lDWS80iMB9H2XkoSPSPnFd2mRvY9E7f&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=4580a610f7f174d09ac6caba6098aa16008ce6c9c69838997023ce70730991afbb753c92e7ef34557a35818ef841739e&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -1570,7 +1570,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -1614,13 +1614,13 @@
         },
         {
           "timestamp_us": 1775655904974491,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=-4655911025391687457",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1709,7 +1709,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -1769,7 +1769,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1825,7 +1825,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -1870,13 +1870,13 @@
         },
         {
           "timestamp_us": 1775655915627383,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA0Uf8Cx5O6oEAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=BvDMzSs4~eBxV4yIywD1Nn45l6rrV_rLxotKSg_tP3GmUyoFL8Qst2Km~btX0Ao3xlikb~Zq3sPwuH_xcHUVbAECrLRzU4RBeZgBiabRbaflapOkgPelmu1uspXS74U6&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=573b86719816d029ec391efd6269543208422d7e06a9b05f8d973f21b1eee62125d22db4fcfaeb0d579058ea1428d498&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -1917,11 +1917,11 @@
         },
         {
           "timestamp_us": 1775655915735871,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -1971,7 +1971,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA0Uf8Cx5O6oEAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=BvDMzSs4~eBxV4yIywD1Nn45l6rrV_rLxotKSg_tP3GmUyoFL8Qst2Km~btX0Ao3xlikb~Zq3sPwuH_xcHUVbAECrLRzU4RBeZgBiabRbaflapOkgPelmu1uspXS74U6&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=573b86719816d029ec391efd6269543208422d7e06a9b05f8d973f21b1eee62125d22db4fcfaeb0d579058ea1428d498&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -2017,7 +2017,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -2063,13 +2063,13 @@
         },
         {
           "timestamp_us": 1775655916243929,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA0Uf8Cx5O6oEAInrx3Q==&cid=5eM9iX37wuIXnyHB8lrC8JPRs~JMasiUfYXuefTSlW21I6tzZEKxBzU5tK2eGjNvEgTgydSZThIuMtaiAjs7l4odzPK3fs4cp7nWe~qRT4hv78auTeKny1JXMS6C7vL3&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=55411&e=1239cdd592fa8c78ad5e8ead6db0b9e02abda29bd2bd29c82ffc89f164dc49d78f9014d814907e2500677a7b799eddc2&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA0Uf8Cx5O6oEAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=BvDMzSs4~eBxV4yIywD1Nn45l6rrV_rLxotKSg_tP3GmUyoFL8Qst2Km~btX0Ao3xlikb~Zq3sPwuH_xcHUVbAECrLRzU4RBeZgBiabRbaflapOkgPelmu1uspXS74U6&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=573b86719816d029ec391efd6269543208422d7e06a9b05f8d973f21b1eee62125d22db4fcfaeb0d579058ea1428d498&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -2110,7 +2110,7 @@
         },
         {
           "timestamp_us": 1775655916227918,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -2122,7 +2122,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -2172,7 +2172,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2227,7 +2227,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2284,7 +2284,7 @@
             "origin": "https://geo.captcha-delivery.com",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2349,7 +2349,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -2393,13 +2393,13 @@
         },
         {
           "timestamp_us": 1775655916276906,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=-8933061622658719900",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2453,7 +2453,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -2513,7 +2513,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2569,7 +2569,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2614,13 +2614,13 @@
         },
         {
           "timestamp_us": 1775655917620558,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAoRcEB2rj6XoAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=Hi7WYazfGX9yOgwpF5vTaLiy4Nve7LTglmiG6~Z2Ir8exiw74M_QY2pCRReIk6ptbcgyNYJeefDEMUSRQMMG~_expQJ~Rx36zNJiVMMr7TSnMvr4ScH0G5~Ba0U2mCqV&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=ee559144c34061e218f44b317b2ed7777e6ded35a430333f700903f8c478abe5ebcd9cf74467b846beaafaf2889a2dbd&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -2661,11 +2661,11 @@
         },
         {
           "timestamp_us": 1775655917716065,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -2715,7 +2715,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAoRcEB2rj6XoAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=Hi7WYazfGX9yOgwpF5vTaLiy4Nve7LTglmiG6~Z2Ir8exiw74M_QY2pCRReIk6ptbcgyNYJeefDEMUSRQMMG~_expQJ~Rx36zNJiVMMr7TSnMvr4ScH0G5~Ba0U2mCqV&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=ee559144c34061e218f44b317b2ed7777e6ded35a430333f700903f8c478abe5ebcd9cf74467b846beaafaf2889a2dbd&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -2761,7 +2761,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -2813,7 +2813,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2868,7 +2868,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2924,7 +2924,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -2979,7 +2979,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3029,7 +3029,7 @@
         },
         {
           "timestamp_us": 1775655918183803,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -3041,7 +3041,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -3085,13 +3085,13 @@
         },
         {
           "timestamp_us": 1775655918200562,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAoRcEB2rj6XoAInrx3Q==&cid=RjKmSXWLEXKMSKa4TlLM941vOjv9WV9yzRaG3WPZf0S060Z25XnZbuCmtbE0tW2gi9F9pGyKIFC_ncwfPpNDFwZCVta1QS0h1bMGDIhUCqeuUXgtlyLD23vd5zyNvRMa&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=58424&e=837c728a2a4e65f415981e10c153a3ecf9212352ff88363a7d8b9b1cc0d5c49957379c8386dc98fc6282b3eb2eda49d2&ir=31519%2C91%2C12%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAoRcEB2rj6XoAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=Hi7WYazfGX9yOgwpF5vTaLiy4Nve7LTglmiG6~Z2Ir8exiw74M_QY2pCRReIk6ptbcgyNYJeefDEMUSRQMMG~_expQJ~Rx36zNJiVMMr7TSnMvr4ScH0G5~Ba0U2mCqV&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=ee559144c34061e218f44b317b2ed7777e6ded35a430333f700903f8c478abe5ebcd9cf74467b846beaafaf2889a2dbd&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -3254,7 +3254,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -3304,13 +3304,13 @@
         },
         {
           "timestamp_us": 1775655918241046,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=-3346606636045788690",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3399,7 +3399,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -3459,7 +3459,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3515,7 +3515,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3560,13 +3560,13 @@
         },
         {
           "timestamp_us": 1775655920983047,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMABNueG_3ZJR4AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=YLlICC_bDcsIGMZ0BNhNiJcVteNBxXyKqrDEb3IWDf0RHmjgzMBsWEoHkcPXpEGu9B5Smy3B4W_UQWODWagWqO8CJTDaZGVo~nrxOGp0vzPj9MNzGqUFyq3eg6XgqOeF&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=4337ff19d072cc99dddd817161e7cdf21638e4e11be25341cb9476dc6fc2943d8851ea7faebdbc7d3dccb36c11513ad1&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -3607,11 +3607,11 @@
         },
         {
           "timestamp_us": 1775655921037438,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -3661,7 +3661,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -3713,7 +3713,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMABNueG_3ZJR4AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=YLlICC_bDcsIGMZ0BNhNiJcVteNBxXyKqrDEb3IWDf0RHmjgzMBsWEoHkcPXpEGu9B5Smy3B4W_UQWODWagWqO8CJTDaZGVo~nrxOGp0vzPj9MNzGqUFyq3eg6XgqOeF&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=4337ff19d072cc99dddd817161e7cdf21638e4e11be25341cb9476dc6fc2943d8851ea7faebdbc7d3dccb36c11513ad1&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -3753,7 +3753,7 @@
         },
         {
           "timestamp_us": 1775655921595101,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -3765,7 +3765,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -3809,13 +3809,13 @@
         },
         {
           "timestamp_us": 1775655921606290,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMABNueG_3ZJR4AInrx3Q==&cid=cZwzeyQGjGr~sjpWb3O7hYmNXJ5ccEqa1ivNgFtBsKAQPNFvFKkUqzkFzR_h2noD1Jq~Ga5zImD6kGLF_5IQ4umC8J8s8atOOGn4fdI5B4N4~1mm8xlVt84aSBqV2I5y&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=55411&e=6bccff2c9b776cc9d58b2f86c6b2af597b22c5f4ade5d056beba6271d614768b8ad6a160db8a7e1a31be4653209565fe&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMABNueG_3ZJR4AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=YLlICC_bDcsIGMZ0BNhNiJcVteNBxXyKqrDEb3IWDf0RHmjgzMBsWEoHkcPXpEGu9B5Smy3B4W_UQWODWagWqO8CJTDaZGVo~nrxOGp0vzPj9MNzGqUFyq3eg6XgqOeF&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=4337ff19d072cc99dddd817161e7cdf21638e4e11be25341cb9476dc6fc2943d8851ea7faebdbc7d3dccb36c11513ad1&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -3862,7 +3862,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3917,7 +3917,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -3974,7 +3974,7 @@
             "origin": "https://geo.captcha-delivery.com",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4039,7 +4039,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -4083,13 +4083,13 @@
         },
         {
           "timestamp_us": 1775655921639636,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=3195212935850346826",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4143,7 +4143,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -4203,7 +4203,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4259,7 +4259,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4304,13 +4304,13 @@
         },
         {
           "timestamp_us": 1775655922962621,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAkPY4ZWMiRlUAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=Z77YDAKKvS5wiF7ZUn6HRmkUU_Vg2HH5KoQ9cvdBfOry7URpgxurUQdogv0jPuNqFMOW2FC9KKyQ~rb1fhSoG2oDh9QkmTxTwdTPWN8OzxmTNl7Fg5dUdxKTu2R~oy8X&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=ed84fcac8000cef6389ac063704cce9f61ca4169d77faecd99868ada31033c19f1ea950c7f6bc536c464c3c4e4c7c02c&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -4351,11 +4351,11 @@
         },
         {
           "timestamp_us": 1775655923043293,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -4405,7 +4405,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAkPY4ZWMiRlUAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=Z77YDAKKvS5wiF7ZUn6HRmkUU_Vg2HH5KoQ9cvdBfOry7URpgxurUQdogv0jPuNqFMOW2FC9KKyQ~rb1fhSoG2oDh9QkmTxTwdTPWN8OzxmTNl7Fg5dUdxKTu2R~oy8X&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=ed84fcac8000cef6389ac063704cce9f61ca4169d77faecd99868ada31033c19f1ea950c7f6bc536c464c3c4e4c7c02c&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -4451,7 +4451,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -4503,7 +4503,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4558,7 +4558,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4614,7 +4614,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4669,7 +4669,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -4829,7 +4829,7 @@
         },
         {
           "timestamp_us": 1775655923394503,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -4841,7 +4841,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -4897,7 +4897,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -4947,13 +4947,13 @@
         },
         {
           "timestamp_us": 1775655923403806,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAkPY4ZWMiRlUAInrx3Q==&cid=tNKlvyLj1Ky_IbBAfSbXIOFXyK~JJ6kTV1B~2sVWmcSpEjEIjm5aiMZrMjH_BifQOwPs4HvhdcsiCWtME1so62rY5wW8_WHoEDYzJJARSkkbW3JfV9N_nN4KBJYxqmF6&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=58424&e=beadb0365b9ef4610613babc666170a1f732b7b0b077aa429564331fba432c85371f1d7a67fa5b91320c8c497236f4e0&ir=31519%2C91%2C12%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAkPY4ZWMiRlUAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=Z77YDAKKvS5wiF7ZUn6HRmkUU_Vg2HH5KoQ9cvdBfOry7URpgxurUQdogv0jPuNqFMOW2FC9KKyQ~rb1fhSoG2oDh9QkmTxTwdTPWN8OzxmTNl7Fg5dUdxKTu2R~oy8X&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=ed84fcac8000cef6389ac063704cce9f61ca4169d77faecd99868ada31033c19f1ea950c7f6bc536c464c3c4e4c7c02c&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -4994,13 +4994,13 @@
         },
         {
           "timestamp_us": 1775655923449068,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=-291297544845231548",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5089,7 +5089,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -5149,7 +5149,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5205,7 +5205,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5250,13 +5250,13 @@
         },
         {
           "timestamp_us": 1775655926342227,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA1djW1ZJz-PgAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=QRrgC5FxVrYZwNTw73OR6O2kQ36q95UNHQa~RpZUmluVw6jherviImlRg8M4UdR1vrPdW28rBXPkfDlIGzCKWWgxESdjNPMwgM9Ym0j7aLK5YvpsN~AnvX75ezeFtiBF&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=1f6a6feefd8b404813810566a900e77c209203215bdc30562205aabd150fb1aae6fc3e5ad4920d6856d5c421c545ed8e&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -5297,11 +5297,11 @@
         },
         {
           "timestamp_us": 1775655926468991,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -5351,7 +5351,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -5403,7 +5403,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA1djW1ZJz-PgAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=QRrgC5FxVrYZwNTw73OR6O2kQ36q95UNHQa~RpZUmluVw6jherviImlRg8M4UdR1vrPdW28rBXPkfDlIGzCKWWgxESdjNPMwgM9Ym0j7aLK5YvpsN~AnvX75ezeFtiBF&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=1f6a6feefd8b404813810566a900e77c209203215bdc30562205aabd150fb1aae6fc3e5ad4920d6856d5c421c545ed8e&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -5443,7 +5443,7 @@
         },
         {
           "timestamp_us": 1775655926916159,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -5455,7 +5455,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -5499,13 +5499,13 @@
         },
         {
           "timestamp_us": 1775655926937075,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA1djW1ZJz-PgAInrx3Q==&cid=7dHHAdhdzbEcGhajt~NWPgyb70CWBPgQzpbc7CosaPnrrHcIYCCpwoSt0PAT3qTserfKlMqZxNnNoxNqp2M4On5CGjAIJh8lDRNiNlk~sEpbBQFuo9yHtEvFfoCa~Z1D&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=55411&e=9b26a2ecd54376945935d8738e3c99c3bb9cd86070005ab23eded97911bc64c045ce8e27affd30bc42684903461a095b&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA1djW1ZJz-PgAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=QRrgC5FxVrYZwNTw73OR6O2kQ36q95UNHQa~RpZUmluVw6jherviImlRg8M4UdR1vrPdW28rBXPkfDlIGzCKWWgxESdjNPMwgM9Ym0j7aLK5YvpsN~AnvX75ezeFtiBF&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=1f6a6feefd8b404813810566a900e77c209203215bdc30562205aabd150fb1aae6fc3e5ad4920d6856d5c421c545ed8e&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -5552,7 +5552,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5607,7 +5607,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5664,7 +5664,7 @@
             "origin": "https://geo.captcha-delivery.com",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5729,7 +5729,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -5773,13 +5773,13 @@
         },
         {
           "timestamp_us": 1775655926963120,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=8677312957854231538",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5833,7 +5833,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -5893,7 +5893,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5949,7 +5949,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -5994,13 +5994,13 @@
         },
         {
           "timestamp_us": 1775655935615763,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAToqhzcCkSYAAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=eNFe7qXMvDhbMxKrBqUh_6IFTK0fg1~ZTNIRpbkBpjLUQHYWhPL2GVhpxYvtG4~OO1jAnDKPiAxb8JVvk2A63do2HocSMo2SuJ6zoctUPbi1F8F4nbADTTLEb9VF5Tox&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=c725a7c899447f514ad3ee3a15b8fb9c993107aa3223c89bc2e5512969e26f6fd03a4306c222cdf17610b6c3bdb84311&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -6041,11 +6041,11 @@
         },
         {
           "timestamp_us": 1775655935659826,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -6095,7 +6095,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -6147,7 +6147,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAToqhzcCkSYAAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=eNFe7qXMvDhbMxKrBqUh_6IFTK0fg1~ZTNIRpbkBpjLUQHYWhPL2GVhpxYvtG4~OO1jAnDKPiAxb8JVvk2A63do2HocSMo2SuJ6zoctUPbi1F8F4nbADTTLEb9VF5Tox&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=c725a7c899447f514ad3ee3a15b8fb9c993107aa3223c89bc2e5512969e26f6fd03a4306c222cdf17610b6c3bdb84311&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -6187,7 +6187,7 @@
         },
         {
           "timestamp_us": 1775655936004815,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -6199,7 +6199,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -6249,7 +6249,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6304,7 +6304,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6360,7 +6360,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6415,7 +6415,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6465,13 +6465,13 @@
         },
         {
           "timestamp_us": 1775655936026358,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAToqhzcCkSYAAInrx3Q==&cid=nOdHu1pn6R4DHU1yloYxYHvr_UnarGAnZ2yPp5YReUXoUKwRD5wTL3JxP8V6nvQcgRTScq5S4jTArsC1xxbXZBN_0goGjn5eOxv9Iz1OMg5CQaUUSJSgggeBUnEWKIoo&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=58424&e=968797bb0b532af92037ca97cedbf70f0a17e057b4044deef28767cfb2c25a404572095e80809b32b1e90d8d979363b0&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAToqhzcCkSYAAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=eNFe7qXMvDhbMxKrBqUh_6IFTK0fg1~ZTNIRpbkBpjLUQHYWhPL2GVhpxYvtG4~OO1jAnDKPiAxb8JVvk2A63do2HocSMo2SuJ6zoctUPbi1F8F4nbADTTLEb9VF5Tox&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=c725a7c899447f514ad3ee3a15b8fb9c993107aa3223c89bc2e5512969e26f6fd03a4306c222cdf17610b6c3bdb84311&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -6634,7 +6634,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -6684,13 +6684,13 @@
         },
         {
           "timestamp_us": 1775655936053900,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=3010502426743524197",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6779,7 +6779,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -6839,7 +6839,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6895,7 +6895,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -6940,13 +6940,13 @@
         },
         {
           "timestamp_us": 1775655946455375,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAJRyojRGGF-sAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=tw_dOoDLnUuCHyZxmrUJ4evYeZRWo8SOF44MjSLkDVqbFi838F~a0zxLF80pYYoUbeEsign523~Gx9wK4unHgcKaEe0omueA5No2dO3HqM5U8cmk2y8~Rg3Teh7Q2cT9&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=93f7f1aec2476489b07993042ab161515d1ac497966fd6160ecf934e26fc99ad6d4c76c6dd36b79190d7f1806237b3e9&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -6987,11 +6987,11 @@
         },
         {
           "timestamp_us": 1775655946572913,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -7041,7 +7041,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAJRyojRGGF-sAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=tw_dOoDLnUuCHyZxmrUJ4evYeZRWo8SOF44MjSLkDVqbFi838F~a0zxLF80pYYoUbeEsign523~Gx9wK4unHgcKaEe0omueA5No2dO3HqM5U8cmk2y8~Rg3Teh7Q2cT9&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=93f7f1aec2476489b07993042ab161515d1ac497966fd6160ecf934e26fc99ad6d4c76c6dd36b79190d7f1806237b3e9&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -7087,7 +7087,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -7133,13 +7133,13 @@
         },
         {
           "timestamp_us": 1775655947085535,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAJRyojRGGF-sAInrx3Q==&cid=S6aTJSnjXAiby3jHZoE~sunZngjOFnYTFy5ybV_dYBb6HOMb3d0gcfPWHRnt4Pzd5RDsk8HQ86AGIwhVzYfmwskPkqWyQthWmduAg2Mq51WKTG4Rz4ZAQKAuXJJQkuCz&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=55411&e=1210c1c56535ec9df05c7116eaf999f862e1e4fcce0d17b5a8c078016d367c5d6370c62b6919810313cd118b32cde9b9&ir=31519%2C91%2C12%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAJRyojRGGF-sAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=tw_dOoDLnUuCHyZxmrUJ4evYeZRWo8SOF44MjSLkDVqbFi838F~a0zxLF80pYYoUbeEsign523~Gx9wK4unHgcKaEe0omueA5No2dO3HqM5U8cmk2y8~Rg3Teh7Q2cT9&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=93f7f1aec2476489b07993042ab161515d1ac497966fd6160ecf934e26fc99ad6d4c76c6dd36b79190d7f1806237b3e9&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -7180,7 +7180,7 @@
         },
         {
           "timestamp_us": 1775655947074778,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -7192,7 +7192,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -7242,7 +7242,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7298,7 +7298,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7354,7 +7354,7 @@
             "origin": "https://geo.captcha-delivery.com",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7419,7 +7419,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -7463,13 +7463,13 @@
         },
         {
           "timestamp_us": 1775655947138985,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=5951305411329199808",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7523,7 +7523,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -7583,7 +7583,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7639,7 +7639,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7684,13 +7684,13 @@
         },
         {
           "timestamp_us": 1775655948480677,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA3oK-eC8kk5oAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=~hWfsFtewaNU~bV2vyGyjZn7_hXRTGu0YpDb2rXQB6kkbnNpxCUsL6zU80jcNfVf_2WYbBiNVbFH0iIg6x6n~KFiCKahifL6fCdXbiHn5yPNBc7gwyAY_9yt29kp2ug1&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=c6af769a19f796570087d05c9849eac2fd4e7a7d4c0fda3509568cc498da1085dd370ae575eb0eb60fa594e43d761696&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -7731,11 +7731,11 @@
         },
         {
           "timestamp_us": 1775655948569442,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -7785,7 +7785,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -7837,7 +7837,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA3oK-eC8kk5oAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=~hWfsFtewaNU~bV2vyGyjZn7_hXRTGu0YpDb2rXQB6kkbnNpxCUsL6zU80jcNfVf_2WYbBiNVbFH0iIg6x6n~KFiCKahifL6fCdXbiHn5yPNBc7gwyAY_9yt29kp2ug1&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=c6af769a19f796570087d05c9849eac2fd4e7a7d4c0fda3509568cc498da1085dd370ae575eb0eb60fa594e43d761696&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -7883,7 +7883,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7938,7 +7938,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -7994,7 +7994,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8049,7 +8049,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8099,13 +8099,13 @@
         },
         {
           "timestamp_us": 1775655948996417,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA3oK-eC8kk5oAInrx3Q==&cid=w0CZdNJnxN_hfHUJdUlf4hXkPh5kR5YxPS_W6CLdwJvPmj9tCPUHH4JpNMI_MJ5851m7JK_WgHCfUWuUr4lwQCKlVl_CvYr_TdME_7ES8QGy7pemjZYP3DpooSiLra6h&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=58424&e=cf38d9880570fe7269f2bf5bddb754f0e1bd7bb88757966dcfdfbcf0d1bbdc8da0df47f35828f0e7f50cf26b60d0e715&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA3oK-eC8kk5oAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=~hWfsFtewaNU~bV2vyGyjZn7_hXRTGu0YpDb2rXQB6kkbnNpxCUsL6zU80jcNfVf_2WYbBiNVbFH0iIg6x6n~KFiCKahifL6fCdXbiHn5yPNBc7gwyAY_9yt29kp2ug1&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=c6af769a19f796570087d05c9849eac2fd4e7a7d4c0fda3509568cc498da1085dd370ae575eb0eb60fa594e43d761696&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -8146,7 +8146,7 @@
         },
         {
           "timestamp_us": 1775655948979852,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -8158,7 +8158,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -8324,7 +8324,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -8374,13 +8374,13 @@
         },
         {
           "timestamp_us": 1775655949021804,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=6581644103168901758",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8469,7 +8469,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -8529,7 +8529,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8585,7 +8585,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8630,13 +8630,13 @@
         },
         {
           "timestamp_us": 1775655952068740,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA5sZQPcKbBpoAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=2G1KaZwYqfzCcgYgug4fcUkqn2qs~MZFnoK3l3zbpJhujeSalB2nDW7fWDOOa0IObztNBWk8uKipicpvGlhTREzKyZquM6Keq6EMESA~Bdi9sJv2xpZ8bI7TkAe4LoGH&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=0054e34a459e18e6de2ac61ff54dbf34ba92902cae951a77f30d1985424da2455c86ea392053cddb3b37fa7065c4dc93&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -8677,11 +8677,11 @@
         },
         {
           "timestamp_us": 1775655952168580,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -8731,7 +8731,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA5sZQPcKbBpoAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=2G1KaZwYqfzCcgYgug4fcUkqn2qs~MZFnoK3l3zbpJhujeSalB2nDW7fWDOOa0IObztNBWk8uKipicpvGlhTREzKyZquM6Keq6EMESA~Bdi9sJv2xpZ8bI7TkAe4LoGH&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=0054e34a459e18e6de2ac61ff54dbf34ba92902cae951a77f30d1985424da2455c86ea392053cddb3b37fa7065c4dc93&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -8771,7 +8771,7 @@
         },
         {
           "timestamp_us": 1775655952616578,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -8783,7 +8783,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -8833,7 +8833,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -8879,13 +8879,13 @@
         },
         {
           "timestamp_us": 1775655952628468,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5sZQPcKbBpoAInrx3Q==&cid=3z9wjkOOHWwFw_4~oxJ3c3JjR2~5TZSvx5NtupzQqcRNsGpwKxWU9fE2R1m4z4FUcp5NMGsXr6dzx_VwUPQB83fxX_3jBMUvgJ5dZSLt5hVJl~OfJBXSIOKjJYUE~uh5&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=58424&e=a4458acf554a5e6517f3a02968dc3dee111c3f48b8ea74ac5df44e3767de24401e17a9cc4357b70ef3b75dfc292b4648&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA5sZQPcKbBpoAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=2G1KaZwYqfzCcgYgug4fcUkqn2qs~MZFnoK3l3zbpJhujeSalB2nDW7fWDOOa0IObztNBWk8uKipicpvGlhTREzKyZquM6Keq6EMESA~Bdi9sJv2xpZ8bI7TkAe4LoGH&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=0054e34a459e18e6de2ac61ff54dbf34ba92902cae951a77f30d1985424da2455c86ea392053cddb3b37fa7065c4dc93&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -8932,7 +8932,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -8987,7 +8987,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9049,7 +9049,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -9106,7 +9106,7 @@
             "origin": "https://geo.captcha-delivery.com",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9159,13 +9159,13 @@
         },
         {
           "timestamp_us": 1775655952655554,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=-1048634800054274468",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9219,7 +9219,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -9280,7 +9280,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9331,7 +9331,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9380,13 +9380,13 @@
         },
         {
           "timestamp_us": 1775655961391501,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMABdJ_AQn2q-sAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=RVNtz8445fA7VRVra9O3jX02QNxdSFTYHhG5_TMLvS9esg6Op0xwScFKWLRSY1Se3pR~S1g7ESLAtx7i17KzgZuEpcCwi0qQtxWwIPkFdp0~opmTKx3OLjH8TX7qsyGH&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=0db740deb5206f7827c9d93f58cc50c72aa0d028bfe74f09651880e7f4a40e5c82933e42d640b731a5d533df07a2d304&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -9427,11 +9427,11 @@
         },
         {
           "timestamp_us": 1775655961579298,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -9481,7 +9481,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMABdJ_AQn2q-sAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=RVNtz8445fA7VRVra9O3jX02QNxdSFTYHhG5_TMLvS9esg6Op0xwScFKWLRSY1Se3pR~S1g7ESLAtx7i17KzgZuEpcCwi0qQtxWwIPkFdp0~opmTKx3OLjH8TX7qsyGH&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=0db740deb5206f7827c9d93f58cc50c72aa0d028bfe74f09651880e7f4a40e5c82933e42d640b731a5d533df07a2d304&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -9527,7 +9527,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9582,7 +9582,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9638,7 +9638,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9693,7 +9693,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -9859,7 +9859,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -9905,13 +9905,13 @@
         },
         {
           "timestamp_us": 1775655961870746,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMABdJ_AQn2q-sAInrx3Q==&cid=NyRm34V1zJ9_g6Ng82zKTBM21eZ7TgeyWhkcu3ZeZMikiIhsEj9PQYauFQm_eij4BxO3ExCZJDuPJe37UgRrhxJtyfFpS21iiE12DtOF8om02ak5TEr~QgeMCjdDaVTa&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=55411&e=85b1454a3c1afcfd6a72e3692d2f0bd079d8084a2d4c20dfef1f24bee6cbb1fa1f9de324063ad01c4947154050704421&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMABdJ_AQn2q-sAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=RVNtz8445fA7VRVra9O3jX02QNxdSFTYHhG5_TMLvS9esg6Op0xwScFKWLRSY1Se3pR~S1g7ESLAtx7i17KzgZuEpcCwi0qQtxWwIPkFdp0~opmTKx3OLjH8TX7qsyGH&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=0db740deb5206f7827c9d93f58cc50c72aa0d028bfe74f09651880e7f4a40e5c82933e42d640b731a5d533df07a2d304&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -9952,7 +9952,7 @@
         },
         {
           "timestamp_us": 1775655961838903,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -9964,7 +9964,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -10020,7 +10020,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -10064,13 +10064,13 @@
         },
         {
           "timestamp_us": 1775655961907993,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=-4184317474857621091",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10159,7 +10159,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -10219,7 +10219,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10275,7 +10275,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10320,13 +10320,13 @@
         },
         {
           "timestamp_us": 1775655972188909,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAS0ADLR__lt8AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=zzUYimSYwmNFfGbYcT~8x9DLj0hTmZME_u3c8~Q53sZgXqQYUH4LJmDLqXTcPCEVelwUK8umpGKw4BtDgU0pJOiyf3saRESsmYtLvGVjGAGp6_4o4tLrSTGNyQpOMC0u&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=ff7ecec3773cb2c61a764ff1d5a1eefe737ef905b3ab98984404341a127910f934a59d718775c560d9a19fd567259197&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -10367,11 +10367,11 @@
         },
         {
           "timestamp_us": 1775655972281597,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -10421,7 +10421,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAS0ADLR__lt8AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=zzUYimSYwmNFfGbYcT~8x9DLj0hTmZME_u3c8~Q53sZgXqQYUH4LJmDLqXTcPCEVelwUK8umpGKw4BtDgU0pJOiyf3saRESsmYtLvGVjGAGp6_4o4tLrSTGNyQpOMC0u&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=ff7ecec3773cb2c61a764ff1d5a1eefe737ef905b3ab98984404341a127910f934a59d718775c560d9a19fd567259197&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -10467,7 +10467,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -10513,7 +10513,7 @@
         },
         {
           "timestamp_us": 1775655972789742,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -10525,7 +10525,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -10569,13 +10569,13 @@
         },
         {
           "timestamp_us": 1775655972802920,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAS0ADLR__lt8AInrx3Q==&cid=05t_IYONNhQXpG0gBo5q_JbvG_30fNhopuEU5ayANPfglcgKwhGlNmH0u4O4iufk2qMgdCp2Lj59NXRlELFjhoh97Zk_HXZm8b8xDdPJYLCG7J8u5_UhZj4cjOFoOObI&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=55411&e=5029867359d9a4ab98343f8c5c2a5f5226b4002cdaf3d3ead06a6aebe72adc4f4cb9d771b60dc339a59e7661db5427ac&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAS0ADLR__lt8AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=zzUYimSYwmNFfGbYcT~8x9DLj0hTmZME_u3c8~Q53sZgXqQYUH4LJmDLqXTcPCEVelwUK8umpGKw4BtDgU0pJOiyf3saRESsmYtLvGVjGAGp6_4o4tLrSTGNyQpOMC0u&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=ff7ecec3773cb2c61a764ff1d5a1eefe737ef905b3ab98984404341a127910f934a59d718775c560d9a19fd567259197&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -10622,7 +10622,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10678,7 +10678,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10734,7 +10734,7 @@
             "origin": "https://geo.captcha-delivery.com",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10787,13 +10787,13 @@
         },
         {
           "timestamp_us": 1775655972841002,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=-7750330328162451009",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -10854,7 +10854,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -10903,7 +10903,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -10963,7 +10963,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11019,7 +11019,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11064,13 +11064,13 @@
         },
         {
           "timestamp_us": 1775655974190907,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAITBvX7CMC40AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=CySsT2PmS4_4olzIK~jYhIW4IEiZzTHZ~MBzjE_A9JE~r0HpzT6vbrkkfB83Xmgnzl2TnXy7ZSBy7l6qII8mUz4crZCiCkYB6UJFG70FKYmh6C0g1qxmp0ZkIqNmlW2Q&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=03f90d9eb4819e8551a677453d9d0f2402b4af5ffdb4eb6e073f23c5cb94a1d3fb0afe725f7ef122d5ac0d6ae1b9aa60&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -11111,11 +11111,11 @@
         },
         {
           "timestamp_us": 1775655974282046,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -11165,7 +11165,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -11217,7 +11217,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAITBvX7CMC40AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=CySsT2PmS4_4olzIK~jYhIW4IEiZzTHZ~MBzjE_A9JE~r0HpzT6vbrkkfB83Xmgnzl2TnXy7ZSBy7l6qII8mUz4crZCiCkYB6UJFG70FKYmh6C0g1qxmp0ZkIqNmlW2Q&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=03f90d9eb4819e8551a677453d9d0f2402b4af5ffdb4eb6e073f23c5cb94a1d3fb0afe725f7ef122d5ac0d6ae1b9aa60&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -11257,7 +11257,7 @@
         },
         {
           "timestamp_us": 1775655974627001,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -11269,7 +11269,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -11319,7 +11319,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11374,7 +11374,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11430,7 +11430,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11485,7 +11485,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11547,7 +11547,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -11597,13 +11597,13 @@
         },
         {
           "timestamp_us": 1775655974654196,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAITBvX7CMC40AInrx3Q==&cid=55AXiFvzSuGbPFZQVJCA5vvlzpqXqH9QlQdOdpaNNZMe41gX1BEBd3ITQ_1UTZQEVXqOQftWjUP2tqvV9cQnDxOozEYSwguuPJHggTTKPbjo5r5A2boqZEOknyx_UTJU&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=58424&e=e9a1bb5d2a1809c1e4c8c3549cbc93f6b21427626fdb703f5dc197e89c5e0877c5e0882f6327b025a8f42dcd9cf85d2b&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAITBvX7CMC40AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=CySsT2PmS4_4olzIK~jYhIW4IEiZzTHZ~MBzjE_A9JE~r0HpzT6vbrkkfB83Xmgnzl2TnXy7ZSBy7l6qII8mUz4crZCiCkYB6UJFG70FKYmh6C0g1qxmp0ZkIqNmlW2Q&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=03f90d9eb4819e8551a677453d9d0f2402b4af5ffdb4eb6e073f23c5cb94a1d3fb0afe725f7ef122d5ac0d6ae1b9aa60&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -11754,13 +11754,13 @@
         },
         {
           "timestamp_us": 1775655974707831,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=-6570687586672644791",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11849,7 +11849,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -11909,7 +11909,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -11965,7 +11965,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12010,13 +12010,13 @@
         },
         {
           "timestamp_us": 1775655977649312,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMADD9VDbSTXs8AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=wglaqvantbPQBrhOGPIm4zCyGJWXNtG8DgzJQKHExNdBofnQ4Cznr3ygP2vblJMs_abjsF9VQOXb8hUWC0ZqZ6h9MvVWIIrmcRmh~2F2XptvbBqxB2TgPVBcsLd2UlsI&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=f052c4b4811a200b343f6891e07f74fa4588a4639a1d3495ae353f11a74da58989f3f77994bbccdb15d3b68ee2cc4035&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -12057,11 +12057,11 @@
         },
         {
           "timestamp_us": 1775655977742628,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -12111,7 +12111,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -12163,7 +12163,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMADD9VDbSTXs8AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=wglaqvantbPQBrhOGPIm4zCyGJWXNtG8DgzJQKHExNdBofnQ4Cznr3ygP2vblJMs_abjsF9VQOXb8hUWC0ZqZ6h9MvVWIIrmcRmh~2F2XptvbBqxB2TgPVBcsLd2UlsI&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=f052c4b4811a200b343f6891e07f74fa4588a4639a1d3495ae353f11a74da58989f3f77994bbccdb15d3b68ee2cc4035&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -12203,13 +12203,13 @@
         },
         {
           "timestamp_us": 1775655978194448,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMADD9VDbSTXs8AInrx3Q==&cid=OGHK4glfnjgXvKNLe9_vcUqk7bTibdTPqNhPv37LN1MaIzIhdx8aJJ0Un2fvh1A~R4rsE7pLGRcJv2buQOJqBjzleQZ00Ou9PYJl90amoqH5glyEo1NRW6yVz2F~Ctgl&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=58424&e=a0d53a14df371bbe740967b082db24b9cb85a209dc3b1b6631aed178d338b7dbc1afd64b1eec93ee7aa2db25e2470db8&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMADD9VDbSTXs8AInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=wglaqvantbPQBrhOGPIm4zCyGJWXNtG8DgzJQKHExNdBofnQ4Cznr3ygP2vblJMs_abjsF9VQOXb8hUWC0ZqZ6h9MvVWIIrmcRmh~2F2XptvbBqxB2TgPVBcsLd2UlsI&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=f052c4b4811a200b343f6891e07f74fa4588a4639a1d3495ae353f11a74da58989f3f77994bbccdb15d3b68ee2cc4035&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -12250,7 +12250,7 @@
         },
         {
           "timestamp_us": 1775655978182387,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -12262,7 +12262,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -12318,7 +12318,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -12374,7 +12374,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12429,7 +12429,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12486,7 +12486,7 @@
             "origin": "https://geo.captcha-delivery.com",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12539,13 +12539,13 @@
         },
         {
           "timestamp_us": 1775655978218857,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=-7995039943379435087",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12599,7 +12599,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -12659,7 +12659,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12715,7 +12715,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -12760,13 +12760,13 @@
         },
         {
           "timestamp_us": 1775655986982457,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAkWxapACJnBsAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=rcjXgpTS63maxFdOYjkqFfjf_QmC5OCqxEoK_vEUvkersz82mKQzODu9kXKb~OTC17U00aXWpHLfu811aORCri2y05Q48N0ENfN~nizbSkTGZAGF5rl7pXN5bOBsTSvS&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=205dcecad4c82b9639a374452f163fd344e2f6945c20f747d186a221082bed0f7eddb2e7bce5c8492983d3812373858e&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -12807,11 +12807,11 @@
         },
         {
           "timestamp_us": 1775655987065217,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -12861,7 +12861,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -12913,7 +12913,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAkWxapACJnBsAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=rcjXgpTS63maxFdOYjkqFfjf_QmC5OCqxEoK_vEUvkersz82mKQzODu9kXKb~OTC17U00aXWpHLfu811aORCri2y05Q48N0ENfN~nizbSkTGZAGF5rl7pXN5bOBsTSvS&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=205dcecad4c82b9639a374452f163fd344e2f6945c20f747d186a221082bed0f7eddb2e7bce5c8492983d3812373858e&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -12959,7 +12959,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13014,7 +13014,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13070,7 +13070,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13125,7 +13125,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13285,7 +13285,7 @@
         },
         {
           "timestamp_us": 1775655987379550,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -13297,7 +13297,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -13341,13 +13341,13 @@
         },
         {
           "timestamp_us": 1775655987397339,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAkWxapACJnBsAInrx3Q==&cid=0RwwhylC6UEKSGjtPiL65Qlc3y_4aoyqFbU~1fGFB94BcP4wCOVfi08YEOw2_ER3qrxhDLGSxuN9mk89fjHpkQOcC7OmKXsCmP1T0ECw3K4xjbucHdZsnGu_3HYmjNPE&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=55411&e=3e6986d2888ee69d2decfac21eeb55bbb6f0eeb6e743809f2840ed269274bc4d7184786a998de5717d7b334c6a5588fa&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAkWxapACJnBsAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=rcjXgpTS63maxFdOYjkqFfjf_QmC5OCqxEoK_vEUvkersz82mKQzODu9kXKb~OTC17U00aXWpHLfu811aORCri2y05Q48N0ENfN~nizbSkTGZAGF5rl7pXN5bOBsTSvS&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=205dcecad4c82b9639a374452f163fd344e2f6945c20f747d186a221082bed0f7eddb2e7bce5c8492983d3812373858e&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -13388,13 +13388,13 @@
         },
         {
           "timestamp_us": 1775655987429138,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=296093859218340109",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13455,7 +13455,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -13539,7 +13539,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -13600,7 +13600,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13651,7 +13651,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -13700,13 +13700,13 @@
         },
         {
           "timestamp_us": 1775655997943775,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA96VqyShpBFMAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=a21x5MsYgqZwCnSUpLtU24Z_Ts9rGNdmErfwELxfOIiR3TEnr3bIIBeOtwZZmRh36dCMxNXS3n7kxsR7rXSAK7FjIuODFdGMmFASF4OaZe7jdii338pS8eyCzQ1M0B~_&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=af036d0423997fec0d87356a70fe443e12dbc1f86b91013ea35c3827811c87c5e691c176f6503b190773acae6c6e7a66&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -13747,11 +13747,11 @@
         },
         {
           "timestamp_us": 1775655998056020,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -13801,7 +13801,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA96VqyShpBFMAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=a21x5MsYgqZwCnSUpLtU24Z_Ts9rGNdmErfwELxfOIiR3TEnr3bIIBeOtwZZmRh36dCMxNXS3n7kxsR7rXSAK7FjIuODFdGMmFASF4OaZe7jdii338pS8eyCzQ1M0B~_&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=af036d0423997fec0d87356a70fe443e12dbc1f86b91013ea35c3827811c87c5e691c176f6503b190773acae6c6e7a66&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -13847,7 +13847,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -13893,7 +13893,7 @@
         },
         {
           "timestamp_us": 1775655998539320,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -13905,7 +13905,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -13949,13 +13949,13 @@
         },
         {
           "timestamp_us": 1775655998559359,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA96VqyShpBFMAInrx3Q==&cid=hyfWQovoC5DlK8FCVkar11I2OZjx0G_RV5~T8Mw0KKs3hhzdwIcFOyV4rEBXd~Y6FRdTOI1ABaRIKKvBrcBEWyPdHicwTC1UQmdYef9aHGt_Mp84jgGSMzqVBNck3h~m&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=55411&e=1e749f8a37a95ee87b4c06df2ca3f650546efa3365b9f108288ca57743e6e32344df82bda9cfdc298bf3f81cf99788e8&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA96VqyShpBFMAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=a21x5MsYgqZwCnSUpLtU24Z_Ts9rGNdmErfwELxfOIiR3TEnr3bIIBeOtwZZmRh36dCMxNXS3n7kxsR7rXSAK7FjIuODFdGMmFASF4OaZe7jdii338pS8eyCzQ1M0B~_&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=af036d0423997fec0d87356a70fe443e12dbc1f86b91013ea35c3827811c87c5e691c176f6503b190773acae6c6e7a66&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -14002,7 +14002,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -14058,7 +14058,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -14114,7 +14114,7 @@
             "origin": "https://geo.captcha-delivery.com",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -14179,7 +14179,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -14223,13 +14223,13 @@
         },
         {
           "timestamp_us": 1775655998591933,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=-7718669083491268997",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -14283,7 +14283,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -14343,7 +14343,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -14399,7 +14399,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -14444,13 +14444,13 @@
         },
         {
           "timestamp_us": 1775656007221488,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA0PEBegXruqwAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=H6Nv9j1z6xU7raEWgefJRnmHr3Aw3El93_LMl4_rxyqdzetPx40evjvoyHT9diztyL4azQk4L2yYTXMeoYqxdQM3KAL1~cWba3u9fVxr2adFfiymTvT0e9Bd_t776YuW&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=7dfa5ac2995fe30d1eceed27e29a76da759ab43294cd23b1ac848892c24897b6765c2a922d7358f24b6ffa28667caea4&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -14491,11 +14491,11 @@
         },
         {
           "timestamp_us": 1775656007293073,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -14545,7 +14545,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA0PEBegXruqwAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=H6Nv9j1z6xU7raEWgefJRnmHr3Aw3El93_LMl4_rxyqdzetPx40evjvoyHT9diztyL4azQk4L2yYTXMeoYqxdQM3KAL1~cWba3u9fVxr2adFfiymTvT0e9Bd_t776YuW&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=7dfa5ac2995fe30d1eceed27e29a76da759ab43294cd23b1ac848892c24897b6765c2a922d7358f24b6ffa28667caea4&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -14591,7 +14591,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -14643,7 +14643,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -14698,7 +14698,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -14754,7 +14754,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -14809,7 +14809,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -14969,7 +14969,7 @@
         },
         {
           "timestamp_us": 1775656007695339,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -14981,7 +14981,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -15025,13 +15025,13 @@
         },
         {
           "timestamp_us": 1775656007707510,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA0PEBegXruqwAInrx3Q==&cid=NeCn9_ThNhB5psH9BSSPviiiq4Nyg5sbhb3wUPOhp2KuMXdEre~hWNQZ33bqzXGPA1Me5iACLcAFXePLmnvvNN~ogbjwadH~Ce1nKPPqM8_ztex7GhrcXFBnERWOImNs&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=58424&e=f06a58e1894de35a16bf59f3dc9648c4e74f444c98c6824c90e8a6dc1a6b6cc41b5e7360c5b10a3d25db5bc2c2dc29c9&ir=31519%2C12%2C91%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA0PEBegXruqwAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=H6Nv9j1z6xU7raEWgefJRnmHr3Aw3El93_LMl4_rxyqdzetPx40evjvoyHT9diztyL4azQk4L2yYTXMeoYqxdQM3KAL1~cWba3u9fVxr2adFfiymTvT0e9Bd_t776YuW&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=7dfa5ac2995fe30d1eceed27e29a76da759ab43294cd23b1ac848892c24897b6765c2a922d7358f24b6ffa28667caea4&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -15084,7 +15084,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -15134,13 +15134,13 @@
         },
         {
           "timestamp_us": 1775656007739621,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=-6646626412849048138",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -15229,7 +15229,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -15289,7 +15289,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -15345,7 +15345,7 @@
             "origin": "https://www.homegate.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.homegate.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -15390,13 +15390,13 @@
         },
         {
           "timestamp_us": 1775656018191312,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAZ5tCAvxHgNIAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=HV3CwgqbWawy6TkM5MOtGfNHFUYWjwNIaz~zAklzxej6ih9iOYqOQFHr6cd8E98nyHDhm91K~pW63qAyT93FBFFgBzTPpD90a9v1epSl4rXrKTInHkzgpR4Mu0Oqs01t&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=234a637b8e197c7ea5d4bf56af8f46c08777994ce5393b425f1ffc061278927e02d69f0997a6a94b178ce8f0f100407b&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.homegate.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -15437,11 +15437,11 @@
         },
         {
           "timestamp_us": 1775656018253395,
-          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.homegate.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -15491,7 +15491,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAZ5tCAvxHgNIAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=HV3CwgqbWawy6TkM5MOtGfNHFUYWjwNIaz~zAklzxej6ih9iOYqOQFHr6cd8E98nyHDhm91K~pW63qAyT93FBFFgBzTPpD90a9v1epSl4rXrKTInHkzgpR4Mu0Oqs01t&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=234a637b8e197c7ea5d4bf56af8f46c08777994ce5393b425f1ffc061278927e02d69f0997a6a94b178ce8f0f100407b&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -15537,7 +15537,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -15583,13 +15583,13 @@
         },
         {
           "timestamp_us": 1775656018793964,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAZ5tCAvxHgNIAInrx3Q==&cid=4kVpgYeJVGJAdCnQ3c_urwSKJIeMtL5EkvnD9xvDMwHYz~ANMb0tPuPVsW_W~UQK33Gd_rxjO0QbXSi7zqHF~stCTvRuZhk_XGK~2rMgowOkjgENv~jNY97YD02klQ1V&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=58424&e=6b786a47aa5dbe1da4b2202e94d2209626b154eaa838e2d9dce6254039ebdae46d37b5acfbfd61639b8946b665c9e759&ir=31519%2C91%2C12%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMAZ5tCAvxHgNIAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=HV3CwgqbWawy6TkM5MOtGfNHFUYWjwNIaz~zAklzxej6ih9iOYqOQFHr6cd8E98nyHDhm91K~pW63qAyT93FBFFgBzTPpD90a9v1epSl4rXrKTInHkzgpR4Mu0Oqs01t&referer=https%3A%2F%2Fwww.homegate.ch%2Fen&s=58424&e=234a637b8e197c7ea5d4bf56af8f46c08777994ce5393b425f1ffc061278927e02d69f0997a6a94b178ce8f0f100407b&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -15642,7 +15642,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "content-encoding": "gzip",
@@ -15692,7 +15692,7 @@
         },
         {
           "timestamp_us": 1775656018783590,
-          "url": "https://www.homegate.ch/cdn-cgi/rum?",
+          "url": "https://www.homegate.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -15704,7 +15704,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -15754,7 +15754,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -15809,7 +15809,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -15866,7 +15866,7 @@
             "origin": "https://geo.captcha-delivery.com",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://static.captcha-delivery.com/common/fonts/roboto/font-face.css",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -15919,13 +15919,13 @@
         },
         {
           "timestamp_us": 1775656018820438,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=3593694403489844561",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/f183ef753d86822af3f00566d800669bf52846f5/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -15979,7 +15979,7 @@
           "status": 403,
           "request_headers": {
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -16039,7 +16039,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -16095,7 +16095,7 @@
             "origin": "https://www.immoscout24.ch",
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://www.immoscout24.ch/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -16140,13 +16140,13 @@
         },
         {
           "timestamp_us": 1775656027516555,
-          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA5b8vkvH_bVQAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=7y9nTpUIBAnsez4CEN7fb3FP4cxAKZO5qBn_JSMaAw2FgyNO~4Nj7x0jgP433~RvZxUzhz3bWTmj6p~hR9o5jJ7rjcsCrJtBnYrljc9Gb4jcgZ21fj~QY899SNORufIK&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=45cddd4b72711c21b89b68657ab6782e034e4bc75236938462fa0dee277f937ad41346277b293028146b1fd7d65e3ecf&b=722990&dm=cd",
+          "url": "https://geo.captcha-delivery.com/interstitial/?initialCid=_REDACTED_&hash=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&s=_REDACTED_&e=_REDACTED_&b=_REDACTED_&dm=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://www.immoscout24.ch/",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -16187,11 +16187,11 @@
         },
         {
           "timestamp_us": 1775656027618037,
-          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/challenge-platform/h/b/scripts/jsd/625261456364/main.js",
           "method": "GET",
           "status": 200,
           "request_headers": {
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "referer": ""
           },
           "response_headers": {
@@ -16241,7 +16241,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA5b8vkvH_bVQAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=7y9nTpUIBAnsez4CEN7fb3FP4cxAKZO5qBn_JSMaAw2FgyNO~4Nj7x0jgP433~RvZxUzhz3bWTmj6p~hR9o5jJ7rjcsCrJtBnYrljc9Gb4jcgZ21fj~QY899SNORufIK&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=45cddd4b72711c21b89b68657ab6782e034e4bc75236938462fa0dee277f937ad41346277b293028146b1fd7d65e3ecf&b=722990&dm=cd",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -16287,7 +16287,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "content-type": "text/plain;charset=UTF-8",
             "sec-ch-ua-mobile": "?0"
@@ -16339,7 +16339,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -16394,7 +16394,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -16450,7 +16450,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -16505,7 +16505,7 @@
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },
@@ -16665,7 +16665,7 @@
         },
         {
           "timestamp_us": 1775656027973577,
-          "url": "https://www.immoscout24.ch/cdn-cgi/rum?",
+          "url": "https://www.immoscout24.ch/cdn-cgi/rum",
           "method": "POST",
           "status": 204,
           "request_headers": {
@@ -16677,7 +16677,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "content-type": "application/json"
           },
           "response_headers": {
@@ -16721,13 +16721,13 @@
         },
         {
           "timestamp_us": 1775656027995278,
-          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5b8vkvH_bVQAInrx3Q==&cid=kVRIAxw8ORB3Y6ze_4iJ7g_kUEwQKqDTwCem6FltwpYFEXssc___xs0_njto06waIIo~pvrd~yTkNqJWfy9pQ~x0loEwGtnM8iHxG2sSX~X9ofDxICUS1zysVMatsXWp&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&hash=F366DD7CF4DB76FA9B54F971FAB24F&t=fe&s=55411&e=d47fc27f7ccb67dc6cda604c26aeae8617f059f542e1923ae337393c2d16f8ca55ddf2bb9f26293d8a105b53148bba3c&ir=31519%2C91%2C12%2C40&dm=dc_ir&b=722990",
+          "url": "https://geo.captcha-delivery.com/captcha/?initialCid=_REDACTED_&cid=_REDACTED_&referer=_REDACTED_&hash=_REDACTED_&t=_REDACTED_&s=_REDACTED_&e=_REDACTED_&ir=_REDACTED_&dm=_REDACTED_&b=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "referer": "https://geo.captcha-delivery.com/interstitial/?initialCid=AHrlqAAAAAMA5b8vkvH_bVQAInrx3Q%3D%3D&hash=F366DD7CF4DB76FA9B54F971FAB24F&cid=7y9nTpUIBAnsez4CEN7fb3FP4cxAKZO5qBn_JSMaAw2FgyNO~4Nj7x0jgP433~RvZxUzhz3bWTmj6p~hR9o5jJ7rjcsCrJtBnYrljc9Gb4jcgZ21fj~QY899SNORufIK&referer=https%3A%2F%2Fwww.immoscout24.ch%2Fen&s=55411&e=45cddd4b72711c21b89b68657ab6782e034e4bc75236938462fa0dee277f937ad41346277b293028146b1fd7d65e3ecf&b=722990&dm=cd",
             "upgrade-insecure-requests": "1",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "\"Linux\""
@@ -16780,7 +16780,7 @@
             "sec-ch-device-memory": "8",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-arch": "\"\"",
-            "user-agent": "SpotAIfy-ASL/0.2"
+            "user-agent": "BrowseTrace/1.0 (benchmark)"
           },
           "response_headers": {
             "server": "cloudflare",
@@ -16824,13 +16824,13 @@
         },
         {
           "timestamp_us": 1775656028023327,
-          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=-6463518718480625328",
+          "url": "https://static.captcha-delivery.com/captcha/assets/set/d406651884d7952fa1d3a1634b8d29fb64855251/logo.png?update_cache=_REDACTED_",
           "method": "GET",
           "status": 200,
           "request_headers": {
             "sec-ch-ua-platform": "\"Linux\"",
             "referer": "https://geo.captcha-delivery.com/",
-            "user-agent": "SpotAIfy-ASL/0.2",
+            "user-agent": "BrowseTrace/1.0 (benchmark)",
             "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
             "sec-ch-ua-mobile": "?0"
           },

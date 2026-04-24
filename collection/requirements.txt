@@ -1,4 +1,4 @@
-# AgentWebBench v2 — collection dependencies
+# BrowseTrace v3 — collection dependencies
 # Pin to known-working versions for reproducibility
 browser-use>=0.2.1
 pydantic>=2.0
