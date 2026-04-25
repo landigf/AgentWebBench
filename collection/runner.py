@@ -29,7 +29,6 @@ from trace_schema import TraceFile, TraceSession
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "instrumentation"))
 from tracer import BrowserUseNetworkTracer, MockBrowserTracer
-from waid_client import WAIDClient
 from trace_schema import AgentType
 
 try:
@@ -161,23 +160,6 @@ def resolve_browseruse_llm():
         return ChatGoogleGenerativeAI(model=os.getenv("BROWSETRACE_BROWSERUSE_GEMINI_MODEL", "gemini-2.5-flash"))
     raise RuntimeError(
         "No BrowserUse-compatible LLM credentials found. Set BROWSER_USE_API_KEY, OPENAI_API_KEY, ANTHROPIC_API_KEY, or GOOGLE_API_KEY."
-    )
-
-
-def build_waid_client(purpose: str = "retrieval-live") -> WAIDClient:
-    private_key_b64 = os.getenv("BROWSETRACE_WAID_PRIVATE_KEY_B64")
-    private_key_path = os.getenv("BROWSETRACE_WAID_PRIVATE_KEY_PATH")
-    if not private_key_b64 and not private_key_path:
-        raise RuntimeError(
-            "Authenticated BrowserUse runs require BROWSETRACE_WAID_PRIVATE_KEY_B64 or BROWSETRACE_WAID_PRIVATE_KEY_PATH."
-        )
-
-    return WAIDClient(
-        domain=os.getenv("BROWSETRACE_WAID_DOMAIN", "agent.example.com"),
-        selector=os.getenv("BROWSETRACE_WAID_SELECTOR", "s1"),
-        purpose=purpose,
-        private_key_b64=private_key_b64,
-        private_key_path=private_key_path,
     )
 
 
@@ -352,22 +334,17 @@ async def run_browseruse_controlled_task(task: dict, mode: str, run_id: int, pub
         article_ids = controlled_article_ids(task["id"], n_pages)
 
         if mode == "authenticated":
-            waid_client = build_waid_client()
-            await browser.set_extra_headers({})
-            await browser.navigate_to(f"{publisher_base_url}/.well-known/machine-access.json")
-            await asyncio.sleep(0.5)
-            for article_id in article_ids:
-                url = f"{publisher_base_url}/api/v1/articles/{article_id}"
-                await browser.set_extra_headers(waid_client.headers_dict("GET", url))
-                await browser.navigate_to(url)
-                await asyncio.sleep(0.5)
-        else:
-            await browser.set_extra_headers({})
-            await browser.navigate_to(f"{publisher_base_url}/")
-            await asyncio.sleep(0.5)
-            for article_id in article_ids:
-                await browser.navigate_to(f"{publisher_base_url}/articles/{article_id}")
-                await asyncio.sleep(0.75)
+            raise NotImplementedError(
+                "The authenticated lane requires a credential client that is not "
+                "shipped in the public benchmark mirror. The released BrowseTrace "
+                "corpus is collected exclusively in scraping mode."
+            )
+        await browser.set_extra_headers({})
+        await browser.navigate_to(f"{publisher_base_url}/")
+        await asyncio.sleep(0.5)
+        for article_id in article_ids:
+            await browser.navigate_to(f"{publisher_base_url}/articles/{article_id}")
+            await asyncio.sleep(0.75)
 
         session = tracer.export()
         session.metadata.update(

@@ -124,6 +124,7 @@ If you use BrowseTrace in your research, please cite the IMC 2026 paper:
   booktitle = {Proceedings of the ACM Internet Measurement Conference (IMC)},
   location  = {Karlsruhe, Germany},
   note      = {Author metadata withheld for double-blind review},
+  url       = {https://anonymous.4open.science/r/BrowseTrace},
 }
 ```
 
