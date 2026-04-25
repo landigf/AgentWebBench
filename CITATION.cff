@@ -4,7 +4,9 @@ message: "If you use this dataset, please cite the IMC 2026 paper. Author metada
 type: dataset
 authors:
   - name: "Anonymous Authors"
-license: Apache-2.0
+license: CC-BY-4.0
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+repository: "https://anonymous.4open.science/r/BrowseTrace"
 version: "3.0"
 date-released: "2026-04-29"
 keywords:

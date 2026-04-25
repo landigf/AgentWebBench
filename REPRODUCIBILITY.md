@@ -79,40 +79,31 @@ llm      GDSF  @5MiB: 76.2%
 
 These match Table 5 (scripted) and the abstract (LLM) in the paper exactly.
 
-## Step 4: reproduce Table 5 (all 6 policies × 5 cache sizes)
+## Step 4: reproduce Table 5 and the appendix per-region table (Table 6)
+
+The full Table 5 sweep (LRU, LFU, ARC, S3-FIFO, W-TinyLFU, GDSF on
+`full_400_sessions.csv` at 1, 5, 10, 25, 50 MiB) and the per-region
+breakdown (splitting `full_400_sessions.csv` by `session_id` prefix
+and replaying each region under libCacheSim) are both executed by
+`verify_submission_gate.py`. Run that script and compare its
+`replay` and `replay-region` lines against Table 5 and Table 6 in
+the paper.
 
 ```bash
-python3 analysis/table5_full_panel.py
+python3 verify_submission_gate.py
 ```
 
-This runs libCacheSim's LRU, LFU, ARC, S3-FIFO, W-TinyLFU, and GDSF on `full_400_sessions.csv` at 1, 5, 10, 25, 50 MiB. Output should match paper Table 5 within rounding.
-
-## Step 5: reproduce the appendix per-region table (Table 6)
-
-```bash
-python3 analysis/table6_per_region.py
-```
-
-Splits `full_400_sessions.csv` by `session_id` prefix (zurich / us-central / eu-west / asia-southeast), replays each region under libCacheSim, emits the Table 6 values. `verify_submission_gate.py` already runs this check and diffs against the paper.
-
-## Step 6: regenerate figures
-
-```bash
-python3 analysis/fix_figures.py
-```
-
-Rewrites all paper figures (`paper/figures/*.pdf`) from the canonical CSVs. This is what `build_artifacts.py` calls internally.
-
-## Step 7: compile the paper
+## Step 5: compile the paper
 
 ```bash
 cd paper
 latexmk -pdf -interaction=nonstopmode BrowseTrace.tex
 ```
 
-Output: `BrowseTrace.pdf`, 16 pages, 13 body + 3 refs, letter paper.
+Output: `BrowseTrace.pdf`, 16 pages (13 body, 1 page references, 2
+pages appendices), letter paper.
 
-## Step 8: full end-to-end gate
+## Step 6: full end-to-end gate
 
 ```bash
 # From repo root
@@ -152,13 +143,10 @@ python3 collection/runner.py --task all --surface live --live-driver agent \
 python3 tools/sanitize_release.py data/my-new-collection/
 ```
 
-5. Build a new stitched cache trace:
-
-```bash
-python3 analysis/stitch_llm_trace.py \
-    --inputs data/round9/ data/round10-*/ data/my-new-collection/ \
-    --output data/traces/llm_full_v4.csv
-```
+5. Build a new stitched cache trace by appending sanitized
+   `cache_trace.csv` rows from the new collection into the canonical
+   CSV under `data/traces/`, preserving the `time, obj_id, obj_size`
+   schema used by libCacheSim.
 
 ## Contact
 

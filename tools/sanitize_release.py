@@ -219,8 +219,16 @@ def sanitize_cache_trace_csv(path: Path) -> dict:
 
 
 def audit_forbidden(root: Path) -> dict:
-    """Grep every text file under root for forbidden substrings. Returns map substring → count."""
+    """Grep every text file under root for forbidden substrings.
+
+    Tokens of length < 6 are matched against word boundaries to avoid
+    false positives (e.g. a 5-character author surname colliding with
+    the URL chunk "facetLandingPage" on jobs.ch). Longer tokens use
+    plain substring match, since multi-word brand identifiers do not
+    have legitimate substring collisions in HTTP payloads.
+    """
     counts = {s: 0 for s in FORBIDDEN}
+    short_patterns = {s: re.compile(rf"\b{re.escape(s)}\b") for s in FORBIDDEN if len(s) < 6}
     for p in root.rglob("*"):
         if not p.is_file():
             continue
@@ -231,7 +239,10 @@ def audit_forbidden(root: Path) -> dict:
         except Exception:
             continue
         for s in FORBIDDEN:
-            counts[s] += text.count(s)
+            if s in short_patterns:
+                counts[s] += len(short_patterns[s].findall(text))
+            else:
+                counts[s] += text.count(s)
     return counts
 
 

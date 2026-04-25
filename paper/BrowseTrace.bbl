@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{48}
+\begin{thebibliography}{60}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -35,6 +35,22 @@
 \providecommand\bibinfo[2]{#2}
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Annamalai et~al\mbox{.}(2025)]%
+        {annamalai2025beyondcrawl}
+\bibfield{author}{\bibinfo{person}{Meenatchi Sundaram Muthu~Selva Annamalai}, \bibinfo{person}{Emiliano~De Cristofaro}, {and} \bibinfo{person}{Igor Bilogrevic}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Beyond the Crawl: Unmasking Browser Fingerprinting in Real User Interactions}. In \bibinfo{booktitle}{\emph{Proc. ACM Web Conference 2025}}.
+\newblock
+\href{https://doi.org/10.1145/3696410.3714871}{doi:\nolinkurl{10.1145/3696410.3714871}}
+
+
+\bibitem[{Anthropic}(2024)]%
+        {anthropic2024computeruse}
+\bibfield{author}{\bibinfo{person}{{Anthropic}}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Introducing computer use}.
+\newblock \bibinfo{howpublished}{\url{https://www.anthropic.com/news/3-5-models-and-computer-use}}.
+\newblock
+
 
 \bibitem[{Anthropic}(2025)]%
         {anthropic2025haiku}
@@ -126,6 +142,22 @@
 \shownote{Accessed April 2026}.
 
 
+\bibitem[{Cloudflare}(2025a)]%
+        {cloudflare2025signedagents}
+\bibfield{author}{\bibinfo{person}{{Cloudflare}}.} \bibinfo{year}{2025}\natexlab{a}.
+\newblock \bibinfo{title}{The age of agents: cryptographically recognizing agent traffic}.
+\newblock \bibinfo{howpublished}{Cloudflare blog, \url{https://blog.cloudflare.com/signed-agents/}}.
+\newblock
+
+
+\bibitem[{Cloudflare}(2025b)]%
+        {cloudflare2025radar}
+\bibfield{author}{\bibinfo{person}{{Cloudflare}}.} \bibinfo{year}{2025}\natexlab{b}.
+\newblock \bibinfo{title}{{AI} crawlers: the {HTML}-hungry non-{Google} traffic}.
+\newblock \bibinfo{howpublished}{Cloudflare Radar 2025 Year in Review}.
+\newblock
+
+
 \bibitem[{DeepSeek-AI}(2026)]%
         {deepseek2026v32}
 \bibfield{author}{\bibinfo{person}{{DeepSeek-AI}}.} \bibinfo{year}{2026}\natexlab{}.
@@ -169,10 +201,26 @@
 \href{https://doi.org/10.1145/1298306.1298310}{doi:\nolinkurl{10.1145/1298306.1298310}}
 
 
+\bibitem[{Google DeepMind}(2024)]%
+        {google2024mariner}
+\bibfield{author}{\bibinfo{person}{{Google DeepMind}}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Project {Mariner}}.
+\newblock \bibinfo{howpublished}{\url{https://deepmind.google/technologies/project-mariner/}}.
+\newblock
+
+
+\bibitem[Guerreiro et~al\mbox{.}(2025)]%
+        {ietf2025webbotauth}
+\bibfield{author}{\bibinfo{person}{Maxime Guerreiro}, \bibinfo{person}{Ulas Kirazci}, {and} \bibinfo{person}{Thibault Meunier}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Registry and Signature Agent card for {Web} {Bot} {Auth}}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport} draft-meunier-webbotauth-registry-01. \bibinfo{institution}{IETF}.
+\newblock
+
+
 \bibitem[Hantke et~al\mbox{.}(2025)]%
         {hantke2025webrec}
-\bibfield{author}{\bibinfo{person}{Fabian Hantke} {et~al\mbox{.}}} \bibinfo{year}{2025}\natexlab{}.
-\newblock \showarticletitle{Reproducible, Accurate, and Archivable Web Measurements}. In \bibinfo{booktitle}{\emph{USENIX Security Symposium}}.
+\bibfield{author}{\bibinfo{person}{Florian Hantke}, \bibinfo{person}{Peter Snyder}, \bibinfo{person}{Hamed Haddadi}, {and} \bibinfo{person}{Ben Stock}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Web Execution Bundles: Reproducible, Accurate, and Archivable Web Measurements}. In \bibinfo{booktitle}{\emph{USENIX Security Symposium}}.
 \newblock
 
 
@@ -211,7 +259,7 @@
 
 \bibitem[Iliou et~al\mbox{.}(2019)]%
         {iliou2019advanced}
-\bibfield{author}{\bibinfo{person}{Christos Iliou}, \bibinfo{person}{Theodoros Kostoulas}, \bibinfo{person}{Theodora Tsikrika}, \bibinfo{person}{Vasilios Katos}, \bibinfo{person}{Stefanos Vrochidis}, {and} \bibinfo{person}{Ioannis Kompatsiaris}.} \bibinfo{year}{2019}\natexlab{}.
+\bibfield{author}{\bibinfo{person}{Christos Iliou}, \bibinfo{person}{Theodoros Kostoulas}, \bibinfo{person}{Theodora Tsikrika}, \bibinfo{person}{Vasilis Katos}, \bibinfo{person}{Stefanos Vrochidis}, {and} \bibinfo{person}{Yiannis Kompatsiaris}.} \bibinfo{year}{2019}\natexlab{}.
 \newblock \showarticletitle{Towards a Framework for Detecting Advanced Web Bots}. In \bibinfo{booktitle}{\emph{Proceedings of the 14th International Conference on Availability, Reliability and Security (ARES)}}.
 \newblock
 \href{https://doi.org/10.1145/3339252.3339267}{doi:\nolinkurl{10.1145/3339252.3339267}}
@@ -228,9 +276,16 @@
 \bibitem[Jimenez et~al\mbox{.}(2024)]%
         {swebench}
 \bibfield{author}{\bibinfo{person}{Carlos~E. Jimenez}, \bibinfo{person}{John Yang}, \bibinfo{person}{Alexander Wettig}, \bibinfo{person}{Shunyu Yao}, \bibinfo{person}{Kexin Pei}, \bibinfo{person}{Ofir Press}, {and} \bibinfo{person}{Karthik Narasimhan}.} \bibinfo{year}{2024}\natexlab{}.
-\newblock \showarticletitle{{SWE}-bench: Can Language Models Resolve Real-World {GitHub} Issues?}
-\newblock  (\bibinfo{year}{2024}).
+\newblock \showarticletitle{{SWE}-bench: Can Language Models Resolve Real-World {GitHub} Issues?}. In \bibinfo{booktitle}{\emph{International Conference on Learning Representations (ICLR)}}.
 \newblock
+
+
+\bibitem[Kalantari et~al\mbox{.}(2024)]%
+        {kalantari2024browserpolygraph}
+\bibfield{author}{\bibinfo{person}{Faezeh Kalantari} {et~al\mbox{.}}} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Browser Polygraph: Efficient Deployment of Coarse-Grained Browser Fingerprints for Web-Scale Detection of Fraud Browsers}. In \bibinfo{booktitle}{\emph{Proc. 2024 ACM Internet Measurement Conference}}.
+\newblock
+\href{https://doi.org/10.1145/3646547.3688455}{doi:\nolinkurl{10.1145/3646547.3688455}}
 
 
 \bibitem[Kim et~al\mbox{.}(2025)]%
@@ -281,17 +336,16 @@
 \bibitem[L{\'o}pez et~al\mbox{.}(2022)]%
         {lopez2022}
 \bibfield{author}{\bibinfo{person}{Carlos L{\'o}pez}, \bibinfo{person}{Daniel Morat{\'o}}, \bibinfo{person}{Eduardo Maga{\~n}a}, {and} \bibinfo{person}{Mikel Izal}.} \bibinfo{year}{2022}\natexlab{}.
-\newblock \showarticletitle{Validation of {HTTP} Response Time From Network Traffic}.
+\newblock \showarticletitle{Validation of {HTTP} Response Time From Network Traffic as an Alternative to Web Browser Instrumentation}.
 \newblock \bibinfo{journal}{\emph{IEEE Transactions on Network and Service Management}} (\bibinfo{year}{2022}).
 \newblock
-\href{https://doi.org/10.1109/TNSM.2022.3181708}{doi:\nolinkurl{10.1109/TNSM.2022.3181708}}
+\href{https://doi.org/10.1109/TNSM.2021.3121468}{doi:\nolinkurl{10.1109/TNSM.2021.3121468}}
 
 
 \bibitem[L\`{u} et~al\mbox{.}(2024)]%
         {weblinx}
 \bibfield{author}{\bibinfo{person}{Xing~Han L\`{u}}, \bibinfo{person}{Zdeněk Kasner}, {and} \bibinfo{person}{Siva Reddy}.} \bibinfo{year}{2024}\natexlab{}.
-\newblock \showarticletitle{{WebLINX}: Real-World Website Navigation with Multi-Turn Dialogue}.
-\newblock  (\bibinfo{year}{2024}).
+\newblock \showarticletitle{{WebLINX}: Real-World Website Navigation with Multi-Turn Dialogue}. In \bibinfo{booktitle}{\emph{Proceedings of the International Conference on Machine Learning (ICML)}}.
 \newblock
 
 
@@ -318,10 +372,34 @@
 \newblock
 
 
+\bibitem[{OpenAI}(2025a)]%
+        {openai2025chatgptagent}
+\bibfield{author}{\bibinfo{person}{{OpenAI}}.} \bibinfo{year}{2025}\natexlab{a}.
+\newblock \bibinfo{title}{Introducing {ChatGPT} agent}.
+\newblock \bibinfo{howpublished}{\url{https://openai.com/index/introducing-chatgpt-agent/}}.
+\newblock
+
+
+\bibitem[{OpenAI}(2025b)]%
+        {openai2025operator}
+\bibfield{author}{\bibinfo{person}{{OpenAI}}.} \bibinfo{year}{2025}\natexlab{b}.
+\newblock \bibinfo{title}{Operator System Card}.
+\newblock \bibinfo{howpublished}{\url{https://cdn.openai.com/operator_system_card.pdf}}.
+\newblock
+
+
+\bibitem[{Read the Docs}(2024)]%
+        {readthedocs2024}
+\bibfield{author}{\bibinfo{person}{{Read the Docs}}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{AI} crawlers need to be more respectful}.
+\newblock \bibinfo{howpublished}{\url{https://about.readthedocs.com/blog/2024/07/ai-crawlers-abuse/}}.
+\newblock
+
+
 \bibitem[Ruth et~al\mbox{.}(2022)]%
         {ruth2022toppling}
-\bibfield{author}{\bibinfo{person}{Kevin Ruth}, \bibinfo{person}{Deepak Kumar}, \bibinfo{person}{Brandon Wang}, \bibinfo{person}{Luke Valenta}, {and} \bibinfo{person}{Zakir Durumeric}.} \bibinfo{year}{2022}\natexlab{}.
-\newblock \showarticletitle{Toppling Top Lists: Evaluating the Accuracy of Popular Website Lists}. In \bibinfo{booktitle}{\emph{Proceedings of the 22nd ACM Internet Measurement Conference (IMC)}}.
+\bibfield{author}{\bibinfo{person}{Kimberly Ruth}, \bibinfo{person}{Deepak Kumar}, \bibinfo{person}{Brandon Wang}, \bibinfo{person}{Luke Valenta}, {and} \bibinfo{person}{Zakir Durumeric}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Toppling top lists: evaluating the accuracy of popular website lists}. In \bibinfo{booktitle}{\emph{Proceedings of the 22nd ACM Internet Measurement Conference (IMC)}}.
 \newblock
 \href{https://doi.org/10.1145/3517745.3561444}{doi:\nolinkurl{10.1145/3517745.3561444}}
 
@@ -348,10 +426,26 @@
 \newblock
 
 
+\bibitem[Venugopalan et~al\mbox{.}(2025)]%
+        {venugopalan2025fpinconsistent}
+\bibfield{author}{\bibinfo{person}{Hari Venugopalan} {et~al\mbox{.}}} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{FP-Inconsistent}: Measurement and Analysis of Fingerprint Inconsistencies in Evasive Bot Traffic}. In \bibinfo{booktitle}{\emph{Proc. 2025 ACM Internet Measurement Conference}}.
+\newblock
+\href{https://doi.org/10.1145/3730567.3732919}{doi:\nolinkurl{10.1145/3730567.3732919}}
+
+
 \bibitem[Waldspurger et~al\mbox{.}(2017)]%
         {waldspurger2017}
 \bibfield{author}{\bibinfo{person}{Carl Waldspurger}, \bibinfo{person}{Trausti Saemundsson}, \bibinfo{person}{Irfan Ahmad}, {and} \bibinfo{person}{Nohhyun Park}.} \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Cache Modeling and Optimization using Miniature Simulations}. In \bibinfo{booktitle}{\emph{Proceedings of the USENIX Annual Technical Conference (ATC)}}.
+\newblock
+
+
+\bibitem[{Wikimedia Foundation}(2025)]%
+        {wikimedia2025crawlers}
+\bibfield{author}{\bibinfo{person}{{Wikimedia Foundation}}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{How crawlers impact the operations of the {Wikimedia} projects}.
+\newblock \bibinfo{howpublished}{Wikimedia Diff, \url{https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/}}.
 \newblock
 
 
@@ -380,7 +474,7 @@
 
 \bibitem[Yang et~al\mbox{.}(2023a)]%
         {yang2023glcache}
-\bibfield{author}{\bibinfo{person}{Juncheng Yang}, \bibinfo{person}{Ziyue Qiu}, \bibinfo{person}{Yazhuo Zhang}, \bibinfo{person}{Yao Yue}, {and} \bibinfo{person}{Rashmi Vinayak}.} \bibinfo{year}{2023}\natexlab{a}.
+\bibfield{author}{\bibinfo{person}{Juncheng Yang}, \bibinfo{person}{Ziming Mao}, \bibinfo{person}{Yao Yue}, {and} \bibinfo{person}{K.~V. Rashmi}.} \bibinfo{year}{2023}\natexlab{a}.
 \newblock \showarticletitle{{GL-Cache}: Group-Level Learning for Efficient and High-Performance Caching}. In \bibinfo{booktitle}{\emph{Proceedings of the USENIX Conference on File and Storage Technologies (FAST)}}.
 \newblock
 

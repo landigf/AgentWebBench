@@ -9,7 +9,7 @@
     "llm_replay_requests": 357782,
     "task_families": 10,
     "regions": [
-      "zurich-eth",
+      "zurich",
       "us-central1",
       "europe-west1",
       "asia-southeast1"

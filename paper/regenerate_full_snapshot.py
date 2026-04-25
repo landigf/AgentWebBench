@@ -60,7 +60,7 @@ def main() -> None:
             "scripted_requests": scripted_rows,
             "llm_replay_requests": llm_rows,
             "task_families": 10,
-            "regions": ["zurich-eth", "us-central1", "europe-west1", "asia-southeast1"],
+            "regions": ["zurich", "us-central1", "europe-west1", "asia-southeast1"],
             "models": [
                 "gpt-4.1-mini",
                 "gemini-2.5-flash",

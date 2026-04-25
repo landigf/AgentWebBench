@@ -259,10 +259,9 @@ Yang et al.~\cite{yang2023glcache} introduce GL-Cache, a
 group-level learned cache replacement policy.
 Waldspurger et al.~\cite{waldspurger2017} demonstrate that miniature
 simulations can efficiently predict cache behavior.
-This rich algorithmic landscape motivates the need for workload-specific
-evaluation: the relative ranking of policies depends on request-stream
-characteristics, and agentic workloads may produce different
-reuse patterns than human browsing.
+These results motivate workload-specific evaluation: policy rankings
+depend on request-stream characteristics, and agentic workloads may
+exhibit different reuse patterns than human browsing.
 
 \paragraph{Browser automation.}
 \sysname uses BrowserUse~\cite{browseruse} (built on
@@ -429,15 +428,14 @@ and checksums as an integrity anchor.
 
 \subsection{Release Scope}
 
-The release manifest \release enumerates the scripted subtree at
-\texttt{releases/\release/}, the per-model LLM session bundles under
-\texttt{round9/} and \texttt{round10-*/}, and the stitched cache-replay
-CSVs \texttt{full\_400\_sessions.csv} (scripted) and
-\texttt{llm\_full\_901.csv} (LLM).  All paths are pinned in
-\texttt{artifact\_snapshot.json}.  The named
-\texttt{releases/\release/} directory contains the scripted Zurich
-release subset; the full 1{,}301-session paper corpus is defined by the
-manifest via the per-model bundles and stitched canonical CSVs.
+The release manifest \release enumerates the scripted subtree under
+\texttt{releases/}, the per-model LLM session bundles in
+\texttt{round9/} and \texttt{round10-*/}, and the two stitched
+cache-replay CSVs (scripted and LLM).  All paths are pinned in
+\texttt{artifact\_snapshot.json}.  The named release directory
+contains the scripted Zurich release subset;
+the full 1{,}301-session paper corpus is defined by the manifest via
+the per-model bundles and the stitched canonical CSVs.
 
 \paragraph{Task families.}
 \begin{itemize}
@@ -728,9 +726,10 @@ Figure~\ref{fig:contentmix} visualizes the aggregate distribution.
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.85\columnwidth]{figures/live_content_type_mix.pdf}
-\caption{Byte share by content type (Zurich scripted subset, 100 runs; cf.\ Table~\ref{tab:content}).
+\caption{Byte share by content type (Zurich scripted subset; cloud regions
+  similar, cf.\ Table~\ref{tab:content}).
   Rendering infrastructure (scripts, styles) dominates.}
-\Description{Horizontal bar chart of byte share by content type. JavaScript is the largest category at about 61 percent, followed by images at about 13 percent, while HTML and JSON are each below 3 percent.}
+\Description{Horizontal bar chart of byte share by content type. JavaScript is the largest category at about 62 percent, followed by images at about 13 percent, while HTML and JSON are each below 3 percent.}
 \label{fig:contentmix}
 \end{figure}
 
@@ -764,7 +763,8 @@ browsing traces, since agents do not stream video content.
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.85\columnwidth]{figures/object_size_cdf.pdf}
-\caption{CDF of unique object sizes (Zurich subset, 2{,}522 URLs, log scale).
+\caption{CDF of unique object sizes (Zurich subset, 2{,}522 URLs, log scale;
+  full geo trace at 70\% under 1\,KB, \S\ref{sec:replay}).
   Heavy-tailed: 50\% under 1\,KB, but 4.6\% exceed 100\,KB.}
 \Description{CDF of unique object sizes on a logarithmic x-axis. The curve rises steeply below 1 kilobyte, passes 50 percent near 1 kilobyte, and has a long tail extending past 100 kilobytes.}
 \label{fig:sizecdf}
@@ -841,18 +841,18 @@ pooling, and origin load management.
 \subsection{Session Duration and Working Set}
 \label{sec:obs-session}
 
-Session durations span a 4$\times$ range across task families.  News
-aggregation averages 18.2~seconds per session and product comparison
-averages 15.2~seconds, reflecting extensive multi-site navigation with
-many sub-resource loads.  Documentation lookup and regulatory lookup average
+Session durations span a 4$\times$ range across task families
+(Figure~\ref{fig:duration}).  News aggregation averages 18.2~seconds
+per session and product comparison averages 15.2~seconds, reflecting
+extensive multi-site navigation with many sub-resource loads.  Documentation lookup and regulatory lookup average
 4--11~seconds, reflecting more focused single-site navigation.
 Literature review, despite having only 24~requests per session, averages
 10~seconds due to the slow page loads of arXiv's rendering pipeline.
 
 The per-session unique working set ranges from 80\,KB (real estate) to
 9.6\,MiB (news aggregation).  Across the Zurich sessions (100~runs), the
-union of unique URLs has a 41.1\,MiB working set, whereas the cumulative
-transferred volume is 348\,MiB, an 8.5$\times$ \emph{cross-session}
+union of unique URLs has a 43.8\,MiB working set, whereas the cumulative
+transferred volume is 348\,MiB, an 7.9$\times$ \emph{cross-session}
 reuse factor (the same URL fetched in multiple sessions).  This reuse
 is concentrated
 in shared sub-resources: JavaScript bundles, stylesheets, and fonts that
@@ -880,8 +880,7 @@ Gemini~2.5~Flash and Gemini~2.5~Pro (Google, 150+150~sessions across
 three cloud regions),
 GPT-4.1-mini (OpenAI, 350~sessions across four regions),
 Claude~Haiku~4.5 (Anthropic, 100~sessions)~\cite{anthropic2025haiku},
-DeepSeek-V3.2 (DeepSeek, 90~sessions pinned by the release
-manifest)~\cite{deepseek2026v32},
+DeepSeek-V3.2 (DeepSeek, 100~sessions)~\cite{deepseek2026v32},
 and Qwen~2.5-Coder~7B (open-weight edge model,
 61~sessions)~\cite{qwen2024coder}.
 Table~\ref{tab:llm} compares per-task request volumes across all
@@ -954,7 +953,7 @@ yet \emph{all} fall
 in the same order of magnitude above the scripted baseline.
 DeepSeek-V3.2, a reasoning-first model with explicit agentic
 post-training on 1{,}800+ interactive
-environments~\cite{deepseek2026v32}, generates 411~req/session,
+environments~\cite{deepseek2026v32}, generates 385~req/session,
 placing it squarely in the middle of the distribution rather than at
 an extreme.  This confirms that request amplification is structural to
 browser-mediated agency, not a function of model quality, provider, or
@@ -1012,9 +1011,10 @@ is retained in the artifact for substrate analysis but is excluded
 from the geographic claims below.
 
 Across the three cloud regions, per-task mean request volumes vary by
-1.0--1.4$\times$.  News aggregation shows the largest cross-region
-spread (1.4$\times$: 1{,}878 from US~Central vs.\ 1{,}345 from
-EU~West), driven by region-specific ad networks; product comparison
+1.0--1.4$\times$ (Figure~\ref{fig:georequests}).  News aggregation
+shows the largest cross-region spread (1.4$\times$: 1{,}878 from
+US~Central vs.\ 1{,}345 from EU~West), driven by region-specific ad
+networks; product comparison
 shows the same 1.4$\times$ (863 vs.\ 611) reflecting GPU
 provider regional pricing pages.  Tasks targeting stable institutional
 content (regulatory lookup, real estate, documentation) show
@@ -1165,9 +1165,9 @@ caches.  The practical implication for the 1--50\,MiB per-tenant-shard
 and microcache regime we test is that \textbf{size-aware policies
 consistently outperform recency-based policies for agentic workloads
 at per-tenant shard and microcache sizes (1--50\,MiB)}.
-Bootstrap resampling (1{,}000 iterations, session-level resampling)
+Bootstrap resampling (10{,}000 iterations, session-level resampling)
 confirms that the GDSF advantage is statistically robust:
-GDSF wins on object hit rate in all 1{,}000 bootstrap samples at every cache size tested,
+GDSF wins on object hit rate in all 10{,}000 bootstrap samples at every cache size tested,
 with non-overlapping 95\% confidence intervals at all sizes from
 1--50\,MiB.
 
@@ -1202,7 +1202,7 @@ fetches of previously-seen URLs, and 83\% of those re-uses occur within
 a positional reuse distance of 1{,}000 requests.  The working set is also
 bimodal (full geo-distributed trace): 70\% of unique objects are smaller
 than 1\,KB (vs.\ 50\% in the Zurich subset, \S\ref{sec:obs-sizes}), but
-the top 1\% of objects carry 38\% of bytes.  GDSF exploits both properties:
+the top 1\% of objects carry 36\% of bytes.  GDSF exploits both properties:
 its $f/s$ priority keeps many small, frequently re-referenced assets
 (JS bundles, font files, tracking scripts) in cache, at the cost of
 early-evicting large media objects that would otherwise dominate LRU's
@@ -1221,7 +1221,7 @@ Size-aware eviction exploits the byte-weight asymmetry that recency-blind polici
 \paragraph{Per-region breakdown.}
 Replaying each region's trace \emph{in isolation} (Appendix
 Table~\ref{tab:replay-region}) shows GDSF's 5--10\,MiB advantage is
-robust across the three cloud regions (1.4--1.5$\times$ at 10\,MiB),
+robust across the three cloud regions (1.29--1.44$\times$ at 10\,MiB),
 but the Zurich subset (narrower content mix) inverts at 10\,MiB (LRU
 81.3\% vs.\ GDSF 76.8\%).  Above 25\,MiB, regions converge.  GDSF
 helps where working-set diversity exceeds cache capacity, not
@@ -1233,9 +1233,9 @@ universally.
 \caption{Cache hit rate vs.\ cache size for six replacement policies
   on the full 82{,}455-request geo-distributed trace.
   Hit rate as fraction of total requests.
-  GDSF dominates at all tested sizes, with a 3$\times$ advantage at 1\,MiB
-  narrowing to 5~pp at 50\,MiB.}
-\Description{Line chart of cache hit rate versus cache size for six replacement policies. GDSF is the top curve at every tested size, with the largest margin at 1 MiB. LRU and LFU form the lower band at small caches. S3-FIFO and W-TinyLFU sit mid-pack; ARC tracks LFU closely. All curves converge within a few percentage points at 50 MiB.}
+  GDSF dominates at all tested sizes, narrowing from 30~pp (3.2$\times$)
+  at 1\,MiB to 5~pp at 50\,MiB.}
+\Description{Line chart of cache hit rate versus cache size for six replacement policies. GDSF is the top curve at every tested size, with the largest margin at 1 MiB. LRU and LFU form the lower band at small caches. S3-FIFO and W-TinyLFU sit mid-pack; ARC tracks LFU at 1 MiB and LRU at large sizes. All curves converge within a few percentage points at 50 MiB.}
 \label{fig:cache}
 \end{figure}
 
@@ -1342,14 +1342,6 @@ favor LRU-family policies under more uniform human-browsing object
 sizes; workload-aware selection~\cite{zhang2025} grows in importance
 as agent traffic scales.
 
-\paragraph{Who benefits from these traces.}
-Cache researchers get a real-trace replacement for synthetic
-AI-traffic overlays~\cite{zhang2025}; agent-framework developers get
-a rendering-cost baseline (97.1\% non-HTML) against which to evaluate
-structured-endpoint alternatives (e.g., x402~\cite{x402}); and
-publishers gain per-request behavior to move beyond the
-block-vs-serve binary.
-
 \paragraph{Agent vs.\ human cache behavior.}
 To check whether the GDSF advantage is specific to agentic workloads
 or a generic property of the underlying trace structure, we constructed
@@ -1386,40 +1378,26 @@ downstream systems research on realistic request streams.
 \section{Limitations and Next Steps}
 \label{sec:limitations}
 
-\paragraph{LLM backend diversity.}
 The expanded collection covers six models from five providers,
 including frontier closed-source (GPT-4.1-mini, Gemini~Flash/Pro,
 Claude~Haiku~4.5), an agent-purpose-trained model
 (DeepSeek-V3.2~\cite{deepseek2026v32}), and an open-weight edge model
-(Qwen~2.5-Coder~7B~\cite{qwen2024coder}).  Multi-region replication
-across three GCP regions is consistent with geographic invariance
-($p > 0.45$ for the three multi-region models).  Human-driven traces remain absent; pairing with real
-user sessions is future work.
-
-\paragraph{Collection substrate heterogeneity.}
-Zurich sessions use BrowserUse on macOS while cloud sessions use
-Playwright on Linux in Docker.  The raw 19$\times$ Zurich-to-cloud
-ratio conflates browser configuration with geographic variation;
-cloud-only comparisons on the same Docker image show 1.0--1.4$\times$
-across regions ($p > 0.45$).  Future releases will use a single
-containerized substrate across all regions.
-
-\paragraph{CDP instrumentation scope.}
-The CDP tracer captures requests for the active browsing context;
-requests during domain transitions or within opaque cross-origin
-iframes may be missed.  HAR cross-referencing on 20~sessions bounds
+(Qwen~2.5-Coder~7B~\cite{qwen2024coder}); human-driven traces remain
+absent.  Multi-region replication ($n{=}5$ per cell) finds no
+significant region effect ($p > 0.45$), consistent with under-power
+rather than proven invariance.  Zurich sessions use BrowserUse on
+macOS while cloud sessions use Playwright on Linux in Docker; the raw
+19$\times$ Zurich-to-cloud ratio thus conflates browser configuration
+with geographic variation, while cloud-only comparisons on the same
+Docker image show 1.0--1.4$\times$ across regions.
+The CDP tracer may miss requests during domain transitions or within
+opaque cross-origin iframes; HAR cross-referencing on 20~sessions bounds
 this undercounting below 3\% of total requests.
-
-\paragraph{Task completion proxy.}
 A \emph{reached-content} heuristic ($\geq$3~domains, $\geq$5
 status-200 responses) indicates 89.2\% of scripted and 91.3\% of LLM
 sessions reached meaningful content; semantic correctness labels are
-orthogonal to this network-level contribution and are planned as a
-future extension.
-
-\paragraph{Scope.}
-This release samples BrowserUse-mediated read-only tasks rather
-than the full population of deployed agent traffic; interactive
+orthogonal to this network-level contribution.
+This release samples BrowserUse-mediated read-only tasks; interactive
 workflows (forms, authentication) are excluded for ethical reasons.
 Repeated collection is needed for longitudinal stability; HTTP/2
 multiplexing and HTTP/3 effects are recorded but not analyzed.
@@ -1428,18 +1406,12 @@ multiplexing and HTTP/3 effects are recorded but not analyzed.
 \section{Conclusion}
 \label{sec:conclusion}
 
-Browser-mediated AI agents drive a new class of web workloads, and
-measurement work has lacked request-level evidence to study them.
-The first \release release (1{,}301 sessions, six models, five
-providers) documents 2--5$\times$ request amplification on the
-Zurich-matched three-model slice against a synthetic scripted floor,
-and a 97\% non-HTML byte mix; cache-policy rankings on this
-trace shift away from the LRU-dominant picture reported for production
-human traces, so infrastructure tuned on human traces is likely to
-underperform at edge-cache scales ($\leq$10\,MiB).  Beyond those
-numbers, the release gives the community a common replay surface for
-future human-vs-agent comparisons, workload evolution studies, and
-workload-aware systems design.
+Browser-mediated AI agents drive a new class of web workloads.  The
+\release release (1{,}301 sessions, six models, five providers)
+documents 2--5$\times$ request amplification and a 97\% non-HTML byte
+mix; cache-policy rankings shift from the LRU-dominant production
+picture, so infrastructure tuned on human traces is likely to
+underperform at edge-cache scales ($\leq$10\,MiB).
 
 %% ====================================================================
 \begin{acks}

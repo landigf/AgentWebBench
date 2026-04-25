@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 ROOT = Path(__file__).resolve().parents[1]
 PAPER_DIR = Path(__file__).resolve().parent
 ASL_RELEASES = ROOT / "data"
-CACHE_SIM_DIR = ROOT / "cache-sim"
+CACHE_SIM_DIR = ROOT / "data"
 PAPER_FIGURES = PAPER_DIR / "figures"
 
 
