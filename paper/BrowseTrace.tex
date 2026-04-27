@@ -25,8 +25,8 @@
 \acmISBN{}
 \acmPrice{}
 
-% Clear PDF/XMP author metadata for double-blind review
-\AtBeginDocument{\hypersetup{pdfauthor={},pdftitle={BrowseTrace: Request-Level Traffic Characterization of Browser-Mediated AI Agents},pdfsubject={},pdfkeywords={}}}
+% Clear PDF/XMP author metadata for double-blind review (title kept)
+\AtBeginDocument{\hypersetup{pdfauthor={},pdfsubject={},pdfkeywords={}}}
 
 \begin{document}
 \pagestyle{plain}  % IMC requires page numbers on review submissions
@@ -91,8 +91,8 @@ research.
 \end{abstract}
 
 \maketitle
-% Override XMP/PDF metadata fields that acmart populates from \author/\title
-\hypersetup{pdfauthor={},pdftitle={}}
+% Override XMP/PDF author metadata that acmart populates from \author{}
+\hypersetup{pdfauthor={}}
 
 %% ====================================================================
 \section{Introduction}
