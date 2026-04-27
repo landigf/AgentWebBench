@@ -1412,16 +1412,15 @@ effects are recorded but not analyzed.
 \section{Conclusion}
 \label{sec:conclusion}
 
-Browser-mediated AI agents drive a new class of web workloads.
-\release (1{,}301 sessions, six models) documents 2--5$\times$
-request amplification, a 97\% non-HTML byte mix, and a GDSF advantage
-at 5--10\,MiB conditional on multi-tenant aggregation.  Three
-takeaways follow.  Capacity plans calibrated against scripted or
-crawler baselines will under-provision against agent traffic.  The
-cache-policy ranking is scope-bound: a single edge-wide policy is
-the wrong default for heterogeneous tenant pools.  And the 97.1\%
-non-HTML byte share bounds the ceiling for structured
-agent-publisher protocols.
+Browser-mediated AI agents are a measurably distinct web workload.
+\release (1{,}301~sessions, six LLMs from five providers) documents
+2--5$\times$ request amplification driven by task structure, not
+model identity; a 97\% non-HTML byte mix that bounds any HTML-only
+agent-publisher protocol; and a GDSF lead that is a deployment-scope
+artifact (15.7~pp at 10\,MiB under multi-tenant aggregation,
+7.3~pp on per-tenant replay).  The open question shifts from what
+agent traffic looks like at the request level to how operators
+partition shards, refresh policies, and origin contracts around it.
 
 %% ====================================================================
 \begin{acks}
