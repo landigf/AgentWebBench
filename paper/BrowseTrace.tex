@@ -25,6 +25,9 @@
 \acmISBN{}
 \acmPrice{}
 
+% Clear PDF/XMP author metadata for double-blind review
+\AtBeginDocument{\hypersetup{pdfauthor={},pdftitle={BrowseTrace: Request-Level Traffic Characterization of Browser-Mediated AI Agents},pdfsubject={},pdfkeywords={}}}
+
 \begin{document}
 \pagestyle{plain}  % IMC requires page numbers on review submissions
 
@@ -88,6 +91,8 @@ research.
 \end{abstract}
 
 \maketitle
+% Override XMP/PDF metadata fields that acmart populates from \author/\title
+\hypersetup{pdfauthor={},pdftitle={}}
 
 %% ====================================================================
 \section{Introduction}
@@ -305,13 +310,14 @@ systems experiments.
 
 \begin{table}[t]
 \centering
-\footnotesize
+\small
 \caption{Positioning of \sysname relative to existing work.
   ``Agent HTTP traces'' means request-level HTTP captures from
   browser-mediated agent sessions specifically; industry AI-bot
   reports and \cite{zhang2025} provide only aggregate or synthetic-overlay
   coverage.  $\checkmark$ = addressed, $\circ$ = partial, -- = not addressed.}
 \label{tab:positioning}
+\setlength{\tabcolsep}{3pt}
 \begin{tabular}{@{}lcccc@{}}
 \toprule
 & \textbf{Task} & \textbf{Agent HTTP} & \textbf{Multi-} & \textbf{Replay} \\
@@ -505,7 +511,7 @@ are computed from per-task repeats using the $t$-distribution at the
 
 \begin{table}[t]
 \centering
-\footnotesize
+\small
 \caption{Per-task summary for the Zurich scripted subset within
   \release (10~repeats each).  Mean values with 95\% CIs
   (Student's $t$-distribution, $\mathrm{df}=9$); the aggregate row
@@ -896,7 +902,7 @@ four execution modes.
 
 \begin{table}[t]
 \centering
-\footnotesize
+\small
 \caption{Scripted-random vs.\ LLM-driven request volumes for the
   three Zurich-collected models (total requests per task; superscripts
   show amplification vs.\ scripted baseline; total row shows 95\%
@@ -908,8 +914,9 @@ four execution modes.
   the 400-session full release); the geo-distributed scripted total is
   168{,}067 (Section~\ref{sec:methodology}).}
 \label{tab:llm}
-\setlength{\tabcolsep}{3.5pt}
-\begin{tabular}{@{}lr@{\,}r@{\,}r@{\,}r@{}}
+\setlength{\tabcolsep}{2.5pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lrrrr@{}}
 \toprule
 \textbf{Task} & \textbf{Script.} & \textbf{Flash} & \textbf{GPT-4.1m} & \textbf{Pro} \\
 \midrule
@@ -926,9 +933,9 @@ Prod.\ comp.   &  2{,}514 &  7{,}545\textsuperscript{3$\times$} &  6{,}585\texts
 \midrule
 \textbf{Total} & 14{,}833 & 73{,}963\textsuperscript{5.0$\times$} & 53{,}370\textsuperscript{3.6$\times$} & 30{,}898\textsuperscript{2.1$\times$} \\
 \bottomrule
-\multicolumn{5}{@{}l}{\scriptsize 95\% bootstrap CI: Flash [4.2,6.0], GPT [3.0,4.4], Pro [1.6,2.7]} \\
-\multicolumn{5}{@{}l}{\scriptsize Full effect sizes (Cohen's $d$, rank-biserial $r$, Kruskal-Wallis $H$) in the public artifact.} \\
-\end{tabular}
+\multicolumn{5}{@{}l}{95\% bootstrap CI: Flash [4.2,6.0], GPT [3.0,4.4], Pro [1.6,2.7]} \\
+\multicolumn{5}{@{}l}{Full effect sizes (Cohen's $d$, rank-biserial $r$, Kruskal-Wallis $H$) in the public artifact.} \\
+\end{tabular}}
 \end{table}
 
 We highlight three patterns.  First, \textbf{all three LLM models generate
@@ -1131,7 +1138,7 @@ Table~\ref{tab:replay} reports hit rates (HR) at five cache sizes
 
 \begin{table}[t]
 \centering
-\footnotesize
+\small
 \caption{Cache replay results across the full 82{,}455-request,
   400-session geo-distributed trace.  HR = object hit rate.
   Values expressed as fractions (0--1).}
