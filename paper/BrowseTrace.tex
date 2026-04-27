@@ -1381,33 +1381,25 @@ volume vs.\ 2.9\% HTML), motivating proposals for structured
 machine-readable endpoints and cryptographic agent identity schemes
 (e.g., x402~\cite{x402}) that \sysname can evaluate.
 
-\paragraph{Scope as infrastructure benchmark.}
-\sysname measures network-level effects of agent behavior rather than
-task-completion quality, publishing request-level traces that enable
-downstream systems research on realistic request streams.
-
 %% ====================================================================
 \section{Limitations and Next Steps}
 \label{sec:limitations}
 
 Six models from five providers cover the frontier closed-source,
-agent-trained, and open-weight tiers (Section~\ref{sec:obs-llm});
-human-driven traces remain absent.  Multi-region replication
-($n{=}5$ per cell) finds no significant region effect ($p > 0.45$),
-consistent with under-power rather than proven invariance.  Zurich
-sessions use BrowserUse on macOS while cloud sessions use Playwright
-on Linux in Docker; the raw 19$\times$ Zurich-to-cloud ratio thus
-conflates browser configuration with geography, while cloud-only
-comparisons on the same Docker image show 1.0--1.4$\times$ across
+agent-trained, and open-weight tiers; human-driven traces remain
+absent.  Multi-region replication ($n{=}5$ per cell) finds no
+significant region effect ($p > 0.45$), consistent with under-power
+rather than proven invariance.  Zurich uses BrowserUse on macOS,
+cloud sessions Playwright on Linux in Docker; the raw 19$\times$
+Zurich-to-cloud ratio thus conflates browser configuration with
+geography, while cloud-only comparisons show 1.0--1.4$\times$ across
 regions.  The CDP tracer may miss requests during domain transitions
-or within opaque cross-origin iframes; HAR cross-referencing on
-20~sessions bounds this undercounting below 3\% of total requests.
-A \emph{reached-content} heuristic ($\geq$3~domains, $\geq$5
-status-200 responses) indicates 89.2\% of scripted and 91.3\% of LLM
-sessions reached meaningful content; semantic correctness labels are
-orthogonal to this network-level contribution.  This release samples
-BrowserUse-mediated read-only tasks; interactive workflows (forms,
-authentication) are excluded for ethical reasons.  Repeated collection
+or in opaque iframes; HAR cross-referencing on 20~sessions bounds
+this undercounting below 3\%.  A \emph{reached-content} heuristic
+indicates 89.2\% of scripted and 91.3\% of LLM sessions reached
+meaningful content.  This release samples read-only tasks; interactive
+workflows (forms, authentication) are excluded for ethical reasons.
+Repeated collection
 is needed for longitudinal stability; HTTP/2 multiplexing and HTTP/3
 effects are recorded but not analyzed.
 
@@ -1415,13 +1407,10 @@ effects are recorded but not analyzed.
 \section{Conclusion}
 \label{sec:conclusion}
 
-Browser-mediated AI agents drive a new class of web workloads.  The
-\release release (1{,}301 sessions, six models, five providers)
-documents 2--5$\times$ request amplification and a 97\% non-HTML byte
-mix.  The size-aware advantage at 5--10\,MiB is a deployment scope
-condition (multi-tenant aggregation) rather than a universal policy
-ranking, so infrastructure tuned on human traces is likely to
-underperform at edge-cache scales when tenant pools are heterogeneous.
+Browser-mediated AI agents drive a new class of web workloads.
+\release (1{,}301 sessions, six models) documents 2--5$\times$
+request amplification, a 97\% non-HTML byte mix, and a GDSF advantage
+at 5--10\,MiB conditional on multi-tenant aggregation.
 
 %% ====================================================================
 \begin{acks}
