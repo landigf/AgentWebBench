@@ -428,14 +428,19 @@ and checksums as an integrity anchor.
 
 \subsection{Release Scope}
 
-The release manifest \release enumerates the scripted subtree under
-\texttt{releases/}, the per-model LLM session bundles in
-\texttt{round9/} and \texttt{round10-*/}, and the two stitched
-cache-replay CSVs (scripted and LLM).  All paths are pinned in
+The release manifest \release pins three artifacts: the sanitized
+scripted Zurich subtree (per-task \texttt{traces.json},
+\texttt{cache\_trace.csv}, \texttt{access\_log.jsonl},
+\texttt{summary.json}); the stitched scripted cache-replay CSV
+\texttt{full\_400\_sessions.csv}; and the stitched LLM cache-replay
+CSV \texttt{llm\_full\_901.csv}.  All paths are pinned in
 \texttt{artifact\_snapshot.json}.  The named release directory
-contains the scripted Zurich release subset;
-the full 1{,}301-session paper corpus is defined by the manifest via
-the per-model bundles and the stitched canonical CSVs.
+contains the scripted Zurich release subset; the public LLM artifact
+is scoped to cache replay (per-session raw \texttt{traces.json} for
+the LLM-driven runs are retained internally and released on request
+to preserve URL anonymity in the public mirror).
+The full 1{,}301-session paper corpus is defined by the manifest via
+the scripted subtree and the two stitched canonical CSVs.
 
 \paragraph{Task families.}
 \begin{itemize}
@@ -577,9 +582,10 @@ against which future LLM-driven releases will be compared.
 
 The benchmark framework also supports \emph{LLM-driven} mode
 (via BrowserUse with Gemini or GPT backends).
-Section~\ref{sec:obs-llm} presents a direct comparison of scripted
-and LLM-driven traces on identical tasks, isolating the effect of
-agent reasoning on network behavior.
+Section~\ref{sec:obs-llm} contrasts scripted-random and LLM-driven
+traces on the same task specifications, quantifying the network
+cost of agent-directed navigation relative to the scripted reference
+driver.
 
 \subsection{Ethical Considerations}
 
@@ -857,7 +863,7 @@ reuse factor (the same URL fetched in multiple sessions).  This reuse
 is concentrated
 in shared sub-resources: JavaScript bundles, stylesheets, and fonts that
 appear across multiple sessions targeting the same publisher.  The
-implication for cache sizing is that a 41\,MiB cache could in principle
+implication for cache sizing is that a 44\,MiB cache could in principle
 serve all unique objects, but the temporal ordering of requests means
 that not all objects are resident simultaneously.
 
@@ -880,7 +886,8 @@ Gemini~2.5~Flash and Gemini~2.5~Pro (Google, 150+150~sessions across
 three cloud regions),
 GPT-4.1-mini (OpenAI, 350~sessions across four regions),
 Claude~Haiku~4.5 (Anthropic, 100~sessions)~\cite{anthropic2025haiku},
-DeepSeek-V3.2 (DeepSeek, 100~sessions)~\cite{deepseek2026v32},
+DeepSeek-V3.2 (DeepSeek, 90~sessions pinned by the release
+manifest)~\cite{deepseek2026v32},
 and Qwen~2.5-Coder~7B (open-weight edge model,
 61~sessions)~\cite{qwen2024coder}.
 Table~\ref{tab:llm} compares per-task request volumes across all
@@ -953,7 +960,7 @@ yet \emph{all} fall
 in the same order of magnitude above the scripted baseline.
 DeepSeek-V3.2, a reasoning-first model with explicit agentic
 post-training on 1{,}800+ interactive
-environments~\cite{deepseek2026v32}, generates 385~req/session,
+environments~\cite{deepseek2026v32}, generates 411~req/session,
 placing it squarely in the middle of the distribution rather than at
 an extreme.  This confirms that request amplification is structural to
 browser-mediated agency, not a function of model quality, provider, or
@@ -1318,7 +1325,8 @@ replay numbers directly from those files.  The intended invariant is strict: eve
 number in the paper must trace back to a versioned release manifest
 and a deterministic analysis pipeline.  The artifact package includes
 a \texttt{Dockerfile} pinning Python and the Playwright-bundled Chromium at the release tag,
-\texttt{requirements.txt} with exact dependencies, and a deterministic
+\texttt{requirements.txt} with dependency lower bounds used for the
+review artifact, and a deterministic
 per-task PRNG seed derived from SHA-256 of the task identifier, so every
 (task, repeat) pair replays bit-identically.
 
@@ -1378,29 +1386,26 @@ downstream systems research on realistic request streams.
 \section{Limitations and Next Steps}
 \label{sec:limitations}
 
-The expanded collection covers six models from five providers,
-including frontier closed-source (GPT-4.1-mini, Gemini~Flash/Pro,
-Claude~Haiku~4.5), an agent-purpose-trained model
-(DeepSeek-V3.2~\cite{deepseek2026v32}), and an open-weight edge model
-(Qwen~2.5-Coder~7B~\cite{qwen2024coder}); human-driven traces remain
-absent.  Multi-region replication ($n{=}5$ per cell) finds no
-significant region effect ($p > 0.45$), consistent with under-power
-rather than proven invariance.  Zurich sessions use BrowserUse on
-macOS while cloud sessions use Playwright on Linux in Docker; the raw
-19$\times$ Zurich-to-cloud ratio thus conflates browser configuration
-with geographic variation, while cloud-only comparisons on the same
-Docker image show 1.0--1.4$\times$ across regions.
-The CDP tracer may miss requests during domain transitions or within
-opaque cross-origin iframes; HAR cross-referencing on 20~sessions bounds
-this undercounting below 3\% of total requests.
+Six models from five providers cover the frontier closed-source,
+agent-trained, and open-weight tiers (Section~\ref{sec:obs-llm});
+human-driven traces remain absent.  Multi-region replication
+($n{=}5$ per cell) finds no significant region effect ($p > 0.45$),
+consistent with under-power rather than proven invariance.  Zurich
+sessions use BrowserUse on macOS while cloud sessions use Playwright
+on Linux in Docker; the raw 19$\times$ Zurich-to-cloud ratio thus
+conflates browser configuration with geography, while cloud-only
+comparisons on the same Docker image show 1.0--1.4$\times$ across
+regions.  The CDP tracer may miss requests during domain transitions
+or within opaque cross-origin iframes; HAR cross-referencing on
+20~sessions bounds this undercounting below 3\% of total requests.
 A \emph{reached-content} heuristic ($\geq$3~domains, $\geq$5
 status-200 responses) indicates 89.2\% of scripted and 91.3\% of LLM
 sessions reached meaningful content; semantic correctness labels are
-orthogonal to this network-level contribution.
-This release samples BrowserUse-mediated read-only tasks; interactive
-workflows (forms, authentication) are excluded for ethical reasons.
-Repeated collection is needed for longitudinal stability; HTTP/2
-multiplexing and HTTP/3 effects are recorded but not analyzed.
+orthogonal to this network-level contribution.  This release samples
+BrowserUse-mediated read-only tasks; interactive workflows (forms,
+authentication) are excluded for ethical reasons.  Repeated collection
+is needed for longitudinal stability; HTTP/2 multiplexing and HTTP/3
+effects are recorded but not analyzed.
 
 %% ====================================================================
 \section{Conclusion}

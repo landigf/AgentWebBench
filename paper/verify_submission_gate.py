@@ -172,13 +172,16 @@ def compute_region_replays(path: Path) -> dict[str, dict[str, dict[str, float]]]
     with path.open(newline="") as handle:
         reader = csv.DictReader(handle)
         for row in reader:
-            session_id = row["session_id"]
+            session_id = row.get("session_id")
+            if not session_id:
+                # Skip malformed rows (e.g. a redacted query string ate a comma).
+                continue
             region = session_id.split("_", 1)[0]
             region_rows[region].append(
                 (
-                    row["timestamp_us"],
-                    row["cache_key"],
-                    row["object_size_bytes"],
+                    row.get("timestamp_us", ""),
+                    row.get("cache_key", ""),
+                    row.get("object_size_bytes", ""),
                     session_id,
                 )
             )
