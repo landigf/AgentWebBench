@@ -910,9 +910,10 @@ four execution modes.
   Qwen~2.5-Coder~7B volumes appear in the Section~\ref{sec:obs-llm}
   prose rather than this table.  Scripted column sums to 14{,}833;
   the geo-distributed scripted total is 168{,}067
-  (Section~\ref{sec:methodology}).  GPT~$=$~GPT-4.1-mini.  Per-task
-  amplification ratios and 95\% bootstrap CIs (Flash [4.2,6.0],
-  GPT [3.0,4.4], Pro [1.6,2.7]) are in the public artifact.}
+  (Section~\ref{sec:methodology}).  GPT~$=$~GPT-4.1-mini.
+  Total-row amplification vs.\ scripted: Flash 5.0$\times$, GPT
+  3.6$\times$, Pro 2.1$\times$ (95\% bootstrap CIs [4.2,6.0],
+  [3.0,4.4], [1.6,2.7]).  Per-task ratios in the public artifact.}
 \label{tab:llm}
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{@{}lrrrr@{}}
@@ -930,7 +931,7 @@ News agg.      &  3{,}669 & 12{,}404 &  5{,}964 & 3{,}974 \\
 API comp.      &  1{,}142 &  3{,}850 &  2{,}885 & 2{,}376 \\
 Prod.\ comp.   &  2{,}514 &  7{,}545 &  6{,}585 & 4{,}515 \\
 \midrule
-\textbf{Total} & 14{,}833 & 73{,}963$_{5\times}$ & 53{,}370$_{3.6\times}$ & 30{,}898$_{2.1\times}$ \\
+\textbf{Total} & 14{,}833 & 73{,}963 & 53{,}370 & 30{,}898 \\
 \bottomrule
 \end{tabular}
 \end{table}

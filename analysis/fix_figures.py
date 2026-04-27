@@ -27,8 +27,8 @@ import matplotlib.colors as mcolors
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[4]
-RELEASE_DIR = ROOT / "asl-project" / "data" / "releases" / "release-v3" / "scraping"
-MULTIREGION_DIR = ROOT / "asl-project" / "data" / "round9" / "round9-multiregion-20260415"
+RELEASE_DIR = ROOT / "collection" / "data" / "release-v3" / "scraping"
+MULTIREGION_DIR = ROOT / "collection" / "data" / "round9" / "round9-multiregion-20260415"
 FIGURES_DIR = Path(__file__).resolve().parents[1] / "figures"
 
 # ColorBrewer Set2 palette
