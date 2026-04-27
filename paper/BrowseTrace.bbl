@@ -165,7 +165,7 @@
 \newblock \bibinfo{howpublished}{\url{https://huggingface.co/deepseek-ai/DeepSeek-V3.2}}.
 \newblock
 \newblock
-\shownote{Reasoning-first model with DeepSeek Sparse Attention (DSA) and large-scale agentic post-training over 1{,}800+ interactive environments.}.
+\shownote{Reasoning-first model with DeepSeek Sparse Attention (DSA) and large-scale agentic post-training over 1{,}800+ interactive environments}.
 
 
 \bibitem[Deng et~al\mbox{.}(2023)]%

@@ -76,14 +76,15 @@ tasks, LLM agents issue 2--5$\times$ more HTTP requests than the
 scripted baseline, with per-task amplification reaching 26$\times$
 for open-ended prompts.  Rendering dominates payloads: scripts and
 stylesheets jointly carry 69\% of transferred bytes versus 2.9\% for HTML.
-Replaying 82{,}455~scripted requests and 357{,}782~LLM-driven
-requests under \texttt{libCacheSim} through six cache policies,
-size-aware eviction (GDSF) outperforms LRU at edge-cache sizes: at
-5\,MiB, GDSF reaches 59.5\% hit rate vs.\ 37.4\% on scripted traffic
-and 76.2\% vs.\ 43.5\% on LLM-driven traffic.  Policy rankings diverge from
-those reported for production human-browsing traces.  We release
-traces, a cache-simulator schema, and replay tooling for measurement
-and CDN research.
+Replaying 82{,}455~scripted and 357{,}782~LLM-driven requests
+through six cache policies, size-aware eviction (GDSF) reaches
+59.5\% hit rate at 5\,MiB versus 37.4\% for LRU on scripted traffic
+and 76.2\% vs.\ 43.5\% on LLM-driven traffic.  The advantage is a
+deployment scope condition (15.7~pp under multi-tenant
+aggregation, 7.3~pp on per-tenant replay).  Policy rankings
+diverge from production human-browsing reports.  We release traces, a
+cache-simulator schema, and replay tooling for measurement and CDN
+research.
 \end{abstract}
 
 \maketitle
@@ -858,7 +859,7 @@ Literature review, despite having only 24~requests per session, averages
 The per-session unique working set ranges from 80\,KB (real estate) to
 9.6\,MiB (news aggregation).  Across the Zurich sessions (100~runs), the
 union of unique URLs has a 43.8\,MiB working set, whereas the cumulative
-transferred volume is 348\,MiB, an 7.9$\times$ \emph{cross-session}
+transferred volume is 348\,MiB, a 7.9$\times$ \emph{cross-session}
 reuse factor (the same URL fetched in multiple sessions).  This reuse
 is concentrated
 in shared sub-resources: JavaScript bundles, stylesheets, and fonts that
@@ -974,8 +975,8 @@ regardless of which LLM backend agents use.
 We replicated the LLM collection across three GCP regions
 (us-central1, europe-west1, asia-southeast1) for the three
 Google/OpenAI models at $n{=}5$ repeats per cell ($3 \times 3 \times
-10 \times 5 = 450$~sessions).  Kruskal-Wallis tests show \emph{no significant
-region effect} for any model (gemini-2.5-flash $p=0.92$,
+10 \times 5 = 450$~sessions).  Kruskal-Wallis tests \emph{detect no region effect} at the
+$n{=}5$ power available (gemini-2.5-flash $p=0.92$,
 gemini-2.5-pro $p=0.93$, gpt-4.1-mini $p=0.46$ on the three-region
 slice).  The three-region replication finds no evidence of a large region
 effect at $n{=}5$ per cell; smaller latency-driven differences could emerge
@@ -1066,8 +1067,9 @@ decisions must account for this geographic heterogeneity.
 
 With 10~repeats per task per region (400~sessions total), the 95\%
 confidence intervals (using the $t$-distribution with $df = 9$)
-provide sufficient power for detecting large cross-task and cross-region
-effects.  Per-region CIs are reported in the artifact; they
+support detection of large cross-task and cross-region effects;
+null claims such as geographic invariance are underpowered
+(Section~\ref{sec:limitations}).  Per-region CIs are reported in the artifact; they
 are tighter within each region than the cross-region aggregate,
 confirming that most variance is between regions rather than within.
 Tasks with near-zero CIs (regulatory lookup, real estate) reflect
@@ -1178,7 +1180,7 @@ GDSF wins on object hit rate in all 10{,}000 bootstrap samples at every cache si
 with non-overlapping 95\% confidence intervals at all sizes from
 1--50\,MiB.
 
-\paragraph{Byte hit rate reverses above 10\,MiB.}
+\paragraph{Byte hit rate reverses above 10\,MiB}
 Object hit rate (HR) and byte hit rate (BHR) tell different stories.
 GDSF dominates HR at every size, but BHR flips: LRU's BHR exceeds
 GDSF's at 25--50\,MiB (LRU 69\%/77\% BHR vs.\ GDSF 47\%/66\% at
@@ -1189,7 +1191,7 @@ caches for bandwidth cost (egress, origin load) should prefer LRU at
 $\geq$25\,MiB; operators sizing for request-rate offload (e.g., small
 edges, latency-sensitive paths) should prefer GDSF.}
 
-\paragraph{Per-task decomposition: multi-task contention drives GDSF.}
+\paragraph{Per-task decomposition: multi-task contention drives GDSF}
 We quantify the contention effect by replaying each (region, task)
 stream in isolation and averaging.  At 10\,MiB, \emph{single-tenant}
 GDSF leads LRU by a mean of 7.3~pp across the 30 streams (often 0~pp
@@ -1308,8 +1310,8 @@ complete corpus.  The manifest is immutable; the benchmark grows by
 publishing new manifests that extend the suite without invalidating
 prior artifacts.  The named \release directory itself contains the
 Zurich scripted-random subset; the full 1{,}301-session corpus used
-for paper-level analysis is pinned by the manifest through the
-per-model session bundles and the stitched canonical replay CSVs.
+for paper-level analysis is pinned by the manifest through the two
+stitched canonical replay CSVs (Section~\ref{sec:methodology}).
 
 \paragraph{Synchronized outputs.}
 Every task directory contains four artifacts derived from the same
@@ -1342,9 +1344,11 @@ Apache-2.0; sanitized traces under CC-BY-4.0.
 \paragraph{Implications for CDN operators.}
 Agentic workloads call for different cache-provisioning than
 human-tuned strategies: the 69\% rendering overhead pulls CDN
-bandwidth for content agents do not consume, and size-dependent
-policy sensitivity argues against a single edge-wide policy (GDSF
-at small per-tenant shards, LRU at larger aggregation caches).
+bandwidth for content agents do not consume, and policy choice
+depends on both cache size and the optimization target (GDSF
+maximizes object hit rate at 1--10\,MiB, particularly under
+multi-tenant aggregation; LRU maximizes byte hit rate at
+$\geq$25\,MiB).
 Production CDN traces~\cite{yang2020learning,berger2017} typically
 favor LRU-family policies under more uniform human-browsing object
 sizes; workload-aware selection~\cite{zhang2025} grows in importance
@@ -1414,9 +1418,10 @@ effects are recorded but not analyzed.
 Browser-mediated AI agents drive a new class of web workloads.  The
 \release release (1{,}301 sessions, six models, five providers)
 documents 2--5$\times$ request amplification and a 97\% non-HTML byte
-mix; cache-policy rankings shift from the LRU-dominant production
-picture, so infrastructure tuned on human traces is likely to
-underperform at edge-cache scales ($\leq$10\,MiB).
+mix.  The size-aware advantage at 5--10\,MiB is a deployment scope
+condition (multi-tenant aggregation) rather than a universal policy
+ranking, so infrastructure tuned on human traces is likely to
+underperform at edge-cache scales when tenant pools are heterogeneous.
 
 %% ====================================================================
 \begin{acks}
@@ -1472,7 +1477,7 @@ it or restricted collection to the minimal subset needed for
 characterization.  We declared a benchmarking user-agent and rate-limited
 all sessions.  The benchmark collection infrastructure does not involve human subjects.  The qualitative self-study session in Appendix~\ref{sec:appendix-human} involved no external participants; under local institutional policy, such self-study sessions fall outside human-subjects review requirements. URL-level traces could theoretically enable site-level traffic profiling when combined with external data, but query-string redaction and the exclusion of response bodies mitigate this risk.  Each session visits fewer than 20 pages per site; per-region, per-task loads are modest (fewer than 2{,}000 requests per task per region).
 
-\paragraph{Use of generative AI.}
+\paragraph{Use of generative AI}
 Portions of the analysis pipeline code and manuscript text were
 drafted with the assistance of large language models: Anthropic
 Claude~Opus~4 and OpenAI GPT-4.1-mini.  Specifically, the statistical
@@ -1499,6 +1504,14 @@ the per-session \texttt{navigation\_status} field.
 
 \section{Per-region Cache Hit Rates}
 \label{sec:appendix-region}
+
+Table~\ref{tab:replay-region} reports object hit rate at 5, 10, and
+50\,MiB cache sizes for LRU and GDSF, replaying each region's trace
+in isolation.  The three cloud regions show a consistent GDSF
+advantage at 5--10\,MiB; Zurich's narrower content mix inverts at
+10\,MiB, where LRU wins by 4.5~pp.  At 50\,MiB GDSF and LRU
+converge within each region (gap $\leq$0.6\,pp), although absolute
+hit rates still vary across regions.
 
 \begin{table}[t]
 \centering
